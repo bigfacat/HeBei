@@ -1150,7 +1150,7 @@ function getNsrxxVO() {
         return nsrxxVO;
     }else{
         $.ajax({
-            url: '/wszx-web/api/base/nsrxx/get',
+            url: '/wszx-web/api/base/nsrxx/get.ashx',
             type: 'POST',
             contentType: 'application/json;charset=utf-8',
             async: false,

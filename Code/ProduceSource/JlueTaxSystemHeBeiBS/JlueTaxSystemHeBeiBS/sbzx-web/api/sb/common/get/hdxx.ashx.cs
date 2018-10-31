@@ -17,7 +17,7 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common.get
 
         public void ProcessRequest(HttpContext context)
         {
-            string skssqq = "", skssqz = "", UserYSBQCId="";
+            string skssqq = "", skssqz = "", UserYSBQCId="",sbzt="";
             string url = HttpContext.Current.Request.Url.ToString();
             string[] values = url.Split('/');
             string selecttable = values[values.Length - 2];
@@ -45,55 +45,65 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common.get
                         {
                             skssqq = item.SKSSQQ;
                             skssqz = item.SKSSQZ;
+                            sbzt = item.SBZT;
                             break;
                         }
 
                     }
                 }
             }
-            
-            if (selecttable == "sb_ybnsr")
+            if (sbzt == "已申报")
             {
-              var result = File.ReadAllText(context.Server.MapPath("hdxx.json"));
-              result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
-              context.Response.ContentType = "text/plain";
-              context.Response.Write(result);
+                var result = File.ReadAllText(context.Server.MapPath("hdxx6.json"));
+                context.Response.ContentType = "text/plain";
+                context.Response.Write(result);
             }
-            else if (selecttable == "sb_cwbb_xqy_kjzz")
+            else
             {
 
-              var result = File.ReadAllText(context.Server.MapPath("hdxx1.json"));
-              result = result.Replace("@@skssqq",skssqq).Replace("@@skssqz",skssqz);
-              context.Response.ContentType = "text/plain";
-              context.Response.Write(result);
-            }
-            else if (selecttable == "xgmsb-yds_new")
-            {
-              var result = File.ReadAllText(context.Server.MapPath("hdxx2.json"));
-              result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
-              context.Response.ContentType = "text/plain";
-              context.Response.Write(result);
-            }
-            else if (selecttable == "xgmsb-tbs")
-            {
-                var result = File.ReadAllText(context.Server.MapPath("hdxx3.json"));
-                result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
-                context.Response.ContentType = "text/plain";
-                context.Response.Write(result);
-            }
-            else if (selecttable == "sb_sdsA_yj_new")
-            {
-                var result = File.ReadAllText(context.Server.MapPath("hdxx4.json"));
-                result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
-                context.Response.ContentType = "text/plain";
-                context.Response.Write(result);
-            }
-            else if (selecttable == "sb_sdsB_yj_new")
-            {
-                var result = File.ReadAllText(context.Server.MapPath("hdxx5.json"));
-                result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
-                context.Response.ContentType = "text/plain";
-                context.Response.Write(result);
+                if (selecttable == "sb_ybnsr")
+                {
+                    var result = File.ReadAllText(context.Server.MapPath("hdxx.json"));
+                    result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
+                    context.Response.ContentType = "text/plain";
+                    context.Response.Write(result);
+                }
+                else if (selecttable == "sb_cwbb_xqy_kjzz")
+                {
+
+                    var result = File.ReadAllText(context.Server.MapPath("hdxx1.json"));
+                    result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
+                    context.Response.ContentType = "text/plain";
+                    context.Response.Write(result);
+                }
+                else if (selecttable == "xgmsb-yds_new")
+                {
+                    var result = File.ReadAllText(context.Server.MapPath("hdxx2.json"));
+                    result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
+                    context.Response.ContentType = "text/plain";
+                    context.Response.Write(result);
+                }
+                else if (selecttable == "xgmsb-tbs")
+                {
+                    var result = File.ReadAllText(context.Server.MapPath("hdxx3.json"));
+                    result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
+                    context.Response.ContentType = "text/plain";
+                    context.Response.Write(result);
+                }
+                else if (selecttable == "sb_sdsA_yj_new")
+                {
+                    var result = File.ReadAllText(context.Server.MapPath("hdxx4.json"));
+                    result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
+                    context.Response.ContentType = "text/plain";
+                    context.Response.Write(result);
+                }
+                else if (selecttable == "sb_sdsB_yj_new")
+                {
+                    var result = File.ReadAllText(context.Server.MapPath("hdxx5.json"));
+                    result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
+                    context.Response.ContentType = "text/plain";
+                    context.Response.Write(result);
+                }
             }
         }
 

@@ -17,7 +17,7 @@ var header = function () {
             return;
         }
         // 如果有参数指定初始化头或尾，则按参数来初始化
-        var nsrxx = nsrxxUtil.getNsrxxVO('/sbzx-web/api/base/nsrxx/get') || {};
+        var nsrxx = nsrxxUtil.getNsrxxVO('/sbzx-web/api/base/nsrxx/get.ashx') || {};
         nsrxx.zgswjMc = getSwjgMc(nsrxx.zgswjDm);
         nsrxx.title = $('title').get(0).innerText;
         var reg = /sbzx-[^\/]+/g;

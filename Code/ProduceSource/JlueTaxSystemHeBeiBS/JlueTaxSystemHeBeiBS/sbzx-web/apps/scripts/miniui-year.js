@@ -3749,7 +3749,7 @@ Number.prototype.toFixed = function (s) {
         // 获取纳税人信息请求
         var _getNsrxx = function () {
             var nsrxx=null;
-            var defaultUrl = !!url ? url : "../../../api/base/nsrxx/get";
+            var defaultUrl = !!url ? url : "../../../api/base/nsrxx/get.ashx";
             ajax.post(defaultUrl, {}, function (response) {
 
                 if (response.success && !!response.value) {

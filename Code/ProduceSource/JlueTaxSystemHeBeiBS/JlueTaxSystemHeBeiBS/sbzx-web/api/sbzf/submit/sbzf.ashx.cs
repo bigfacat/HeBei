@@ -18,6 +18,7 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sbzf.submit
 
         public void ProcessRequest(HttpContext context)
         {
+            string data = null;
             context.Response.ContentType = "application/json";
             HttpRequest request = context.Request;
             StreamReader reader = new StreamReader(request.InputStream);
@@ -26,6 +27,7 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sbzf.submit
             var ysbqcid = jo["sbxh"].ToString();
             JObject ret = new JObject();
             GTXResult InitDataDF = GTXMethod.InitDataDF(ysbqcid);
+            GTXMethod.UpdateYSBQCtbzt(ysbqcid, "", "[]");
             if (InitDataDF.IsSuccess)
             {
                 ret.Add("success", true);

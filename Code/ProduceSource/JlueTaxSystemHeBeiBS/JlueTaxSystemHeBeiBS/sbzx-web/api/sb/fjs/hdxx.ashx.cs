@@ -17,7 +17,7 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.fjs
 
         public void ProcessRequest(HttpContext context)
         {
-            string skssqq = "", skssqz = "",UserYSBQCId="";
+            string skssqq = "", skssqz = "",UserYSBQCId="",sbzt="";
             string url = HttpContext.Current.Request.Url.ToString();
 
             string[] value = url.Split('&');
@@ -45,16 +45,26 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.fjs
                         {
                             skssqq = item.SKSSQQ;
                             skssqz = item.SKSSQZ;
+                            sbzt = item.SBZT;
                             break;
                         }
 
                     }
                 }
             }
-            var result = File.ReadAllText(context.Server.MapPath("hdxx.json"));
-            result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
-            context.Response.ContentType = "text/plain";
-            context.Response.Write(result);
+            if (sbzt == "已申报")
+            {
+                var result = File.ReadAllText(context.Server.MapPath("hdxx1.json"));
+                context.Response.ContentType = "text/plain";
+                context.Response.Write(result);
+            }
+            else
+            {
+                var result = File.ReadAllText(context.Server.MapPath("hdxx.json"));
+                result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
+                context.Response.ContentType = "text/plain";
+                context.Response.Write(result);
+            }
         }
 
         public bool IsReusable
