@@ -1,0 +1,22 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [],
+        "ruleCount": 0,
+        "ruleErrorCount": 0,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513583588988
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

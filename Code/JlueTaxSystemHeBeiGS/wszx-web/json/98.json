@@ -1,0 +1,59 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [
+            {
+                "id": 0,
+                "ruleName": "正常户",
+                "ruleDes": "纳税人状态异常不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110701001,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@28c75288"
+                ],
+                "ruleTip": "纳税人状态异常不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@28c75288"
+            },
+            {
+                "id": 0,
+                "ruleName": "存在未被核销的跨区域涉税事项报告",
+                "ruleDes": "您没有未核销的跨区域涉税事项报告，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110802002,
+                "resultValue": false,
+                "actualValue": null,
+                "paraValues": [
+                    "0"
+                ],
+                "ruleTip": "您没有未核销的跨区域涉税事项报告，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "0"
+            }
+        ],
+        "ruleCount": 2,
+        "ruleErrorCount": 1,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513588489945
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

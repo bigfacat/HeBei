@@ -1,0 +1,51 @@
+﻿{
+    "message": null,
+    "value": null,
+    "success": true,
+    "msgCode": 0,
+    "resultMap": {
+        "data": [
+            {
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "增值税专用发票（中文三联无金额限制版）",
+                "fpzzhm": "09654449",
+                "autorowno": "1",
+                "fs": "20",
+                "nsrjcuuid": "D424734C94435797EA56ECD4415060BD",
+                "fpDm": "1300162130",
+                "fpqshm": "09654430"
+            },
+            {
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+                "fpzzhm": "37291690",
+                "autorowno": "2",
+                "fs": "4",
+                "nsrjcuuid": "25EB9818802E495BD696397547F47D7C",
+                "fpDm": "1300162320",
+                "fpqshm": "37291687"
+            },
+            {
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+                "fpzzhm": "37238936",
+                "autorowno": "3",
+                "fs": "2",
+                "nsrjcuuid": "84A6127FF7A98A01F12187E094EDDC24",
+                "fpDm": "1300162320",
+                "fpqshm": "37238935"
+            },
+            {
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+                "fpzzhm": "36874134",
+                "autorowno": "4",
+                "fs": "4",
+                "nsrjcuuid": "FD12CC55C1D1EB18D5F1F6CD1DD1D8CE",
+                "fpDm": "1300162320",
+                "fpqshm": "36874131"
+            }
+        ],
+        "total": "4"
+    }
+}

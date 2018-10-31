@@ -1,0 +1,59 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [
+            {
+                "id": 0,
+                "ruleName": "纳税人存在消费税税费种认定信息",
+                "ruleDes": "您未完成消费税税费种认定，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 800800007,
+                "resultValue": false,
+                "actualValue": null,
+                "paraValues": [
+                    "[10101, 10101, 10101]"
+                ],
+                "ruleTip": "您未完成消费税税费种认定，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "[10101, 10101, 10101]"
+            },
+            {
+                "id": 0,
+                "ruleName": "纳税人状态为正常",
+                "ruleDes": "纳税人状态异常，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110211002,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "03"
+                ],
+                "ruleTip": "纳税人状态异常，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "03"
+            }
+        ],
+        "ruleCount": 2,
+        "ruleErrorCount": 1,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513666284726
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

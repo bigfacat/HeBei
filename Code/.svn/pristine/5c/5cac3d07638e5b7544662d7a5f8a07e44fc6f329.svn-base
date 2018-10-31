@@ -1,0 +1,40 @@
+﻿{
+    "message": null,
+    "value": {
+        "fpmxs": {
+            "fpmx": [
+                {
+                    "fpmxId": "",
+                    "isDeleted": "",
+                    "fpLb": "2",
+                    "fpdm": "1300162320",
+                    "fphm": "37238936",
+                    "kprq": "2017-12-01",
+                    "hwmc": "",
+                    "spbm": "",
+                    "je": "",
+                    "sl": "",
+                    "se": "",
+                    "rzsj": "",
+                    "jxgjId": "",
+                    "jzjtbz": "",
+                    "ybjcfplxId": "",
+                    "gfnsrdzdah": "",
+                    "gfnsrsbh": "911304006012285379",
+                    "gfnsrmc": "河北广通路桥集团有限公司",
+                    "gfswjgId": "",
+                    "mxxh": "",
+                    "jsfsId": "",
+                    "zfbz": "",
+                    "zzszsxmId": "",
+                    "nsrAdd": ""
+                }
+            ]
+        },
+        "totleRecords": "1"
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

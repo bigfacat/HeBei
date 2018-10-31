@@ -1,0 +1,233 @@
+﻿/* 
+* @Author: xiaomei
+* @Date:   2016-05-17 17:40:17
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-06-05 15:26:08
+*/
+/*重置cell*/
+.huabiao-box {
+    margin: 0;
+}
+table.sb_table .text-align-left {
+    text-align: left;
+}
+table.sb_table .text-align-right {
+    text-align: right;
+}
+table.sb_table .text-align-center {
+    text-align: center;
+}
+table.sb_table .title {
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+  /*  background-color: #ddedfe;
+    border-color: #bbd8eb;*/
+}
+
+table.sb_table tr td.title input[disabled="disabled"] {
+    background-color: #ddedfe;
+}
+
+table.sb_table td{
+    color: black;
+}
+
+body .mini-buttonedit-border {
+    border: none;
+}
+span.triangle-bottomleft,span.triangle-topright {
+    display: block;
+}
+.triangle-bottomleft {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #bbd8eb;
+    border-right: 300px solid transparent;
+}
+.padding0 {
+    padding: 0 !important;
+}
+.w300 {
+    width: 300px;
+}
+.triangle-bottomleft .cpmc {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.triangle-topright {
+    position: absolute;
+    left: 265px;
+}
+body .mini-splitter-pane2 {
+    width: 85%;
+    overflow: scroll;
+}
+body .tab {
+  text-align: left;
+  padding-left: 10px;
+  background-color: #fff;
+}
+
+body .mini-splitter-pane1 p{
+    font-size: 12px;
+     cursor: pointer;
+   
+    height: 15px;
+    margin: 10px 0;
+}
+body .mini-tabs-position-left .mini-tabs-space, .mini-tabs-position-left .mini-tabs-space2 {
+    display: none;
+}
+body .mini-tab {
+    white-space: normal;
+    text-align: left;
+    font-size: 12px;
+    background: none;
+    border: none;
+    padding: 5px 10px;
+}
+body .mini-tab-text {
+    width: 250px !important;
+     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "微软雅黑";
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+body .mini-tabs-table .mini-tabs-header > table > tbody > tr > td{
+    height: 740px;
+    /*overflow-y: scroll;*/
+    max-height: 650px;
+    display: block;
+}
+
+body table.sb_table thead tr td {
+        white-space: nowrap;
+}
+body .mini-tabs-position-left .mini-tab-active {
+    border: none;
+    color: #666;
+    background-color: #ddedfe;
+    font-weight: bold;
+}
+body .mini-tabs-position-left .mini-tab:hover {
+
+    background-color: #ddedfe;
+}
+body .mini-tabs-bodys {
+    position: relative;
+}
+/*body .step-footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}*/
+.close_right {
+    cursor: pointer;
+    display: inline-block;
+    background: url(img/close_right.png) no-repeat left center;
+    width: 12px;
+    height: 46px;
+}
+.close_left {
+    cursor: pointer;
+    display: inline-block;
+    background: url(img/close_left.png) no-repeat left center;
+    width: 12px;
+    height: 46px;
+}
+
+/*头部*/
+.head_11 {
+    width: 100%;
+    background-color: #1a56a9;
+    height: 60px;
+}
+.juz02 {
+    padding: 0px 16px;
+}
+td {
+    font-size: 12px;
+}
+.tab_name .spangs {
+    font-size: 24px;
+    color: #1a56a9;
+    margin-right: 16px;
+    background-color: #fff;
+    padding: 2px 10px 5px 10px;
+    border-radius: 2px;
+}
+.tab_name .spanbm {
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn {
+    line-height: 28px;
+    margin-right: 5px;
+    border-radius: 1px;
+    padding: 0px 20px;
+    display: inline-block;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+.biao_leftmenubox {
+    line-height: 50px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #313131;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    margin-top: 0;
+}
+.biao_leftmenubox:before {
+    position: absolute;
+    z-index: 1;
+    margin-top: -1px;
+    content: "|";
+    font-weight: bold;
+    color: #e76b42;
+    left: 10px;
+}
+.btn06 {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.btn06:hover{ background-color:#fff; color:#1a56a9; opacity:1;text-decoration: none;}
+
+.title-height {
+    height: 40px;
+}
+.greybg{
+    background: #eee;
+}
+.waring-mes{
+    color: #d00000;
+    margin: 0 3px;
+    font-size: 14px;
+}
+.redfont{
+    color: #e43443;
+    margin-left: 4em;
+}
+
+#sbny span>input{margin-top: 3px;}
+#sbny span.mini-buttonedit-border{width:60px}
+table.zcfzb_table tbody td{
+    white-space: initial;
+}

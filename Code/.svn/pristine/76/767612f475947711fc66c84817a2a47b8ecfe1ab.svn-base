@@ -1,0 +1,22 @@
+﻿[
+    {
+        "id": "100",
+        "isNewOpen": "0",
+        "iconCls": "cq-icon-100",
+        "menuName": "用户管理"
+    },
+    {
+        "id": "100100",
+        "isNewOpen": "0",
+        "pid": "100",
+        "url": "/ucenter/YhglPlat/pages/infoManage/zrr.aspx",
+        "menuName": "实名认证信息"
+    },
+    {
+        "id": "100107",
+        "isNewOpen": "0",
+        "pid": "100",
+        "url": "/ucenter/YhglPlat/pages/user/modifyPassword.aspx",
+        "menuName": "修改密码"
+    }
+]

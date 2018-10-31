@@ -1,0 +1,57 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "swsxDm": "110407",
+            "swsxMxDm": "SXA031900011",
+            "fbzlDm": "002567",
+            "fbzlMc": "安置的残疾职工名单（各月）",
+            "bslxDm": "1",
+            "fbzlcllxDm": null
+        },
+        {
+            "swsxDm": "110407",
+            "swsxMxDm": "SXA031900011",
+            "fbzlDm": "001099",
+            "fbzlMc": "经民政部门或残疾人联合会认定的纳税人，出具民政部门或残疾人联合会的书面审核认定意见复印件",
+            "bslxDm": "2",
+            "fbzlcllxDm": null
+        },
+        {
+            "swsxDm": "110407",
+            "swsxMxDm": "SXA031900011",
+            "fbzlDm": "002721",
+            "fbzlMc": "企业通过金融机构向残疾职工支付工资证明材料",
+            "bslxDm": "1",
+            "fbzlcllxDm": null
+        },
+        {
+            "swsxDm": "110407",
+            "swsxMxDm": "SXA031900011",
+            "fbzlDm": "002025",
+            "fbzlMc": "社会保险费缴纳清单",
+            "bslxDm": "1",
+            "fbzlcllxDm": null
+        },
+        {
+            "swsxDm": "110407",
+            "swsxMxDm": "SXA031900011",
+            "fbzlDm": "001641",
+            "fbzlMc": "社会保险费缴纳凭证",
+            "bslxDm": "1",
+            "fbzlcllxDm": null
+        },
+        {
+            "swsxDm": "110407",
+            "swsxMxDm": "SXA031900011",
+            "fbzlDm": "001100",
+            "fbzlMc": "劳动合同或服务协议复印件",
+            "bslxDm": "1",
+            "fbzlcllxDm": null
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

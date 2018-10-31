@@ -1,0 +1,931 @@
+@charset "UTF-8";
+/**
+ * @Author: zhouqy
+ * @Date: 2017-01-21
+ * @description:用户管理 css
+ */
+/** public css */
+body {
+    width: 100%;
+    min-width: 1280px;
+}
+.txt-blue{
+    color: #0994dc;
+}
+.mt10{
+    margin-top: 10px;
+}
+.ft14 {
+    font-size: 14px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.hide {
+    display: none !important;
+}
+
+.qrcode {
+    height: 40px;
+    float: right;
+    border: 0px;
+}
+
+/* 清除浮动 */
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.font-color3 {
+    color: #333333;
+}
+
+.font-color6 {
+    color: #666666;
+}
+
+.font-color9 {
+    color: #999999;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+input[type='button'] {
+    font-family: 微软雅黑;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+}
+
+.button-blue {
+    color: #ffffff;
+    background: #0994dc;
+}
+
+.button-blue:hover {
+    background: #0974bc;
+}
+
+.button-grey {
+    background: #f2f2f2;
+    border: 1px #d9d9d9 solid;
+}
+
+.button-grey:hover {
+    background: #e8e8e8;
+}
+
+/** 用户管理 main.css */
+.yhgl-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.app2wm-content {
+    display: inline-block;
+    float: right;
+    width: 190px;
+    text-align: right;
+    height: 80px;
+}
+
+.app2wm-content img {
+    display: inline-block;
+    width: 80px;
+}
+
+/** 登陆 login.css*/
+.login-bg {
+    background: url(../images/login-bg.png) no-repeat center 80px;
+    min-width: 1280px;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 540px;
+
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 55px;
+    line-height: 55px;
+    background: url(../images/logos.png) no-repeat 0 5px;
+}
+.yhgl-login{
+    background: url(../images/login-bg.png) no-repeat center center;
+    background-size: 100% 100%;
+    min-width: 1280px;
+    width: 100%;
+}
+.yhgl-login .content {
+    overflow: hidden;
+    height: 350px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.yhgl-login .content .box {
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.yhgl-login .content .box .login-box {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    width: inherit;
+    position: relative;
+}
+.yhgl-login .content .box .login-box .tab-list{
+    border-bottom: 1px #ddd solid;
+    text-align: center;
+}
+.yhgl-login .content .box .login-box .tab-item{
+    margin-top: 15px;
+    height: 205px;
+    min-height: 205px;
+    text-align: center;
+}
+.yhgl-login .content .box .login-box .tab-list li{
+    display: inline-block;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+.yhgl-login .content .box .login-box .tab-list li.active{
+    color: #fff;
+    background-color: #0994dc;
+    border-radius: 5px 5px 0 0;
+}
+
+.yhgl-login .content .box .login-box h3 {
+    text-align: center;
+}
+
+.yhgl-login .content .box .login-box form {
+    text-align: center;
+    overflow: hidden;
+}
+
+.yhgl-login .content .box .login-box input[type='text'], .yhgl-login .content .box .login-box input[type='password'] {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: "MicroSoft YaHei";
+    text-indent: 3.5em;
+    border-radius: 4px;
+    border: 1px #d9d9d9 solid;
+}
+.yhgl-login .content .box .login-box .ico-for-name,
+.yhgl-login .content .box .login-box .ico-for-pwd,
+.yhgl-login .content .box .login-box .ico-for-code{
+    width: 42px;
+    height: 38px;
+    display: inline-block;
+    position: absolute;
+    left: 1px;
+    border-right: 1px solid #d9d9d9;
+    border-radius: 5px 0 0 5px;
+}
+.yhgl-login .content .box .login-box .ico-for-name{
+    background: url(../images/ico-username.png) #fafafa center center no-repeat;
+    top: 75px;
+}
+.yhgl-login .content .box .login-box .ico-for-pwd{
+    background: url(../images/ico-password.png) #fafafa center center no-repeat;
+    top: 130px;
+}
+.yhgl-login .content .box .login-box .ico-for-code{
+    background: url(../images/ico-verification.png) #fafafa center center no-repeat;
+    top: 185px;
+}
+
+.yhgl-login .content .box .login-box input[type='button'], .yhgl-login .content .box .login-box a {
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.yhgl-login .content .box .login-box a {
+    line-height: 40px;
+}
+
+.yhgl-login .content .box .login-box .login-btn {
+    width: 168px;
+}
+
+.yhgl-login .content .box .login-box .reg-btn {
+    width: 112px;
+    color: #666666;
+    margin-left: 8px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.yhgl-login .content .box .help {
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: -40px;
+    right: -33px;
+    color: #fff;
+    width: 370px;
+}
+
+.yhgl-login .content .box .help a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.yhgl-login .content .box .help a:hover {
+    text-decoration: underline;
+}
+.yhgl-wrap .footer{
+    margin: 10px 0;
+}
+.yhgl-wrap .footer ul {
+    text-align: center;
+}
+
+.yhgl-wrap .footer ul > li {
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.yhgl-wrap .footer ul > li a {
+    color: #666666;
+    font-size: 14px;
+}
+
+.yhgl-wrap .footer ul > li a:hover {
+    text-decoration: underline;
+}
+
+/** 对话框业务组件 dialog.css*/
+.dialog-tab {
+    min-height: 320px;
+}
+
+.dialog-tab .tab {
+    width: 116px;
+    padding-top: 10px;
+    min-height: inherit;
+    background-color: #F6F7F8;
+}
+
+.dialog-tab .tab li {
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+    padding: 14px 4px;
+}
+
+.dialog-tab .tab li.actived {
+    background-color: #ffffff;
+    color: #0994dc;
+}
+
+.dialog-tab .item-list {
+    position: relative;
+    left: 50%;
+    margin-left: -209px;
+    display: table;
+    min-height: inherit;
+}
+
+.dialog-tab .item-list #choiceCompany {
+    height: 192px;
+    overflow: auto;
+    width: 343px;
+}
+
+.dialog-tab .item-list div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+.dialog-tab .item-list div ul > li {
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+    width: 280px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.dialog-tab .item-list div ul > li.choiced {
+    border-color: #0994dc;
+    color: #0994dc;
+    background: url(../images/choiced.png) no-repeat right bottom;
+}
+
+.dialog-tab .item-list div p {
+    height: 80px;
+    background: url(../images/personal.png) no-repeat center center;
+}
+
+.dialog-tab .item-list div ol > li {
+    list-style: none;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.dialog-tab .item-list div a {
+    display: block;
+    margin-top: 20px;
+    width: 302px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.dialog-tab .item-list div a#addCompany {
+    /* background: url(../images/add.png) 75px 3px no-repeat; */
+    float: right;
+    width: 150px;
+    color: #2FBAE8;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+.dialog-tab .item-list a.refresh {
+    float: left;
+    color: #2FBAE8;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 30px;
+    margin-top: 0;
+    width: 85px;
+    cursor: pointer;
+}
+
+.dialog-tab .addContent {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+.dialog-tab .addContent li {
+    float: left;
+    width: 320px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 0 10px 100px;
+    border: 2px solid #169BD5;
+}
+
+.dialog-tab .addContent a {
+    float: left;
+    width: 85px;
+    height: 55px;
+    margin-left: 20px;
+    line-height: 55px;
+}
+
+.dialog-tab .addContent a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.dialog-tab .addContent a.underLine {
+    color: #169BD5;
+}
+
+.dialog-tab .addContent a.underLine:hover {
+    text-decoration: underline;
+}
+
+.dialog-type {
+    width: 660px;
+    margin: 0 auto;
+    font-size: 0;
+    height: 280px;
+    padding-left: 20px;
+}
+
+.dialog-type h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+    margin: 20px 0 20px 0;
+}
+
+.dialog-type div {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    width: 300px;
+    background-color: #F6F7F8;
+    border-radius: 8px;
+    padding: 20px;
+    -moz-box-shadow: 1px 1px 2px #888888;
+    /* 老的 Firefox */
+    box-shadow: 1px 1px 2px #888888;
+}
+
+.dialog-type div:hover {
+    background-color: #f1f1f1;
+}
+
+.dialog-type div h2 {
+    height: 50px;
+    line-height: 50px;
+    text-indent: 60px;
+}
+
+.dialog-type div.normal > h2 {
+    background: url(../images/normal.png) no-repeat 0 center;
+}
+
+.dialog-type div.byh > h2 {
+    background: url(../images/byh.png) no-repeat 0 center;
+}
+
+.dialog-type div p {
+    color: #666666;
+    line-height: 24px;
+}
+
+.dialog-type div p span {
+    color: #0994dc;
+}
+
+/* 遮罩层 */
+.mask {
+    height: 700px;
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+/*// .mask .mask-left,.mask .mask-right {
+//   max-width: 360px;
+//   width: 100%;
+//   background-color: #000;
+//   opacity: 0.9;
+// }*/
+.mask .mask-content {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    z-index: 100;
+/ / display: inline-block;
+}
+
+.mask .mask-content div {
+/ / display: inline-block;
+    cursor: pointer;
+}
+
+.mask .mask-first {
+    height: inherit;
+    background: url(../images/one-step.png) 100% no-repeat;
+    background-position: 547px 312px;
+/ / display: none;
+}
+
+.mask .mask-second {
+    height: inherit;
+    background: url(../images/two-step.png) 100% no-repeat;
+    background-position: 318px 209px;
+    display: none;
+}
+
+.mask .mask-third {
+    height: inherit;
+    background: url(../images/three-step.png) 100% no-repeat;
+    background-position: 350px 368px;
+    display: none;
+}
+
+.mask .mask-forth {
+    height: inherit;
+    background: url(../images/four-steps.png) 100% no-repeat;
+    background-position: 516px 380px;
+    display: none;
+}
+
+/* 授权帮助 */
+.granthelp {
+    height: 100%;
+    width: 100%;
+    z-index: 9999999999;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.granthelp .granthelp-first {
+    height: inherit;
+    width: inherit;
+    background: url(../images/granthelp-one-step.jpg) 100% no-repeat;
+}
+
+.granthelp .granthelp-second {
+    height: inherit;
+    width: inherit;
+    background: url(../images/granthelp-two-step.jpg) 100% no-repeat;
+}
+
+.granthelp .granthelp-third {
+    height: inherit;
+    width: inherit;
+    background: url(../images/granthelp-three-step.jpg) 100% no-repeat;
+}
+
+.granthelp .granthelp-forth {
+    height: inherit;
+    width: inherit;
+    background: url(../images/granthelp-four-step.jpg) 100% no-repeat;
+}
+
+.company-input {
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 27px;
+    text-indent: 5px;
+    border-radius: 3px;
+}
+
+.app-mask {
+    position: absolute;
+    display: none;
+    top: 110px;
+    z-index: 4;
+    width: 1200px;
+    right: 18px;
+    height: 380px;
+}
+.ico-mask-2wm{
+    position: absolute;
+    right: 700px;
+    top: -100px;
+}
+.ico-mask-text{
+    position: absolute;
+    right: 420px;
+    top: -30px;
+}
+.ico-mask-arrow{
+    top: -130px;
+    position: absolute;
+    right: 200px;
+}
+.ico-mask-app{
+    position: absolute;
+    right: 90px;
+    top: -88px;
+}
+.ico-mask-close{
+    position: absolute;
+    right: 20px;
+    top: -135px;
+    cursor: pointer;
+}
+.real-mask{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 3;
+    top: 0;
+}
+
+.ggfw-content{
+    background-color: #f7f7f7;
+    overflow: hidden;
+    position: relative;
+}
+
+.ggfw-content .tzgg-content {
+    height: 70px;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #ebebeb;
+}
+
+.ggfw-content .tzgg-content div {
+    display: inline-block;
+}
+
+.ggfw-content .tzgg-content .tzgg-title {
+    font-size: 26px;
+    color: #333;
+    background: #eee;
+    padding: 0 40px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+}
+
+.ggfw-content .tzgg-content .tzgg-list {
+    float: left;
+    font-size: 14px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.ggfw-content .tzgg-content .tzgg-ul {
+    list-style: none;
+    margin: 0;
+    line-height: 26px;
+    padding: 9px 35px;
+}
+.ggfw-content .tzgg-content .tzgg-ul .tzgg-item{
+    width: 880px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ggfw-content .tzgg-content .tzgg-triangle {
+    background: url(../images/idx_txt.png) 14px 22px no-repeat,url(../images/idx_notice.png) top left no-repeat;
+    width: 170px;
+    height: 70px;
+    float: left;
+    color: #0092db;
+    cursor: pointer;
+}
+.ggfw-content .tzgg-content .tzgg-triangle span{
+    display: block;
+    width: 100px;
+    margin: 17px 50px;
+}
+.ggfw-content .tzgg-content .tzgg-triangle span i{
+    font-style: normal;
+}
+
+.ggfw-content .tzgg-content .pg-up-down {
+    float: right;
+    height: 40px;
+    overflow: hidden;
+    padding: 15px 20px;
+}
+
+.ggfw-content .tzgg-content .pg-up-down .pg-up {
+    display: block;
+    background: url("../images/icon_up01.png") center center no-repeat;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.ggfw-content .tzgg-content .pg-up-down .pg-down {
+    display: block;
+    background: url("../images/icon_down01.png") center center no-repeat;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.ggfw-content .tzgg-content .pg-up-down .pg-up:hover {
+    background: url("../images/icon_up02.png") center center no-repeat;
+}
+
+.ggfw-content .tzgg-content .pg-up-down .pg-down:hover {
+    background: url("../images/icon_down02.png") center center no-repeat;
+}
+.ggfw-content .wkc-ul{
+    float: left;
+    width: 480px;
+    margin-top: 10px;
+    border:1px #ebebeb solid;
+    background-color: #fff;
+    overflow: hidden;
+
+}
+.ggfw-content .wkc-ul .wkc-more{
+    float: right;
+    margin-right: 15px;
+    font-size: 35px;
+    line-height: 25px;
+    cursor: pointer;
+    color: #333;
+}
+.ggfw-content .wkc-ul .wkc-more:hover{
+    color: #0994dc;
+}
+.ggfw-content .wkc-ul ul{
+    padding: 20px 30px;
+    height: 262px;
+}
+.ggfw-content .wkc-ul li{
+    float: left;
+    margin-bottom: 14px;
+    position: relative;
+    font-size: 14px;
+    width: 190px;
+}
+.ggfw-content .wkc-ul li a{
+    color: #333333;
+}
+.ggfw-content .wkc-ul .wkc-mgl{
+    margin-right: 40px;
+}
+.ggfw-content .wkc-ul li .view-times{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    margin-top: -29px;
+    text-indent: 10px;
+    height: 26px;
+    line-height: 26px;
+}
+.ggfw-content .wkc-ul li:hover .course-title{
+    color: #0994dc;
+}
+.ggfw-content .ggfw-ul{
+    float: right;
+    margin-top: 10px;
+    border:1px #ebebeb solid;
+    background-color: #fff;
+    width: 700px;
+}
+.ggfw-content .ggfw-title{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    border-bottom: 1px #ebebeb solid;
+    padding-left: 20px;
+
+}
+.ggfw-content .ggfw-ul ul{
+    padding: 20px;
+}
+.ggfw-content .ggfw-ul li{
+
+    float: left;
+    width: 220px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+
+}
+.ggfw-content .ggfw-ul li a{
+    color: #333;
+    height: 20px;
+    line-height: 20px;
+}
+.ggfw-content .ggfw-ul li a:hover{
+    color: #0994dc;
+}
+.ggfw-content .ggfw-ul li img{
+
+}
+.ggfw-content .ggfw-ul li span{
+    font-size: 14px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+/*河北 侧边栏*/
+.sidebar-hb {
+    position: fixed;
+    bottom: 30%;
+    right: 0;
+    width: 45px;
+    font-size: 12px;
+    font-family: "MicroSoft YaHei";
+    z-index: 100;
+}
+.sidebar-hb .item{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    background-color: #099adc;
+    border-bottom: 1px #f2f4f8 solid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-hb .item:hover{
+    background-color: #099adc;
+}
+.sidebar-hb .item:hover .qrCode-tips{
+    display: block;
+}
+.sidebar-hb .item-top {
+    border-radius: 0 0 0 5px;
+    background: #999 url('../images/sidebar/sidebar-top.png') center center no-repeat;
+    background-size: 26px 26px;
+}
+
+.sidebar-hb .item-qrCode {
+    border-radius: 5px 0 0 0;
+    background: #999 url('../images/sidebar/sidebar-ewm.png') center center no-repeat;
+    background-size: 26px 26px;
+}
+
+.sidebar-hb .item-qrCode .qrCode-tips {
+    position: absolute;
+    left: -150px;
+    top: -20px;
+    display: none;
+}
+
+.sidebar-hb .item-qrCode .qrCode-tips img {
+    width: 140px;
+    height: 140px;
+}
+
+.txt-c{
+    text-align: center;
+}
+.sidebar-hb .item-video {
+    background: #999 url('../images/sidebar/sidebar-video.png') center center no-repeat;
+    background-size: 26px 26px;
+}
+
+.sidebar-hb .item-help {
+    background: #999 url('../images/sidebar/sidebar-help.png') center center no-repeat;
+    background-size: 26px 26px;
+}
+
+.sidebar-hb .item-feedback {
+    background: #999 url("../images/sidebar/sidebar-feedback.png") center center no-repeat;
+    background-size: 26px 26px;
+}

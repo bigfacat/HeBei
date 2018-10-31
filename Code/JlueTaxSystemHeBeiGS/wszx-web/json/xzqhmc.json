@@ -1,0 +1,113 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "石家庄市",
+            "swjgMc": "河北省石家庄市国家税务局",
+            "xzqhsz": "130100",
+            "swjgDm": "11301000000",
+            "xzqhmcszm": "S"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "辛集市",
+            "swjgMc": "河北省辛集市国家税务局",
+            "xzqhsz": "130181",
+            "swjgDm": "11301810000",
+            "xzqhmcszm": "X"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "唐山市",
+            "swjgMc": "河北省唐山市国家税务局",
+            "xzqhsz": "130200",
+            "swjgDm": "11302000000",
+            "xzqhmcszm": "T"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "秦皇岛市",
+            "swjgMc": "河北省秦皇岛市国家税务局",
+            "xzqhsz": "130300",
+            "swjgDm": "11303000000",
+            "xzqhmcszm": "Q"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "邯郸市",
+            "swjgMc": "河北省邯郸市国家税务局",
+            "xzqhsz": "130400",
+            "swjgDm": "11304000000",
+            "xzqhmcszm": "H"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "邢台市",
+            "swjgMc": "河北省邢台市国家税务局",
+            "xzqhsz": "130500",
+            "swjgDm": "11305000000",
+            "xzqhmcszm": "X"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "保定市",
+            "swjgMc": "河北省保定市国家税务局",
+            "xzqhsz": "130600",
+            "swjgDm": "11306000000",
+            "xzqhmcszm": "B"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "定州市",
+            "swjgMc": "河北省定州市国家税务局",
+            "xzqhsz": "130682",
+            "swjgDm": "11306820000",
+            "xzqhmcszm": "D"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "张家口市",
+            "swjgMc": "河北省张家口市国家税务局",
+            "xzqhsz": "130700",
+            "swjgDm": "11307000000",
+            "xzqhmcszm": "Z"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "承德市",
+            "swjgMc": "河北省承德市国家税务局",
+            "xzqhsz": "130800",
+            "swjgDm": "11308000000",
+            "xzqhmcszm": "C"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "沧州市",
+            "swjgMc": "河北省沧州市国家税务局",
+            "xzqhsz": "130900",
+            "swjgDm": "11309000000",
+            "xzqhmcszm": "C"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "廊坊市",
+            "swjgMc": "河北省廊坊市国家税务局",
+            "xzqhsz": "131000",
+            "swjgDm": "11310000000",
+            "xzqhmcszm": "L"
+        },
+        {
+            "sjswjgDm": "11300000000",
+            "xzqhmc": "衡水市",
+            "swjgMc": "河北省衡水市国家税务局",
+            "xzqhsz": "131100",
+            "swjgDm": "11311000000",
+            "xzqhmcszm": "H"
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

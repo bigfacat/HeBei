@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
+namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common
+{
+    /// <summary>
+    /// updaterules 的摘要说明
+    /// </summary>
+    public class updaterules : IHttpHandler
+    {
+
+        public void ProcessRequest(HttpContext context)
+        {
+            JObject jo = new JObject();
+            jo.Add("code", "0000");
+
+            context.Response.ContentType = "text/plain";
+            context.Response.Write(JsonConvert.SerializeObject(jo));
+        }
+
+        public bool IsReusable
+        {
+            get
+            {
+                return false;
+            }
+        }
+    }
+}

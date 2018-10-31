@@ -1,0 +1,33 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "swsxDm": "110408",
+            "swsxMxDm": "011",
+            "fbzlDm": "001773",
+            "fbzlMc": "税务登记证件",
+            "bslxDm": "1",
+            "fbzlcllxDm": null
+        },
+        {
+            "swsxDm": "110408",
+            "swsxMxDm": "001",
+            "fbzlDm": "002991",
+            "fbzlMc": "经办人身份证件原件",
+            "bslxDm": "1",
+            "fbzlcllxDm": null
+        },
+        {
+            "swsxDm": "110408",
+            "swsxMxDm": "002",
+            "fbzlDm": "002993",
+            "fbzlMc": "代理委托书",
+            "bslxDm": "2",
+            "fbzlcllxDm": null
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

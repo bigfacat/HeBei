@@ -1,0 +1,12 @@
+﻿@charset "UTF-8";
+/**
+ * @Author: zhouqy
+ * @Date: 2017-02-16
+ * @description:重写layerui css
+ */
+/** tab组件 */
+.layui-tab-title .layui-this {
+  color: #0994dc; }
+
+.layui-tab-title li {
+  font-size: 16px; }

@@ -1,0 +1,60 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "fbzlxh": null,
+            "sqxh": "4de45dee83b847afaf5d429b8171c204",
+            "fbzlDm": "001490",
+            "fbzlMc": "增值税专用发票最高开票限额申请单",
+            "swsxDm": null,
+            "swsxMxDm": null,
+            "djxh": null,
+            "bslxDm": "1",
+            "bsmxlist": [
+                {
+                    "fbzlmxxh": "1",
+                    "clztDm": null,
+                    "fileKey": "21dc6f1ff8e34983a9c0017a0b650acf",
+                    "fileType": "jpg",
+                    "fileSize": null,
+                    "fileName": "401895198550977452.jpg",
+                    "filePath": null
+                },
+                {
+                    "fbzlmxxh": "2",
+                    "clztDm": null,
+                    "fileKey": "939502b9848240659958a61360eadec0",
+                    "fileType": "jpg",
+                    "fileSize": null,
+                    "fileName": "401895198550977452.jpg",
+                    "filePath": null
+                }
+            ]
+        },
+        {
+            "fbzlxh": null,
+            "sqxh": "4de45dee83b847afaf5d429b8171c204",
+            "fbzlDm": "002991",
+            "fbzlMc": "经办人身份证件原件",
+            "swsxDm": null,
+            "swsxMxDm": null,
+            "djxh": null,
+            "bslxDm": "1",
+            "bsmxlist": [
+                {
+                    "fbzlmxxh": "1",
+                    "clztDm": null,
+                    "fileKey": "2eae5deefa974ee2adb2abc5fb432c08",
+                    "fileType": "jpg",
+                    "fileSize": null,
+                    "fileName": "181144884934263991.jpg",
+                    "filePath": null
+                }
+            ]
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

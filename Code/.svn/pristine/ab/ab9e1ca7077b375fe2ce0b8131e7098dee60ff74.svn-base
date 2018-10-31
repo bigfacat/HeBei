@@ -1,0 +1,231 @@
+﻿<XmlRWConfig>
+  <Head>
+    <Records NodeName="SB_FLZL3.SB_FLZL3_BTXX.SB_FLZL3_NSRMC." Col="0" Row="3" HeadStr="纳税人名称：（公章）：" DataType="纳税人名称"/>
+    <Records NodeName="SB_FLZL3.SB_FLZL3_BTXX.SB_FLZL3_NSRSBH." Col="1" Row="3" HeadStr="" DataType="纳税人识别号"/>
+    <Records NodeName="SB_FLZL3.SB_FLZL3_BTXX.SB_FLZL3_QSRQ." Col="0" Row="2" HeadStr="税款所属时间：" DataType="税款所属时期 月报"/>
+    <Records AreaCode="4403" NodeName="SB_FLZL3.SB_FLZL3_BTXX.SB_FLZL3_IMAGE." Col="0" Row="0" HeadStr="" DataType="LOADIMAGE" ImageSrc="Image\WSSB.jpg" />
+  </Head>
+  <Body>
+    <Records HeadName="SB_FLZL3.SB_FLZL3_MXXX." NodeRange="1..6," CellColRange="2..7," CellSRow="7" CellERow="14" XmlSRow="0" XmlERow="7" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+  </Body>
+  <AutoFill XmlFile = "'002','005','018','042'">
+    <Records AreaCode="13,61,62,63,65" Col="2" Row="7" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_HJJSHJ."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    <Records AreaCode="13,61,62,63,65" Col="2" Row="8" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_HJJSHJ."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    <!--营改增，新增两行-->
+    <Records AreaCode="13,61,62,63,65" Col="2" Row="11" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_HJJSHJ."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+
+    <Records AreaCode="13,61,62,63,65" Col="2" Row="12" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_HJJSHJ."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    <Records AreaCode="13,61,62,63,65" Col="2" Row="13" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[18].SB_FLZLY_HJJSHJ."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    <Records AreaCode="13,61,62,63,65" Col="2" Row="14" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[20].SB_FLZLY_HJJSHJ."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+
+    <Records AreaCode="65" Col="6" Row="7" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_YSFWSJKCJE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="65" Col="6" Row="8" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_YSFWSJKCJE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="65" Col="6" Row="11" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_YSFWSJKCJE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="65" Col="6" Row="12" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_YSFWSJKCJE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="65" Col="6" Row="13" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[18].SB_FLZLY_YSFWSJKCJE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="65" Col="6" Row="14" Count="1" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[20].SB_FLZLY_YSFWSJKCJE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+
+    <!--深圳是先填附表三，再填附表一，附表三第一列从发票取值-->
+    <Records AreaCode="4403,36" Col="2" Row="7" Count="8" A1="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_2_1." A2="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_2_2." A3="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_2_3." A4="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_2_4." A5="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_2_5." A6="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_2_6." A7="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_FBHB1_2_7." A8="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_FBHB1_2_8." Formula="round(A1+A2+A3+A4+A5+A6+A7+A8,2)"  Conditions="" OpenMode="new,edit"/>
+    <Records AreaCode="4403,36" Col="2" Row="8" Count="8" A1="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_4_1." A2="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_4_2." A3="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_4_3." A4="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_4_4." A5="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_4_5." A6="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_4_6." A7="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_FBHB1_4_7." A8="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_FBHB1_4_8." Formula="round(A1+A2+A3+A4+A5+A6+A7+A8,2)" Conditions="" OpenMode="new,edit"/>
+
+    <!--营改增，新增两行-->
+    <Records AreaCode="4403,36" Col="2" Row="11" Count="6" A1="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_FW5_9_1." A2="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_FW5_9_2." A3="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_FW5_9_3." A4="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_FW5_9_4." A5="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_FW5_9_5." A6="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_FW5_9_6."  Formula="round(A1+A2+A3+A4+A5+A6,2)" Conditions="" OpenMode="new,edit"/>
+
+    <Records AreaCode="4403,36" Col="2" Row="12" Count="6" A1="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_12_1." A2="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_12_2." A3="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_12_3." A4="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_12_4." A5="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_12_5." A6="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_12_6."   Formula="round(A1+A2+A3+A4+A5+A6,2)" Conditions="" OpenMode="new,edit"/>
+    <Records AreaCode="4403,36" Col="2" Row="13" Count="2" A1="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_17_3." A2="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_17_5." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+    <Records AreaCode="4403,36" Col="2" Row="14" Count="2" A1="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_19_3." A2="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_19_5." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+
+    <!--ok-->
+    <Records Col="3" Row="7" Count="1" A1="WSXXS.[YBNSRFB3QCYE1]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records Col="3" Row="8" Count="1" A1="WSXXS.[YBNSRFB3QCYE2]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records Col="3" Row="9" Count="1" A1="WSXXS.[YBNSRFB3QCYE3]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records Col="3" Row="10" Count="1" A1="WSXXS.[YBNSRFB3QCYE4]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records Col="3" Row="11" Count="1" A1="WSXXS.[YBNSRFB3QCYE5]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records Col="3" Row="12" Count="1" A1="WSXXS.[YBNSRFB3QCYE6]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records Col="3" Row="13" Count="1" A1="WSXXS.[YBNSRFB3QCYE7]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records Col="3" Row="14" Count="1" A1="WSXXS.[YBNSRFB3QCYE8]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+  </AutoFill>
+  <!--是差额征收企业<ZZSBALX>值不为1时,该栏设置只读-->
+  <DynamicSetCellReadOnly>
+    <!--<records AreaCode="4403" Count="1" A1="WSXXS.[ZZSBALX]" CellColRange="4," CellSRow="7" CellERow="14" DataType="DT_Num" Conditions="A1&lt;&gt;1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>-->
+    <records AreaCode="13" Count="0" CellColRange="3," CellSRow="7" CellERow="14" DataType="DT_Num" Conditions="(1=1)" ReadOnly="0" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+  </DynamicSetCellReadOnly>
+  <DynamicSetCellFormula>
+    <!--<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="7" DataType="DT_Num" Formula="if(F8&gt;0.00,if(C8&lt;0.00,0.00,if(F8&gt;C8,C8,F8)),0)"  ReadOnly="0" DependCol="2,7|3,7|4,7|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="8" DataType="DT_Num" Formula="if(F9&gt;0.00,if(C9&lt;0.00,0.00,if(F9&gt;C9,C9,F9)),0)"  ReadOnly="0" DependCol="2,8|3,8|4,8|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="9" DataType="DT_Num" Formula="if(F10&gt;0.00,if(C10&lt;0.00,0.00,if(F10&gt;C10,C10,F10)),0)"  ReadOnly="0" DependCol="2,9|3,9|4,9|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="10" DataType="DT_Num" Formula="if(F11&gt;0.00,if(C11&lt;0.00,0.00,if(F11&gt;C11,C11,F11)),0)"  ReadOnly="0" DependCol="2,10|3,10|4,10|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="11" DataType="DT_Num" Formula="if(F12&gt;0.00,if(C12&lt;0.00,0.00,if(F12&gt;C12,C12,F12)),0)"  ReadOnly="0" DependCol="2,11|3,11|4,11|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="12" DataType="DT_Num" Formula="if(F13&gt;0.00,if(C13&lt;0.00,0.00,if(F13&gt;C13,C13,F13)),0)"  ReadOnly="0" DependCol="2,12|3,12|4,12|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="13" DataType="DT_Num" Formula="if(F14&gt;0.00,if(C14&lt;0.00,0.00,if(F14&gt;C14,C14,F14)),0)"  ReadOnly="0" DependCol="2,13|3,13|4,13|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="4403" Count="0" Conditions="" Col="6" Row="14" DataType="DT_Num" Formula="if(F15&gt;0.00,if(C15&lt;0.00,0.00,if(F15&gt;C15,C15,F15)),0)"  ReadOnly="0" DependCol="2,14|3,14|4,14|" OpenMode="new,edit" Caption="显示信息"/>-->
+  </DynamicSetCellFormula>
+  <SaveCheckData XmlFile = "'002'" >
+
+    <!--<Records AreaCode="13,61,62,63,65" Count="4" A1="2,7" A2="5,7" A3="6,7" A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_YSFWSJKCJE." Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))or(A3&lt;&gt;A4)"
+			Range="true" Emsg="第1栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”，且必须等于附表一第2栏第12列“应税服务扣除项目本期实际扣除金额【A4】”。"/>-->
+    <Records AreaCode="36,4403," Count="3" A1="2,7" A2="5,7" A3="6,7" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第1栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”。"/>
+    <!--<Records AreaCode="13,61,62,63,65" Count="4" A1="2,8" A2="5,8" A3="6,8" A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_YSFWSJKCJE." Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))or(A3&lt;&gt;A4)"
+			Range="true" Emsg="第2栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”，且必须等于附表一第4栏第12列“应税服务扣除项目本期实际扣除金额【A4】”。"/>-->
+    <Records AreaCode="36,4403," Count="3" A1="2,8" A2="5,8" A3="6,8" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第2栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”。"/>
+    <Records Count="3" A1="2,9" A2="5,9" A3="6,9" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第3栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】””。"/>
+    <Records Count="3" A1="2,10" A2="5,10" A3="6,10" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第4栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】””。"/>
+    <!--<Records AreaCode="13,61,62,63,65" Count="4" A1="2,11" A2="5,11" A3="6,11" A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_YSFWSJKCJE." Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))or(A3&lt;&gt;A4)"
+			Range="true" Emsg="第5栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”，且必须等于附表一第9b栏第12列“应税服务扣除项目本期实际扣除金额【A4】”。"/>	-->
+    <Records AreaCode="36,4403," Count="3" A1="2,11" A2="5,11" A3="6,11" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第5栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”。"/>
+    <!--<Records AreaCode="13,61,62,63,65" Count="4" A1="2,12" A2="5,12" A3="6,12" A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_YSFWSJKCJE." Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))or(A3&lt;&gt;A4)"
+			Range="true" Emsg="第6栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”，且必须等于附表一第12栏第12列“应税服务扣除项目本期实际扣除金额【A4】”。"/>-->
+    <Records AreaCode="36,4403," Count="3" A1="2,12" A2="5,12" A3="6,12" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第6栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”。"/>
+    <!--<Records AreaCode="13,61,62,63,65" Count="4" A1="2,13" A2="5,13" A3="6,13" A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[18].SB_FLZLY_YSFWSJKCJE." Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))or(A3&lt;&gt;A4)"
+			Range="true" Emsg="第7栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”，且必须等于附表一第17栏第12列“应税服务扣除项目本期实际扣除金额【A4】”。"/>-->
+    <Records AreaCode="36,4403," Count="3" A1="2,13" A2="5,13" A3="6,13" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第7栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”。"/>
+    <!--<Records AreaCode="13,61,62,63,65" Count="4" A1="2,14" A2="5,14" A3="6,14" A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[20].SB_FLZLY_YSFWSJKCJE." Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))or(A3&lt;&gt;A4)"
+			Range="true" Emsg="第8栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”，且必须等于附表一第19栏第12列“应税服务扣除项目本期实际扣除金额【A4】”。"/>-->
+    <Records AreaCode="36,4403," Count="3" A1="2,14" A2="5,14" A3="6,14" Formula="(((A1&lt;0)or(A2&lt;0))and(A3&lt;&gt;0))or(((A1&gt;=0)and(A2&gt;=0)and(((A1&lt;=A2)and(A3&gt;A1))or((A1&gt;A2)and(A3&gt;A2)))))"
+				 Range="true" Emsg="第8栏当第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”最小值小于0时，第5列“本期实际扣除金额【A3】”必须为0，否则必须小于等于第1列“本期服务、不动产和无形资产价税合计（免税销售额）【A1】”和第4列“本期应扣除金额【A2】”。"/>
+
+
+    <!--<Records AreaCode="13,61,62,63,65" Count="3" A1="2,9" A2="2,10"  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_HJJSHJ."  Formula="((A1+(A2))&lt;&gt;A3)"
+			Range="true" Emsg="第1列“本期服务、不动产和无形资产价税合计额（免税销售额）”的第3行【A1】+第4行【A2】之和必须等于《附列资料（一）》中第11列第5行价税合计值【A3】”。"/>
+		<Records AreaCode="13,61,62,63,65" Count="3" A1="6,9" A2="6,10"  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_YSFWSJKCJE."  Formula="((A1+(A2))&lt;&gt;A3)" 
+			Range="true" Emsg="第5列“本期实际扣除金额”的第3行【A1】+第4行【A2】之和必须等于《附列资料（一）》中第12列“服务、不动产和无形资产扣除项目本期实际扣除金额”第5行“6%税率”【A3】”。"/>-->
+
+
+    <!--<Records AreaCode="4403" Count="3" A1="2,7" A2="5,7" A3="6,7" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第1栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额为小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,7" A2="5,7" A3="6,7" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第1栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,7" A2="5,7" A3="6,7" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第1栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,7" A2="5,7" A3="6,7" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第1栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+		
+		<Records AreaCode="4403" Count="3" A1="2,8" A2="5,8" A3="6,8" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第2栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额应小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,8" A2="5,8" A3="6,8" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第2栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,8" A2="5,8" A3="6,8" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第2栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,8" A2="5,8" A3="6,8" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第2栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+			
+		<Records AreaCode="4403" Count="3" A1="2,9" A2="5,9" A3="6,9" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第3栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额应小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,9" A2="5,9" A3="6,9" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第3栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,9" A2="5,9" A3="6,9" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第3栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,9" A2="5,9" A3="6,9" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第3栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+		
+		<Records AreaCode="4403" Count="3" A1="2,10" A2="5,10" A3="6,10" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第4栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额应小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,10" A2="5,10" A3="6,10" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第4栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,10" A2="5,10" A3="6,10" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第4栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,10" A2="5,10" A3="6,10" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第4栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+			
+		<Records AreaCode="4403" Count="3" A1="2,11" A2="5,11" A3="6,11" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第5栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额应小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,11" A2="5,11" A3="6,11" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第5栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,11" A2="5,11" A3="6,11" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第5栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,11" A2="5,11" A3="6,11" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第5栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+			
+		<Records AreaCode="4403" Count="3" A1="2,12" A2="5,12" A3="6,12" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第6栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额应小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,12" A2="5,12" A3="6,12" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第6栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,12" A2="5,12" A3="6,12" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第6栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,12" A2="5,12" A3="6,12" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第6栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+			
+		<Records AreaCode="4403" Count="3" A1="2,13" A2="5,13" A3="6,13" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第7栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额应小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,13" A2="5,13" A3="6,13" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第7栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,13" A2="5,13" A3="6,13" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第7栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,13" A2="5,13" A3="6,13" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第7栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+			
+		<Records AreaCode="4403" Count="3" A1="2,14" A2="5,14" A3="6,14" Formula="(A2&gt;=0.00) and (A2&lt;=A1) and (A3&gt;A2)" 
+			Range="true" Emsg="第8栏如果期初余额+本期发生额之和大于等于0，且小于等于本期服务、不动产和无形资产价税合计（免税销售额），则本期实际扣除金额应小于等于期初余额+本期发生额之和，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,14" A2="5,14" A3="6,14" Formula="(A2&gt;=0.00) and (A1&lt;0.00) and (A3&lt;&gt;0.00)" 
+			Range="true" Emsg="第8栏如果期初余额+本期发生额之和大于等于0，且本期服务、不动产和无形资产价税合计（免税销售额）小于0，则本期实际扣除金额等于0，请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,14" A2="5,14" A3="6,14" Formula="(A2&gt;=0.00) and (A1&gt;=0.00) and (A2&gt;A1) and (A3&gt;A1)" 
+			Range="true" Emsg="第8栏如果期初余额+本期发生额之和大于等于0，且大于本期服务、不动产和无形资产价税合计（免税销售额），且本期服务、不动产和无形资产价税合计（免税销售额）大于等于0，则本期实际扣除金额小于等于本期服务、不动产和无形资产价税合计（免税销售额），请检查！"/>
+		<Records AreaCode="4403" Count="3" A1="2,14" A2="5,14" A3="6,14" Formula="(A2&lt;0.00)" 
+			Range="true" Emsg="第8栏如果期初余额+本期发生额之和小于0，则本期实际扣除金额等于0，请检查！"/>
+			
+		<Records AreaCode="4403" Count="1" A1="6,7" Formula="A1&lt;0" 
+			Range="true" Emsg="第1栏第5列不能小于0，请检查！"/>
+		<Records AreaCode="4403" Count="1" A1="6,8" Formula="A1&lt;0" 
+			Range="true" Emsg="第2栏第5列不能小于0，请检查！"/>
+		<Records AreaCode="4403" Count="1" A1="6,9" Formula="A1&lt;0" 
+			Range="true" Emsg="第3栏第5列不能小于0，请检查！"/>
+		<Records AreaCode="4403" Count="1" A1="6,10" Formula="A1&lt;0" 
+			Range="true" Emsg="第4栏第5列不能小于0，请检查！"/>
+		<Records AreaCode="4403" Count="1" A1="6,11" Formula="A1&lt;0" 
+			Range="true" Emsg="第5栏第5列不能小于0，请检查！"/>
+		<Records AreaCode="4403" Count="1" A1="6,12" Formula="A1&lt;0" 
+			Range="true" Emsg="第6栏第5列不能小于0，请检查！"/>
+		<Records AreaCode="4403" Count="1" A1="6,13" Formula="A1&lt;0" 
+			Range="true" Emsg="第7栏第5列不能小于0，请检查！"/>
+		<Records AreaCode="4403" Count="1" A1="6,14" Formula="A1&lt;0" 
+			Range="true" Emsg="第8栏第5列不能小于0，请检查！"/>-->
+    <!--深圳营改增去掉该校验-->
+    <!--
+		<Records AreaCode="4403" Count="3" A1="4,15" A2="033.xml|SB_YSFWKCXMQD.SB_YSFWKCXMQD_HJXX.SB_YSFWKCXMQD_JE." A3="WSXXS.[ZZSBALX]" Formula="(A1&lt;&gt;A2) and (A3=1)" 
+			Range="true" Emsg="本期发生额合计[A1]需要与应税服务减除项目清单金额合计[A2]相等，请检查！"/>		
+		<Records AreaCode="4403" Count="2" A1="033.xml|SB_YSFWKCXMQD.SB_YSFWKCXMQD_HJXX.SB_YSFWKCXMQD_JE." A2="WSXXS.[ZZSBALX]" Formula="(A1&gt;0) and (A2&lt;&gt;1)" 
+			Range="true" Emsg="您不具有差额征税资格，请先到税务机关办理差额征税资格的备案登记，否则本期发生额和应税服务减除项目清单金额合计必须为零！"/>
+		-->
+
+    <!--新疆-->
+    <!--
+		<Records AreaCode="65" Count="3" A1="1,7" A2="4,7" A3="5,7" Formula="(A3&gt;A1) or (A3&gt;A2)" 
+			Range="true" Emsg="第1栏第5列应小于等于第1列并小于等于第4列，请检查！"/>
+		<Records AreaCode="65" Count="3" A1="1,8" A2="4,8" A3="5,8" Formula="(A3&gt;A1) or (A3&gt;A2)" 
+			Range="true" Emsg="第2栏第5列应小于等于第1列并小于等于第4列，请检查！"/>
+		<Records AreaCode="65" Count="3" A1="1,9" A2="4,9" A3="5,9" Formula="(A3&gt;A1) or (A3&gt;A2)" 
+			Range="true" Emsg="第3栏第5列应小于等于第1列并小于等于第4列，请检查！"/>
+		<Records AreaCode="65" Count="3" A1="1,10" A2="4,10" A3="5,10" Formula="(A3&gt;A1) or (A3&gt;A2)" 
+			Range="true" Emsg="第4栏第5列应小于等于第1列并小于等于第4列，请检查！"/>
+		<Records AreaCode="65" Count="3" A1="1,11" A2="4,11" A3="5,11" Formula="(A3&gt;A1) or (A3&gt;A2)" 
+			Range="true" Emsg="第5栏第5列应小于等于第1列并小于等于第4列，请检查！"/>
+		<Records AreaCode="65" Count="3" A1="1,12" A2="4,12" A3="5,12" Formula="(A3&gt;A1) or (A3&gt;A2)" 
+			Range="true" Emsg="第6栏第5列应小于等于第1列并小于等于第4列，请检查！"/>
+			-->
+    <!--<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE1]" A2="3,7" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第1行期初余额A2必须与核定值A1相等，请检查！"/>
+		<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE2]" A2="3,8" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第2行期初余额A2必须与核定值A1相等，请检查！"/>
+		<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE3]" A2="3,9" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第3行期初余额A2必须与核定值A1相等，请检查！"/>
+		<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE4]" A2="3,10" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第4行期初余额A2必须与核定值A1相等，请检查！"/>
+		<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE5]" A2="3,11" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第5行期初余额A2必须与核定值A1相等，请检查！"/>
+		<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE6]" A2="3,12" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第6行期初余额A2必须与核定值A1相等，请检查！"/>
+		<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE7]" A2="3,13" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第7行期初余额A2必须与核定值A1相等，请检查！"/>
+		<Records AreaCode="61,62,63,65,36,4403" Count="2" A1="WSXXS.[YBNSRFB3QCYE8]" A2="3,14" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第8行期初余额A2必须与核定值A1相等，请检查！"/>-->
+  </SaveCheckData>
+  <DoShowMessage XmlFile = "'005','018','042',">
+    <!--		<Records AreaCode="4403,36," Count="10" A1="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_63_1." A2="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_63_2." A3="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_53_3." A4="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_53_4." A5="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_53_5." A6="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_53_6." A7="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_FBHB1_53_7."  A8="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_FBHB1_53_8." A9="2,9" A10="2,10" Conditions="(round(A1+(A2)+(A3)+(A4)+(A5)+(A6)+(A7)+(A8),2)&lt;&gt;round(A9+(A10),2))" ActionTime="save"
+                            ErrMsg="发票采集中录入了6%税率服务、不动产和无形资产销项发票【A1+A2+A3+A4+A5+A6+A7+A8】，与附表三第3、4行次“本期服务、不动产和无形资产价税合计额（免税销售额）”之和【A9+A10】不符，请核实本表第3、4行次录入是否正确。" InfoMsg= ""/>		-->
+  </DoShowMessage>
+
+  <DoShowOpenMessage XmlFile = "'005','018','042',">
+    <Records Count="4" A1="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_FBHB1_63_1." A2="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_FBHB1_53_3." A3="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_FBHB1_53_5." A4="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_FBHB1_53_7." Conditions="(A1+(A2)+(A3)+(A4))&gt;0" OpenMode="new"
+				 InfoMsg="您存在6%的销项发票，需要手工录入第1列本期服务、不动产和无形资产价税合计额（免税销售额）的第3栏、第4栏，请检查！"/>
+  </DoShowOpenMessage>
+</XmlRWConfig>

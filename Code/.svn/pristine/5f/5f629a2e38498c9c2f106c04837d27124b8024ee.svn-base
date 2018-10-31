@@ -1,0 +1,45 @@
+﻿
+<div class=container>
+    <img id=question src=../../images/home/question1.png>
+    <div class=sjgg-container>
+        <span class=sjgg-qpj></span>
+        <div class=sjgg-content>
+            <span id=sjgg-time class=sjgg-time>2017年8月升级说明：</span>
+            <div class=sjgg-txt><span id=sjgg-txt>【实名注册】实名注册支持银联在线实名认证，手机号码需要与银行预留手机号码一致</span></div>
+        </div>
+    </div>
+</div>
+<div class=xd-area-open id=xd-area-open>
+    <div class=xd-open-header>
+        <div class=znzl-tx></div>
+        <span class=xd-open-t>小东</span>
+        <span class=xd-open-znhd>智能问答</span>
+        <div id=xd-close class=xd-close></div>
+    </div>
+    <div class=xd-open-content>
+        <div class="xd-answer-area fl">
+            <div class="xd-answer-open-box fr">
+                <div class=qb-box>
+                    <div class=answer-area id=xd-answer-wrap>
+                        <div class=answer-item>
+                            <div class="avatar fl"><i class=ico-sj></i></div>
+                            <div class="answer-txt fl">您好，我是小东，需要我帮助吗？</div>
+                        </div>
+                    </div>
+                    <div class=common-question-area>
+                        <ul class=common id=xd-gjz></ul>
+                    </div>
+                    <div class=ask-area>
+                        <div class=fl><textarea id=input-wt placeholder=请输入...></textarea></div>
+                        <div class=fr><button class=send-question id=xd-commit>发送</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xd-cjwt fr">
+            <div class=xd-cjwt-list>
+                <dl><dt>常问问题</dt><dd><a>1、增值税纳税人小规模申报</a></dd><dd><a>2、维护财务会计制度备案</a></dd><dd><a>3、定额信息采集</a></dd></dl>
+            </div>
+        </div>
+    </div>
+</div>

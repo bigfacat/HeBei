@@ -1,0 +1,59 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [
+            {
+                "id": 0,
+                "ruleName": "不存在未按期缴销记录",
+                "ruleDes": "您有未按期缴销的跨区域涉税事项报告，请及时缴销",
+                "ruleDegree": "02",
+                "analyseId": 0,
+                "ruleId": 110801002,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "false"
+                ],
+                "ruleTip": "您有未按期缴销的跨区域涉税事项报告，请及时缴销",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "false"
+            },
+            {
+                "id": 0,
+                "ruleName": "纳税人状态为正常",
+                "ruleDes": "纳税人状态异常，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110801001,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@46ebc77c"
+                ],
+                "ruleTip": "纳税人状态异常，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@46ebc77c"
+            }
+        ],
+        "ruleCount": 2,
+        "ruleErrorCount": 0,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513306559867
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

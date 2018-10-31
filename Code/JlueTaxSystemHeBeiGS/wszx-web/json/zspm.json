@@ -1,0 +1,21 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "ID": "101017190",
+            "MC": "其他建筑服务"
+        },
+        {
+            "ID": "101014001",
+            "MC": "商业(17%)"
+        },
+        {
+            "ID": "101016602",
+            "MC": "有形动产经营租赁"
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

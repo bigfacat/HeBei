@@ -1,0 +1,23 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "ssswjgdm": null,
+            "yysjq": "08:30",
+            "yysjz": "12:00",
+            "sfym": false,
+            "kyyrs": "5"
+        },
+        {
+            "ssswjgdm": null,
+            "yysjq": "14:30",
+            "yysjz": "17:00",
+            "sfym": false,
+            "kyyrs": "5"
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

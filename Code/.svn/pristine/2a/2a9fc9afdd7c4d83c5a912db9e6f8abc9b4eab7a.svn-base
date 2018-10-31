@@ -1,0 +1,133 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "fpzlDm": "1130",
+            "fpztmc": "正常（空白票）",
+            "fpzlmc": "增值税专用发票（中文三联无金额限制版）",
+            "fpzzhm": "09623878",
+            "autorowno": "1",
+            "fs": "5",
+            "nsrjcuuid": "1F7AE814F556A0674F36A874EF5E2CA6",
+            "fpztDm": "20",
+            "fpDm": "1300164130",
+            "fpqshm": "09623874"
+        },
+        {
+            "fpzlDm": "1130",
+            "fpztmc": "正常（空白票）",
+            "fpzlmc": "增值税专用发票（中文三联无金额限制版）",
+            "fpzzhm": "09623873",
+            "autorowno": "2",
+            "fs": "25",
+            "nsrjcuuid": "5C0C63CE25F93F29F584164B7D5100A6",
+            "fpztDm": "20",
+            "fpDm": "1300164130",
+            "fpqshm": "09623849"
+        },
+        {
+            "fpzlDm": "000008101200",
+            "fpztmc": "正常（空白票）",
+            "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+            "fpzzhm": "17716320",
+            "autorowno": "3",
+            "fs": "2",
+            "nsrjcuuid": "CA0A9BE75F6223D5116947332564DBED",
+            "fpztDm": "20",
+            "fpDm": "1300174320",
+            "fpqshm": "17716319"
+        },
+        {
+            "fpzlDm": "000008101200",
+            "fpztmc": "正常（空白票）",
+            "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+            "fpzzhm": "37389920",
+            "autorowno": "4",
+            "fs": "4",
+            "nsrjcuuid": "DA99FD8D2B61B2320A8DA3E01F0F994E",
+            "fpztDm": "20",
+            "fpDm": "1300162320",
+            "fpqshm": "37389917"
+        },
+        {
+            "fpzlDm": "000008101200",
+            "fpztmc": "正常（空白票）",
+            "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+            "fpzzhm": "36874134",
+            "autorowno": "5",
+            "fs": "4",
+            "nsrjcuuid": "FD12CC55C1D1EB18D5F1F6CD1DD1D8CE",
+            "fpztDm": "20",
+            "fpDm": "1300162320",
+            "fpqshm": "36874131"
+        }
+    ],
+    "success": true,
+    "msgCode": "0",
+    "resultMap": {
+        "data": [
+            {
+                "fpzlDm": "1130",
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "增值税专用发票（中文三联无金额限制版）",
+                "fpzzhm": "09623878",
+                "autorowno": "1",
+                "fs": "5",
+                "nsrjcuuid": "1F7AE814F556A0674F36A874EF5E2CA6",
+                "fpztDm": "20",
+                "fpDm": "1300164130",
+                "fpqshm": "09623874"
+            },
+            {
+                "fpzlDm": "1130",
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "增值税专用发票（中文三联无金额限制版）",
+                "fpzzhm": "09623873",
+                "autorowno": "2",
+                "fs": "25",
+                "nsrjcuuid": "5C0C63CE25F93F29F584164B7D5100A6",
+                "fpztDm": "20",
+                "fpDm": "1300164130",
+                "fpqshm": "09623849"
+            },
+            {
+                "fpzlDm": "000008101200",
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+                "fpzzhm": "17716320",
+                "autorowno": "3",
+                "fs": "2",
+                "nsrjcuuid": "CA0A9BE75F6223D5116947332564DBED",
+                "fpztDm": "20",
+                "fpDm": "1300174320",
+                "fpqshm": "17716319"
+            },
+            {
+                "fpzlDm": "000008101200",
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+                "fpzzhm": "37389920",
+                "autorowno": "4",
+                "fs": "4",
+                "nsrjcuuid": "DA99FD8D2B61B2320A8DA3E01F0F994E",
+                "fpztDm": "20",
+                "fpDm": "1300162320",
+                "fpqshm": "37389917"
+            },
+            {
+                "fpzlDm": "000008101200",
+                "fpztmc": "正常（空白票）",
+                "fpzlmc": "2008版增值税普通发票（二联无金额限制版）",
+                "fpzzhm": "36874134",
+                "autorowno": "5",
+                "fs": "4",
+                "nsrjcuuid": "FD12CC55C1D1EB18D5F1F6CD1DD1D8CE",
+                "fpztDm": "20",
+                "fpDm": "1300162320",
+                "fpqshm": "36874131"
+            }
+        ],
+        "total": "5"
+    },
+    "msgParams": null
+}

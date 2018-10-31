@@ -1,0 +1,23 @@
+﻿/* djsxx */
+.container {
+    margin: 26px auto;
+    background: #fff;
+}
+.container .main-title {
+    font-size: 18px;
+    line-height: 45px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+}
+.container .main {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px;
+    min-height: 300px;
+}
+.mini-buttonedit-border{
+}
+
+.mini-button-icon{
+    padding-left: 10px !important;
+}

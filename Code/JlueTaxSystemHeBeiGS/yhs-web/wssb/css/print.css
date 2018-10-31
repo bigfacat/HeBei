@@ -1,0 +1,64 @@
+.fontSize14 {
+    font-size: 14pt;
+    color: #000000;
+    font-family: "����"
+}
+
+.fontSize11 {
+    font-size: 11pt;
+    color: #000000;
+    font-family: "����"
+}
+
+.fontSize10 {
+    font-size: 10pt;
+    color: #000000;
+    font-family: "����"
+}
+
+.fontSize13 {
+    font-size: 13pt;
+    color: #000000;
+    font-family: "����"
+}
+
+.fontSize12 {
+    font-size: 12pt;
+    color: #000000;
+    font-family: "����"
+}
+.a01{font-size: 10pt;  text-decoration:none;color:#FFFF00;}
+.a02{font-size: 10pt;  text-decoration:none;color:#FF0000;}
+
+.fontSize9 {
+    font-size: 9pt;
+    color: #000000;
+    font-family: "����"
+}
+.pageEnd {page-break-after:always}
+
+.borderLeftBottom 
+{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.borderRightTop {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.borderLeft {
+    border-left: 1px solid #000;
+}
+
+.borderRight {
+    border: 1px solid #fff;
+    border-right-color: #000;
+}
+
+.borderBottom {
+    border: 1px solid #fff;
+    border-left: 0px;
+	border-bottom-color: #000000;
+}

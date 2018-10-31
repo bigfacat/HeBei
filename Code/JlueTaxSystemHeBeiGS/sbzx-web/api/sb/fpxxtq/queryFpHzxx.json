@@ -1,0 +1,115 @@
+﻿{
+    "message": null,
+    "value": {
+        "jxfpdata": {
+            "jxfpTjxx": {
+                "hzfs": "1",
+                "hzse": "14529.91",
+                "hzje": "85470.09",
+                "nsqxDm": "06",
+                "fdqBz": "N",
+                "sggjBz": "Y",
+                "sbdkse": {
+                    "zyfpxx": {
+                        "fs": "1",
+                        "se": "14529.91",
+                        "je": "85470.09"
+                    },
+                    "hgpxx": {
+                        "fs": "0",
+                        "se": "0.00",
+                        "je": "0.00"
+                    }
+                },
+                "uuid": "8bbb796841b2884b8911646a97acfa7d",
+                "jxfpsjcs": null,
+                "fplbTjxxs": {
+                    "fplbTjxx": []
+                }
+            },
+            "jxFps": {
+                "jxFp": []
+            },
+            "sgGjMxs": {
+                "sgGjMx": [
+                    {
+                        "fpLb": "1",
+                        "fpdm": "1300171130",
+                        "gfsbh": "911309297926995093",
+                        "gfnsrmc": "河北宽广公路养护有限责任公司",
+                        "xfsbh": "91130100792699189A",
+                        "xfnsrmc": "河北东方田野机械设备有限公司",
+                        "fphm": "03263013",
+                        "kprq": "2018-02-26",
+                        "hwmc": "*建筑工程机械*CC6200压路机",
+                        "mxxh": "1",
+                        "spbm": "1090203020000000000",
+                        "je": "85470.09",
+                        "sl": "0.17",
+                        "se": "14529.91",
+                        "rzsj": "2018-02-28",
+                        "jxgjId": "00",
+                        "jzjtbz": "N"
+                    }
+                ]
+            }
+        },
+        "digest": "8bbb796841b2884b8911646a97acfa7d",
+        "xxfpdata": {
+            "xxfpTjxx": {
+                "hzfs": "3",
+                "hzse": "6728.23",
+                "hzje": "61165.77",
+                "nsqxDm": "06",
+                "sggjBz": "N",
+                "fplbTjxxs": {
+                    "fplbTjxx": [
+                        {
+                            "fplb": "1",
+                            "fs": "3",
+                            "se": "6728.23",
+                            "je": "61165.77"
+                        }
+                    ]
+                },
+                "uuid": "8bbb796841b2884b8911646a97acfa7d",
+                "xxfpsjcs": null
+            },
+            "xxFps": {
+                "xxFp": [
+                    {
+                        "djxh": "",
+                        "sl": "0.11",
+                        "fplb": "1",
+                        "kpyfId": "",
+                        "jsfsId": "1",
+                        "zzszsxmId": "3",
+                        "je": "61165.77",
+                        "se": "6728.23",
+                        "fpmxs": null,
+                        "fs": "1"
+                    },
+                    {
+                        "djxh": "",
+                        "sl": "0.17",
+                        "fplb": "1",
+                        "kpyfId": "",
+                        "jsfsId": "1",
+                        "zzszsxmId": "3",
+                        "je": "0.0",
+                        "se": "0.0",
+                        "fpmxs": null,
+                        "fs": "2"
+                    }
+                ]
+            },
+            "sgGjMxs": {
+                "sgGjMx": []
+            }
+        }
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

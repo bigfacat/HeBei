@@ -1,0 +1,33 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "fpLb": "1",
+            "fpdm": "1300164130",
+            "fphm": "09623862",
+            "kprq": "2018-02-01",
+            "hwmc": "陆路运输",
+            "spbm": "",
+            "je": "68376.07",
+            "sl": "0.17",
+            "se": "11623.93",
+            "rzsj": "",
+            "jxgjId": "",
+            "jzjtbz": "",
+            "ybjcfplxId": "",
+            "gfnsrdzdah": "",
+            "gfnsrsbh": "911309007183530160",
+            "gfnsrmc": "路之遥物流有限公司",
+            "gfswjgId": "",
+            "mxxh": "",
+            "jsfsId": "1",
+            "zfbz": "N",
+            "zzszsxmId": "3",
+            "nsrAdd": ""
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

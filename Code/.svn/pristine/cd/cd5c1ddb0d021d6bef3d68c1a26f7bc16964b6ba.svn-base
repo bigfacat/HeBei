@@ -1,0 +1,49 @@
+﻿{
+    "data": {
+        "ZSXX": [
+            {
+                "djxh": "",
+                "djzclxdm": "",
+                "dzsphm": "",
+                "jkfsrq": "2017-12-13 10:11:24",
+                "jkqx": "2017-12-15 00:00:00",
+                "jkqxhj": "",
+                "kkse": "2095.34",
+                "kksxh": "",
+                "kprq": "",
+                "nsrmc": "",
+                "nsrsbh": "",
+                "pzzldm": "",
+                "qqwjm": "",
+                "qssxmc": "",
+                "rkrq": "",
+                "sfxyh": "",
+                "skgkdm": "",
+                "sksxdm": "",
+                "skzldm": "",
+                "sphm": "320171213000015058",
+                "sssqq": "2017-11-01 00:00:00",
+                "sssqz": "2017-11-30 00:00:00",
+                "swjgdm": "",
+                "yskmdm": "",
+                "yzfsrq": "2017-12-13 00:00:00",
+                "yzpzmxxh": "",
+                "yzpzxh": "10011317000023190371",
+                "znj": "",
+                "znjfklx": "",
+                "zsjgdm": "",
+                "zspmmc": "其他建筑服务",
+                "zsxh": "",
+                "zsxmdm": "10101",
+                "zsxmmc": "增值税"
+            }
+        ]
+    },
+    "jylsh": "",
+    "message": "",
+    "messageCode": "",
+    "otherParams": null,
+    "paramList": [],
+    "success": true,
+    "total": ""
+}

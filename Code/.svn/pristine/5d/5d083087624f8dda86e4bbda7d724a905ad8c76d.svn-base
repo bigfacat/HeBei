@@ -1,0 +1,1103 @@
+﻿{
+    "data": {
+        "HdxxResponseVo": {
+            "CAJMBZ": "",
+            "HBSJ": "N",
+            "JZSJ": "2017-12-31",
+            "KJNY": "201712",
+            "NSRS": null,
+            "NSRSBH": "911309297926995093",
+            "QSSJ": "2017-12-01",
+            "SBZL": [
+                {
+                    "CSBZSPMS": null,
+                    "FZJGSDSFPB": null,
+                    "FZJGXX": null,
+                    "HZSBXX": null,
+                    "JMXX": [],
+                    "LSXXS": {
+                        "LSXX": []
+                    },
+                    "MDKTZS": null,
+                    "NCPXX": null,
+                    "NSQXDM": "10",
+                    "NSRGRTSXX": null,
+                    "PDFVERSION": "",
+                    "QCCGBZ": "Y",
+                    "QCCGBZMS": "期初信息获取失败描述",
+                    "SBBS": {
+                        "SBB": [
+                            "001",
+                            "002",
+                            "003"
+                        ]
+                    },
+                    "SBQJ": "",
+                    "SBQX": "",
+                    "SBZLCODE": "29837",
+                    "SBZLMC": "",
+                    "SSDC": null,
+                    "WSXXS": {
+                        "WSXX": [
+                            {
+                                "CODE": "QHJTBZ",
+                                "NAME": "千户集团标识",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "DLHSBZ",
+                                "NAME": "独立核算标识",
+                                "VALUE": "1"
+                            },
+                            {
+                                "CODE": "SFSBHBCWBB",
+                                "NAME": "是否申报合并财务报表标识",
+                                "VALUE": "0"
+                            }
+                        ]
+                    },
+                    "YYSSECSXX": null,
+                    "ZSPMS": null,
+                    "ZSXMBM": "",
+                    "ZSXMMC": "",
+                    "ZSXMPY": "",
+                    "djxxs": null,
+                    "dkdjgrid": null,
+                    "dqdefyhzGrid": null,
+                    "dsdjmx": null,
+                    "kshztlZzskfpdjbsVo": null,
+                    "sksssqQ": "",
+                    "sksssqZ": "",
+                    "ysbbbz": "",
+                    "zzsjmxxbs": null
+                },
+                {
+                    "CSBZSPMS": {
+                        "csbzspmList": [
+                            {
+                                "MC": "陆路货物运输服务",
+                                "PMBM": "010202",
+                                "YYSCSBZ": "Y",
+                                "YYSQCYE": "0.0",
+                                "YYSQMYE": "0.0",
+                                "YYSSL": "3%",
+                                "ZZSCEBZ": "Y",
+                                "ZZSSL": "11%,3%"
+                            },
+                            {
+                                "MC": "有形动产经营租赁",
+                                "PMBM": "060504",
+                                "YYSCSBZ": "N",
+                                "YYSQCYE": "0.0",
+                                "YYSQMYE": "0.0",
+                                "YYSSL": "5%",
+                                "ZZSCEBZ": "N",
+                                "ZZSSL": "17%,3%"
+                            }
+                        ]
+                    },
+                    "FZJGSDSFPB": null,
+                    "FZJGXX": null,
+                    "HZSBXX": null,
+                    "JMXX": [
+                        {
+                            "jmfsDm": "",
+                            "jmfsMc": "",
+                            "jmlxDm": "",
+                            "jmlxMc": "",
+                            "jmqxq": "",
+                            "jmqxz": "",
+                            "jmsspsxDm": "SXA031900185",
+                            "jmwjDm": 0,
+                            "jmxzMc": "《财政部 国家税务总局关于增值税税控系统专用设备和技术维护费用抵减增值税税额有关政策的通知》 财税〔2012〕15号",
+                            "jmzlxDm": "01",
+                            "jmzlxMc": "",
+                            "jzed": 0,
+                            "jzfd": 0,
+                            "jzsl": 0,
+                            "ssjmxzdlDm": "",
+                            "ssjmxzdlMc": "",
+                            "ssjmxzhzDm": "0001129914",
+                            "ssjmxzxlDm": "",
+                            "ssjmxzxlMc": "",
+                            "ssjmyyDm": "",
+                            "ssjmzlDm": "",
+                            "swsxMc": "购置增值税税控系统专用设备抵减增值税",
+                            "zspmDm": "",
+                            "zspmMc": "",
+                            "zsxmDm": "",
+                            "zsxmMc": ""
+                        }
+                    ],
+                    "LSXXS": {
+                        "LSXX": [
+                            {
+                                "CODE": "1",
+                                "NAME": "一般货物、劳务和应税服务按适用税率计税销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "2",
+                                "NAME": "一般货物、劳务和应税服务应税货物销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "3",
+                                "NAME": "一般货物、劳务和应税服务应税劳务销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "4",
+                                "NAME": "一般货物、劳务和应税服务按适用税率纳税检查调整的销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "5",
+                                "NAME": "一般货物、劳务和应税服务按简易办法计税销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "6",
+                                "NAME": "一般货物、劳务和应税服务简易办法纳税检查调整的销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "7",
+                                "NAME": "一般货物、劳务和应税服务免、抵、退办法出口销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "8",
+                                "NAME": "一般货物、劳务和应税服务免税及劳务销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "9",
+                                "NAME": "一般货物、劳务和应税服务免税货物销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "10",
+                                "NAME": "一般货物、劳务和应税服务免税劳务销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "11",
+                                "NAME": "一般货物、劳务和应税服务销项税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "12",
+                                "NAME": "一般货物、劳务和应税服务进项税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "13",
+                                "NAME": "一般货物、劳务和应税服务上期留抵税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "14",
+                                "NAME": "一般货物、劳务和应税服务进项税额转出",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "15",
+                                "NAME": "一般货物、劳务和应税服务免、抵、退应退税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "16",
+                                "NAME": "一般货物、劳务和应税服务按适用税率计算的纳税检查应补缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "17",
+                                "NAME": "一般货物、劳务和应税服务应抵扣税额合计",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "18",
+                                "NAME": "一般货物、劳务和应税服务实际抵扣税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "19",
+                                "NAME": "一般货物、劳务和应税服务应纳税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "20",
+                                "NAME": "一般货物、劳务和应税服务期末留抵税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "21",
+                                "NAME": "一般货物、劳务和应税服务简易计税办法计算的应纳税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "22",
+                                "NAME": "一般货物、劳务和应税服务按简易计税办法计算的纳税检查应补缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "23",
+                                "NAME": "一般货物、劳务和应税服务应纳税额减征额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "24",
+                                "NAME": "一般货物、劳务和应税服务应纳税额合计",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "25",
+                                "NAME": "一般货物、劳务和应税服务期初未缴税额（多缴为负数）",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "26",
+                                "NAME": "一般货物、劳务和应税服务实收出口开具专用缴款书退税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "27",
+                                "NAME": "一般货物、劳务和应税服务本期已缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "28",
+                                "NAME": "一般货物、劳务和应税服务分次预缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "29",
+                                "NAME": "一般货物、劳务和应税服务出口开具专用缴款书预缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "30",
+                                "NAME": "一般货物、劳务和应税服务本期缴纳上期应纳税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "31",
+                                "NAME": "一般货物、劳务和应税服务本期缴纳欠缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "32",
+                                "NAME": "一般货物、劳务和应税服务期末未缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "33",
+                                "NAME": "一般货物、劳务和应税服务其中：欠缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "34",
+                                "NAME": "一般货物、劳务和应税服务本期应补（退）税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "35",
+                                "NAME": "一般货物、劳务和应税服务即征即退实际退税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "36",
+                                "NAME": "一般货物、劳务和应税服务期初未缴查补税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "37",
+                                "NAME": "一般货物、劳务和应税服务本期入库查补税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "38",
+                                "NAME": "一般货物、劳务和应税服务期末未缴查补税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "39",
+                                "NAME": "即征即退货物、劳务和应税服务按适用税率计税销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "40",
+                                "NAME": "即征即退货物、劳务和应税服务应税货物销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "41",
+                                "NAME": "即征即退货物、劳务和应税服务应税劳务销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "42",
+                                "NAME": "即征即退货物、劳务和应税服务按适用税率纳税检查调整的销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "43",
+                                "NAME": "即征即退货物、劳务和应税服务按简易办法计税销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "44",
+                                "NAME": "即征即退货物、劳务和应税服务简易办法纳税检查调整的销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "45",
+                                "NAME": "即征即退货物、劳务和应税服务免、抵、退办法出口销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "46",
+                                "NAME": "即征即退货物、劳务和应税服务免税及劳务销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "47",
+                                "NAME": "即征即退货物、劳务和应税服务免税货物销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "48",
+                                "NAME": "即征即退货物、劳务和应税服务免税劳务销售额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "49",
+                                "NAME": "即征即退货物、劳务和应税服务销项税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "50",
+                                "NAME": "即征即退货物、劳务和应税服务进项税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "51",
+                                "NAME": "即征即退货物、劳务和应税服务上期留抵税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "52",
+                                "NAME": "即征即退货物、劳务和应税服务进项税额转出",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "53",
+                                "NAME": "即征即退货物、劳务和应税服务免、抵、退应退税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "54",
+                                "NAME": "即征即退货物、劳务和应税服务按适用税率计算的纳税检查应补缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "55",
+                                "NAME": "即征即退货物、劳务和应税服务应抵扣税额合计",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "56",
+                                "NAME": "即征即退货物、劳务和应税服务实际抵扣税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "57",
+                                "NAME": "即征即退货物、劳务和应税服务应纳税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "58",
+                                "NAME": "即征即退货物、劳务和应税服务期末留抵税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "59",
+                                "NAME": "即征即退货物、劳务和应税服务简易计税办法计算的应纳税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "60",
+                                "NAME": "即征即退货物、劳务和应税服务按简易计税办法计算的纳税检查应补缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "61",
+                                "NAME": "即征即退货物、劳务和应税服务应纳税额减征额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "62",
+                                "NAME": "即征即退货物、劳务和应税服务应纳税额合计",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "63",
+                                "NAME": "即征即退货物、劳务和应税服务期初未缴税额（多缴为负数）",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "64",
+                                "NAME": "即征即退货物、劳务和应税服务实收出口开具专用缴款书退税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "65",
+                                "NAME": "即征即退货物、劳务和应税服务本期已缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "66",
+                                "NAME": "即征即退货物、劳务和应税服务分次预缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "67",
+                                "NAME": "即征即退货物、劳务和应税服务出口开具专用缴款书预缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "68",
+                                "NAME": "即征即退货物、劳务和应税服务本期缴纳上期应纳税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "69",
+                                "NAME": "即征即退货物、劳务和应税服务本期缴纳欠缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "70",
+                                "NAME": "即征即退货物、劳务和应税服务期末未缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "71",
+                                "NAME": "即征即退货物、劳务和应税服务其中：欠缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "72",
+                                "NAME": "即征即退货物、劳务和应税服务本期应补（退）税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "73",
+                                "NAME": "即征即退货物、劳务和应税服务即征即退实际退税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "74",
+                                "NAME": "即征即退货物、劳务和应税服务期初未缴查补税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "75",
+                                "NAME": "即征即退货物、劳务和应税服务本期入库查补税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "76",
+                                "NAME": "即征即退货物、劳务和应税服务期末未缴查补税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "77",
+                                "NAME": "增值税专用发票当期申报抵扣的固定资产进项税额累计",
+                                "VALUE": "333461.48"
+                            },
+                            {
+                                "CODE": "78",
+                                "NAME": "海关进口增值税专用缴款书当期申报抵扣的固定资产进项税额累计",
+                                "VALUE": "0.00"
+                            }
+                        ]
+                    },
+                    "MDKTZS": null,
+                    "NCPXX": {
+                        "LSXX": []
+                    },
+                    "NSQXDM": "06",
+                    "NSRGRTSXX": null,
+                    "PDFVERSION": "",
+                    "QCCGBZ": "Y",
+                    "QCCGBZMS": "期初信息获取失败描述",
+                    "SBBS": {
+                        "SBB": [
+                            "001",
+                            "002",
+                            "003",
+                            "006",
+                            "030",
+                            "031",
+                            "081",
+                            "082",
+                            "083",
+                            "085",
+                            "006"
+                        ]
+                    },
+                    "SBQJ": "1",
+                    "SBQX": "2018-01-15",
+                    "SBZLCODE": "10101",
+                    "SBZLMC": "增值税一般纳税人",
+                    "SSDC": null,
+                    "WSXXS": {
+                        "WSXX": [
+                            {
+                                "CODE": "SQLDSE",
+                                "NAME": "上期留抵税额(13栏的本年累计)",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YSHWYJS",
+                                "NAME": "应税货物预缴数",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "YSFWYJS",
+                                "NAME": "应税服务预缴数",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "SZLBDM",
+                                "NAME": "税种类别代码",
+                                "VALUE": "03"
+                            },
+                            {
+                                "CODE": "YBHWFWQCLD",
+                                "NAME": "一般货物服务期初留抵税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBHWFWQCLDDQSE",
+                                "NAME": "一般货物服务期初留抵税额_抵欠税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "JZJTQCLD",
+                                "NAME": "即征即退期初留抵税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "JZJTQCLDDQSE",
+                                "NAME": "即征即退期初留抵税额_抵欠税额",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE1",
+                                "NAME": "17%税率的项目期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE2",
+                                "NAME": "11%税率的项目期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE3",
+                                "NAME": "6%税率的项目（不含金融商品转让）期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE4",
+                                "NAME": "6%税率的金融商品转让项目期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE5",
+                                "NAME": "5%征收率的项目期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE6",
+                                "NAME": "3%征收率的项目期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE7",
+                                "NAME": "免抵退税的项目期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRFB3QCYE8",
+                                "NAME": "免税的项目期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "NCPQYBZ",
+                                "NAME": "农产品企业标志20120818新增",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "ZZSBALX",
+                                "NAME": "增值税备案类型（用于判断是否差额征税）",
+                                "VALUE": "1"
+                            },
+                            {
+                                "CODE": "GZLX",
+                                "NAME": "挂账类型",
+                                "VALUE": "1"
+                            },
+                            {
+                                "CODE": "HWZSPM",
+                                "NAME": "货物征收品目",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "FWZSPM",
+                                "NAME": "服务征收品目",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "CKQYBZ",
+                                "NAME": "出口企业标志",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "YBNSRFZJGYZL",
+                                "NAME": "一般纳税人分支机构预征率",
+                                "VALUE": "0.000000"
+                            },
+                            {
+                                "CODE": "FB4JZEQCYE",
+                                "NAME": "附列资料四第1栏的期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "FB4FZJGYJQCYE",
+                                "NAME": "附列资料四第2栏的期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "FB4JZFWYJQCYE",
+                                "NAME": "附列资料四第3栏的期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "FB4XSBDCYJQCYE",
+                                "NAME": "附列资料四第4栏的期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "FB4CZBDCYJQCYE",
+                                "NAME": "附列资料四第5栏的期初余额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "FB4JZEBQFSE",
+                                "NAME": "附列资料四第1栏的本期发生额",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "FZJGCDDYJNSEHZ",
+                                "NAME": "附列资料四第2栏的本期发生额",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "FB4JZFWYJBQFSE",
+                                "NAME": "附列资料四第3栏的本期发生额",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "FB4XSBDCYJBQFSE",
+                                "NAME": "附列资料四第4栏的本期发生额",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "FB4CZBDCYJBQFSE",
+                                "NAME": "附列资料四第5栏的本期发生额",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "FB5DDKBDCQCYE",
+                                "NAME": "附列资料五期初待抵扣不动产进项税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRHZJNZG",
+                                "NAME": "一般纳税人汇总缴纳增值税资格",
+                                "VALUE": "2"
+                            },
+                            {
+                                "CODE": "SQLDSETS",
+                                "NAME": "一般纳税人附表二第22栏的上期留抵税额退税",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "QCWJ",
+                                "NAME": "期初未缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRYZSKDFPBZ",
+                                "NAME": "预征税款待分配标志",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "YBNSRFZJGDFPYZL",
+                                "NAME": "分支机构待分配预征率",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "YBNSRZCDTLZG",
+                                "NAME": "注册地跨省合资铁路企业资格",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "FDQQY",
+                                "NAME": "是否辅导期纳税人",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "WSSB_ZQQ",
+                                "NAME": "网上申报征期起",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "WSSB_ZQZ",
+                                "NAME": "网上申报征期止",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "HGJH_ZQQ",
+                                "NAME": "海关稽核征期起",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "HGJH_ZQZ",
+                                "NAME": "海关稽核征期止",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "NOZGBZ",
+                                "NAME": "是否有增值税一般纳税人资格",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "CEZSBZ",
+                                "NAME": "差额征收标志",
+                                "VALUE": "Y"
+                            },
+                            {
+                                "CODE": "YGZNSRZG",
+                                "NAME": "营改增纳税人资格",
+                                "VALUE": "22"
+                            },
+                            {
+                                "CODE": "FGDQYBZ",
+                                "NAME": "发供电企业标志",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "ZFJGBZ",
+                                "NAME": "总分机构标志",
+                                "VALUE": "1"
+                            },
+                            {
+                                "CODE": "HKYSQYBZ",
+                                "NAME": "航空企业标志",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "YZQYBZ",
+                                "NAME": "邮政企业标志",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "TLYSQYBZ",
+                                "NAME": "铁路运输企业标志",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "DXQYBZ",
+                                "NAME": "电信企业标志",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "YGZNSRZG",
+                                "NAME": "营改增纳税人资格类型",
+                                "VALUE": "22"
+                            },
+                            {
+                                "CODE": "ZSDLFSDM",
+                                "NAME": "征收代理方式代码",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "JZJTBZ",
+                                "NAME": "即征即退标志",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "SQLDSEBYS",
+                                "NAME": "上期留抵税额一般计税本月数(主表第13栏)",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "SQLDSEJZJTBYS",
+                                "NAME": "上期留抵税额即征即退本月数(主表第13栏)",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "SQLDSEDJQS",
+                                "NAME": "一般纳税人附表二第21行上期留抵税额抵减欠税",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBJSQCWJSEBYS",
+                                "NAME": "一般计税“期初未缴税额”本月数(主表第25栏)",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "JZJTQCWJSEBYS",
+                                "NAME": "即征即退“期初未缴税额”本月数(主表第25栏)",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "MSXSEBZ",
+                                "NAME": "免税销售额标志",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "TSHY",
+                                "NAME": "特殊行业",
+                                "VALUE": ""
+                            },
+                            {
+                                "CODE": "BQFCYJSE",
+                                "NAME": "本期分次预缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "CKKJZYJKSYJSE",
+                                "NAME": "出口开具专用缴款书预缴税额",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "SQLDSEDJQK",
+                                "NAME": "上期留抵税额抵减欠税",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "QCWJCBSEBYS",
+                                "NAME": "期初未缴实际退税额主表36本月数",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "ZGLXDM",
+                                "NAME": "资格类型代码",
+                                "VALUE": "201,203,204"
+                            },
+                            {
+                                "CODE": "MDTYTSEBYS",
+                                "NAME": "免、抵、退应退税额本月数",
+                                "VALUE": "0.00"
+                            },
+                            {
+                                "CODE": "YBNSRZFJGBZ",
+                                "NAME": "一般纳税人总分机构标志",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "YGZSFQYBZ",
+                                "NAME": "营改增税负企业标志",
+                                "VALUE": "Y"
+                            },
+                            {
+                                "CODE": "YGZSFQYBBBZ",
+                                "NAME": "营改增税负企业必报标志",
+                                "VALUE": "Y"
+                            },
+                            {
+                                "CODE": "YQWRDBZ",
+                                "NAME": "逾期未认定标志",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "SQFB2FS",
+                                "NAME": "上期附表2份数",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "SQFB2JE",
+                                "NAME": "上期附表2金额",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "SQFB2SE",
+                                "NAME": "上期附表2税额",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "YZLBZ",
+                                "NAME": "预征率标志",
+                                "VALUE": "3"
+                            },
+                            {
+                                "CODE": "BMDGLBZ",
+                                "NAME": "白名单管理标识",
+                                "VALUE": "N"
+                            },
+                            {
+                                "CODE": "JYZSBZ",
+                                "NAME": "简易征收标志",
+                                "VALUE": "1"
+                            },
+                            {
+                                "CODE": "WKJFPXSEHJ",
+                                "NAME": "未开具发票销售额合计",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "WKJFPXXSEHJ",
+                                "NAME": "未开具发票销项税额合计",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "WKPJKBMD",
+                                "NAME": "未开票监控白名单",
+                                "VALUE": "N"
+                            }
+                        ]
+                    },
+                    "YYSSECSXX": null,
+                    "ZSPMS": {
+                        "zspmList": [
+                            {
+                                "DESL": "",
+                                "DESLJLDW": "",
+                                "DZBM": "",
+                                "LJS": "",
+                                "LJYJ": "",
+                                "PMBM": "101017190",
+                                "PMMC": "",
+                                "SL": "0.11",
+                                "SLLX": "",
+                                "SMMC": "",
+                                "WJLJ": "",
+                                "YJLJ": "",
+                                "ZSL": "0.03",
+                                "hdjsbl": "",
+                                "hdjsyj": "",
+                                "rdpzuuid": "",
+                                "zsxmdm": ""
+                            },
+                            {
+                                "DESL": "",
+                                "DESLJLDW": "",
+                                "DZBM": "",
+                                "LJS": "",
+                                "LJYJ": "",
+                                "PMBM": "101014001",
+                                "PMMC": "",
+                                "SL": "0.17",
+                                "SLLX": "",
+                                "SMMC": "",
+                                "WJLJ": "",
+                                "YJLJ": "",
+                                "ZSL": "0.03",
+                                "hdjsbl": "",
+                                "hdjsyj": "",
+                                "rdpzuuid": "",
+                                "zsxmdm": ""
+                            }
+                        ]
+                    },
+                    "ZSXMBM": "10101",
+                    "ZSXMMC": "增值税一般纳税人",
+                    "ZSXMPY": "",
+                    "djxxs": null,
+                    "dkdjgrid": null,
+                    "dqdefyhzGrid": null,
+                    "dsdjmx": null,
+                    "kshztlZzskfpdjbsVo": null,
+                    "sksssqQ": "",
+                    "sksssqZ": "",
+                    "ysbbbz": "",
+                    "zzsjmxxbs": null
+                },
+                {
+                    "CSBZSPMS": null,
+                    "FZJGSDSFPB": null,
+                    "FZJGXX": null,
+                    "HZSBXX": null,
+                    "JMXX": [],
+                    "LSXXS": {
+                        "LSXX": []
+                    },
+                    "MDKTZS": null,
+                    "NCPXX": null,
+                    "NSQXDM": "06",
+                    "NSRGRTSXX": null,
+                    "PDFVERSION": "",
+                    "QCCGBZ": "Y",
+                    "QCCGBZMS": "期初信息获取失败描述",
+                    "SBBS": {
+                        "SBB": [
+                            "001",
+                            "002",
+                            "003"
+                        ]
+                    },
+                    "SBQJ": "",
+                    "SBQX": "",
+                    "SBZLCODE": "29835",
+                    "SBZLMC": "",
+                    "SSDC": null,
+                    "WSXXS": {
+                        "WSXX": [
+                            {
+                                "CODE": "QHJTBZ",
+                                "NAME": "千户集团标识",
+                                "VALUE": "0"
+                            },
+                            {
+                                "CODE": "DLHSBZ",
+                                "NAME": "独立核算标识",
+                                "VALUE": "1"
+                            },
+                            {
+                                "CODE": "SFSBHBCWBB",
+                                "NAME": "是否申报合并财务报表标识",
+                                "VALUE": "0"
+                            }
+                        ]
+                    },
+                    "YYSSECSXX": null,
+                    "ZSPMS": null,
+                    "ZSXMBM": "",
+                    "ZSXMMC": "",
+                    "ZSXMPY": "",
+                    "djxxs": null,
+                    "dkdjgrid": null,
+                    "dqdefyhzGrid": null,
+                    "dsdjmx": null,
+                    "kshztlZzskfpdjbsVo": null,
+                    "sksssqQ": "",
+                    "sksssqZ": "",
+                    "ysbbbz": "",
+                    "zzsjmxxbs": null
+                }
+            ]
+        },
+        "HdxxXml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><HDXX><NSRSBH>911309297926995093</NSRSBH><KJNY>201712</KJNY><QSSJ>2017-12-01</QSSJ><JZSJ>2017-12-31</JZSJ><HBSJ>N</HBSJ><CAJMBZ></CAJMBZ><SBZL><SBZLCODE>29837</SBZLCODE><SBZLMC></SBZLMC><SBQJ></SBQJ><NSQX_DM>10</NSQX_DM><QCCGBZ>Y</QCCGBZ><QCCGBZMS></QCCGBZMS><SBQX></SBQX><ZSXMBM></ZSXMBM><ZSXMPY></ZSXMPY><ZSXMMC></ZSXMMC><PDF_VERSION></PDF_VERSION><WSXXS><WSXX><CODE>QHJTBZ</CODE><NAME>千户集团标识</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>DLHSBZ</CODE><NAME>独立核算标识</NAME><VALUE>1</VALUE></WSXX><WSXX><CODE>SFSBHBCWBB</CODE><NAME>是否申报合并财务报表标识</NAME><VALUE>0</VALUE></WSXX></WSXXS><LSXXS/><SBBS><SBB>001</SBB><SBB>002</SBB><SBB>003</SBB></SBBS></SBZL><SBZL><SBZLCODE>10101</SBZLCODE><SBZLMC>增值税一般纳税人</SBZLMC><SBQJ>1</SBQJ><NSQX_DM>06</NSQX_DM><QCCGBZ>Y</QCCGBZ><QCCGBZMS></QCCGBZMS><SBQX>2018-01-15</SBQX><ZSXMBM>10101</ZSXMBM><ZSXMPY></ZSXMPY><ZSXMMC>增值税一般纳税人</ZSXMMC><PDF_VERSION></PDF_VERSION><WSXXS><WSXX><CODE>SQLDSE</CODE><NAME>上期留抵税额(13栏的本年累计)</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YSHWYJS</CODE><NAME>应税货物预缴数</NAME><VALUE></VALUE></WSXX><WSXX><CODE>YSFWYJS</CODE><NAME>应税服务预缴数</NAME><VALUE></VALUE></WSXX><WSXX><CODE>SZLBDM</CODE><NAME>税种类别代码</NAME><VALUE>03</VALUE></WSXX><WSXX><CODE>YBHWFWQCLD</CODE><NAME>一般货物服务期初留抵税额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBHWFWQCLDDQSE</CODE><NAME>一般货物服务期初留抵税额_抵欠税额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>JZJTQCLD</CODE><NAME>即征即退期初留抵税额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>JZJTQCLDDQSE</CODE><NAME>即征即退期初留抵税额_抵欠税额</NAME><VALUE></VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE1</CODE><NAME>17%税率的项目期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE2</CODE><NAME>11%税率的项目期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE3</CODE><NAME>6%税率的项目（不含金融商品转让）期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE4</CODE><NAME>6%税率的金融商品转让项目期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE5</CODE><NAME>5%征收率的项目期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE6</CODE><NAME>3%征收率的项目期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE7</CODE><NAME>免抵退税的项目期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRFB3QCYE8</CODE><NAME>免税的项目期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>NCPQYBZ</CODE><NAME>农产品企业标志20120818新增</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>ZZSBALX</CODE><NAME>增值税备案类型（用于判断是否差额征税）</NAME><VALUE>1</VALUE></WSXX><WSXX><CODE>GZLX</CODE><NAME>挂账类型</NAME><VALUE>1</VALUE></WSXX><WSXX><CODE>HWZSPM</CODE><NAME>货物征收品目</NAME><VALUE></VALUE></WSXX><WSXX><CODE>FWZSPM</CODE><NAME>服务征收品目</NAME><VALUE></VALUE></WSXX><WSXX><CODE>CKQYBZ</CODE><NAME>出口企业标志</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>YBNSRFZJGYZL</CODE><NAME>一般纳税人分支机构预征率</NAME><VALUE>0.000000</VALUE></WSXX><WSXX><CODE>FB4JZEQCYE</CODE><NAME>附列资料四第1栏的期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>FB4FZJGYJQCYE</CODE><NAME>附列资料四第2栏的期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>FB4JZFWYJQCYE</CODE><NAME>附列资料四第3栏的期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>FB4XSBDCYJQCYE</CODE><NAME>附列资料四第4栏的期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>FB4CZBDCYJQCYE</CODE><NAME>附列资料四第5栏的期初余额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>FB4JZEBQFSE</CODE><NAME>附列资料四第1栏的本期发生额</NAME><VALUE></VALUE></WSXX><WSXX><CODE>FZJGCDDYJNSEHZ</CODE><NAME>附列资料四第2栏的本期发生额</NAME><VALUE></VALUE></WSXX><WSXX><CODE>FB4JZFWYJBQFSE</CODE><NAME>附列资料四第3栏的本期发生额</NAME><VALUE></VALUE></WSXX><WSXX><CODE>FB4XSBDCYJBQFSE</CODE><NAME>附列资料四第4栏的本期发生额</NAME><VALUE></VALUE></WSXX><WSXX><CODE>FB4CZBDCYJBQFSE</CODE><NAME>附列资料四第5栏的本期发生额</NAME><VALUE></VALUE></WSXX><WSXX><CODE>FB5DDKBDCQCYE</CODE><NAME>附列资料五期初待抵扣不动产进项税额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRHZJNZG</CODE><NAME>一般纳税人汇总缴纳增值税资格</NAME><VALUE>2</VALUE></WSXX><WSXX><CODE>SQLDSETS</CODE><NAME>一般纳税人附表二第22栏的上期留抵税额退税</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>QCWJ</CODE><NAME>期初未缴税额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRYZSKDFPBZ</CODE><NAME>预征税款待分配标志</NAME><VALUE></VALUE></WSXX><WSXX><CODE>YBNSRFZJGDFPYZL</CODE><NAME>分支机构待分配预征率</NAME><VALUE></VALUE></WSXX><WSXX><CODE>YBNSRZCDTLZG</CODE><NAME>注册地跨省合资铁路企业资格</NAME><VALUE></VALUE></WSXX><WSXX><CODE>FDQQY</CODE><NAME>是否辅导期纳税人</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>WSSB_ZQQ</CODE><NAME>网上申报征期起</NAME><VALUE></VALUE></WSXX><WSXX><CODE>WSSB_ZQZ</CODE><NAME>网上申报征期止</NAME><VALUE></VALUE></WSXX><WSXX><CODE>HGJH_ZQQ</CODE><NAME>海关稽核征期起</NAME><VALUE></VALUE></WSXX><WSXX><CODE>HGJH_ZQZ</CODE><NAME>海关稽核征期止</NAME><VALUE></VALUE></WSXX><WSXX><CODE>NOZGBZ</CODE><NAME>是否有增值税一般纳税人资格</NAME></WSXX><WSXX><CODE>CEZSBZ</CODE><NAME>差额征收标志</NAME><VALUE>Y</VALUE></WSXX><WSXX><CODE>YGZNSRZG</CODE><NAME>营改增纳税人资格</NAME><VALUE>22</VALUE></WSXX><WSXX><CODE>FGDQYBZ</CODE><NAME>发供电企业标志</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>ZFJGBZ</CODE><NAME>总分机构标志</NAME><VALUE>1</VALUE></WSXX><WSXX><CODE>HKYSQYBZ</CODE><NAME>航空企业标志</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>YZQYBZ</CODE><NAME>邮政企业标志</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>TLYSQYBZ</CODE><NAME>铁路运输企业标志</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>DXQYBZ</CODE><NAME>电信企业标志</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>YGZNSRZG</CODE><NAME>营改增纳税人资格类型</NAME><VALUE>22</VALUE></WSXX><WSXX><CODE>ZSDLFSDM</CODE><NAME>征收代理方式代码</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>JZJTBZ</CODE><NAME>即征即退标志</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>SQLDSEBYS</CODE><NAME>上期留抵税额一般计税本月数(主表第13栏)</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>SQLDSEJZJTBYS</CODE><NAME>上期留抵税额即征即退本月数(主表第13栏)</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>SQLDSEDJQS</CODE><NAME>一般纳税人附表二第21行上期留抵税额抵减欠税</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBJSQCWJSEBYS</CODE><NAME>一般计税“期初未缴税额”本月数(主表第25栏)</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>JZJTQCWJSEBYS</CODE><NAME>即征即退“期初未缴税额”本月数(主表第25栏)</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>MSXSEBZ</CODE><NAME>免税销售额标志</NAME><VALUE></VALUE></WSXX><WSXX><CODE>TSHY</CODE><NAME>特殊行业</NAME><VALUE></VALUE></WSXX><WSXX><CODE>BQFCYJSE</CODE><NAME>本期分次预缴税额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>CKKJZYJKSYJSE</CODE><NAME>出口开具专用缴款书预缴税额</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>SQLDSEDJQK</CODE><NAME>上期留抵税额抵减欠税</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>QCWJCBSEBYS</CODE><NAME>期初未缴实际退税额主表36本月数</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>ZGLXDM</CODE><NAME>资格类型代码</NAME><VALUE>201,203,204</VALUE></WSXX><WSXX><CODE>MDTYTSEBYS</CODE><NAME>免、抵、退应退税额本月数</NAME><VALUE>0.00</VALUE></WSXX><WSXX><CODE>YBNSRZFJGBZ</CODE><NAME>一般纳税人总分机构标志</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>YGZSFQYBZ</CODE><NAME>营改增税负企业标志</NAME><VALUE>Y</VALUE></WSXX><WSXX><CODE>YGZSFQYBBBZ</CODE><NAME>营改增税负企业必报标志</NAME><VALUE>Y</VALUE></WSXX><WSXX><CODE>YQWRDBZ</CODE><NAME>逾期未认定标志</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>SQFB2FS</CODE><NAME>上期附表2份数</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>SQFB2JE</CODE><NAME>上期附表2金额</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>SQFB2SE</CODE><NAME>上期附表2税额</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>YZLBZ</CODE><NAME>预征率标志</NAME><VALUE>3</VALUE></WSXX><WSXX><CODE>BMDGLBZ</CODE><NAME>白名单管理标识</NAME><VALUE>N</VALUE></WSXX><WSXX><CODE>JYZSBZ</CODE><NAME>简易征收标志</NAME><VALUE>1</VALUE></WSXX><WSXX><CODE>WKJFPXSEHJ</CODE><NAME>未开具发票销售额合计</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>WKJFPXXSEHJ</CODE><NAME>未开具发票销项税额合计</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>WKPJKBMD</CODE><NAME>未开票监控白名单</NAME><VALUE>N</VALUE></WSXX></WSXXS><ZSPMS><ZSPM><SMMC></SMMC><PMBM>101017190</PMBM><PMMC></PMMC><DZBM></DZBM><SL>0.11</SL><ZSL>0.03</ZSL><LJS></LJS><YJLJ></YJLJ><LJYJ></LJYJ><WJLJ></WJLJ><DESL></DESL><SLLX></SLLX><DESLJLDW></DESLJLDW><ZSXMDM></ZSXMDM><RDPZUUID></RDPZUUID><HDJSYJ></HDJSYJ><HDJSBL></HDJSBL><HYDM></HYDM></ZSPM><ZSPM><SMMC></SMMC><PMBM>101014001</PMBM><PMMC></PMMC><DZBM></DZBM><SL>0.17</SL><ZSL>0.03</ZSL><LJS></LJS><YJLJ></YJLJ><LJYJ></LJYJ><WJLJ></WJLJ><DESL></DESL><SLLX></SLLX><DESLJLDW></DESLJLDW><ZSXMDM></ZSXMDM><RDPZUUID></RDPZUUID><HDJSYJ></HDJSYJ><HDJSBL></HDJSBL><HYDM></HYDM></ZSPM></ZSPMS><LSXXS><LSXX><CODE>1</CODE><NAME>一般货物、劳务和应税服务按适用税率计税销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>2</CODE><NAME>一般货物、劳务和应税服务应税货物销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>3</CODE><NAME>一般货物、劳务和应税服务应税劳务销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>4</CODE><NAME>一般货物、劳务和应税服务按适用税率纳税检查调整的销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>5</CODE><NAME>一般货物、劳务和应税服务按简易办法计税销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>6</CODE><NAME>一般货物、劳务和应税服务简易办法纳税检查调整的销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>7</CODE><NAME>一般货物、劳务和应税服务免、抵、退办法出口销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>8</CODE><NAME>一般货物、劳务和应税服务免税及劳务销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>9</CODE><NAME>一般货物、劳务和应税服务免税货物销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>10</CODE><NAME>一般货物、劳务和应税服务免税劳务销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>11</CODE><NAME>一般货物、劳务和应税服务销项税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>12</CODE><NAME>一般货物、劳务和应税服务进项税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>13</CODE><NAME>一般货物、劳务和应税服务上期留抵税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>14</CODE><NAME>一般货物、劳务和应税服务进项税额转出</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>15</CODE><NAME>一般货物、劳务和应税服务免、抵、退应退税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>16</CODE><NAME>一般货物、劳务和应税服务按适用税率计算的纳税检查应补缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>17</CODE><NAME>一般货物、劳务和应税服务应抵扣税额合计</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>18</CODE><NAME>一般货物、劳务和应税服务实际抵扣税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>19</CODE><NAME>一般货物、劳务和应税服务应纳税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>20</CODE><NAME>一般货物、劳务和应税服务期末留抵税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>21</CODE><NAME>一般货物、劳务和应税服务简易计税办法计算的应纳税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>22</CODE><NAME>一般货物、劳务和应税服务按简易计税办法计算的纳税检查应补缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>23</CODE><NAME>一般货物、劳务和应税服务应纳税额减征额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>24</CODE><NAME>一般货物、劳务和应税服务应纳税额合计</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>25</CODE><NAME>一般货物、劳务和应税服务期初未缴税额（多缴为负数）</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>26</CODE><NAME>一般货物、劳务和应税服务实收出口开具专用缴款书退税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>27</CODE><NAME>一般货物、劳务和应税服务本期已缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>28</CODE><NAME>一般货物、劳务和应税服务分次预缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>29</CODE><NAME>一般货物、劳务和应税服务出口开具专用缴款书预缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>30</CODE><NAME>一般货物、劳务和应税服务本期缴纳上期应纳税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>31</CODE><NAME>一般货物、劳务和应税服务本期缴纳欠缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>32</CODE><NAME>一般货物、劳务和应税服务期末未缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>33</CODE><NAME>一般货物、劳务和应税服务其中：欠缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>34</CODE><NAME>一般货物、劳务和应税服务本期应补（退）税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>35</CODE><NAME>一般货物、劳务和应税服务即征即退实际退税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>36</CODE><NAME>一般货物、劳务和应税服务期初未缴查补税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>37</CODE><NAME>一般货物、劳务和应税服务本期入库查补税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>38</CODE><NAME>一般货物、劳务和应税服务期末未缴查补税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>39</CODE><NAME>即征即退货物、劳务和应税服务按适用税率计税销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>40</CODE><NAME>即征即退货物、劳务和应税服务应税货物销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>41</CODE><NAME>即征即退货物、劳务和应税服务应税劳务销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>42</CODE><NAME>即征即退货物、劳务和应税服务按适用税率纳税检查调整的销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>43</CODE><NAME>即征即退货物、劳务和应税服务按简易办法计税销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>44</CODE><NAME>即征即退货物、劳务和应税服务简易办法纳税检查调整的销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>45</CODE><NAME>即征即退货物、劳务和应税服务免、抵、退办法出口销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>46</CODE><NAME>即征即退货物、劳务和应税服务免税及劳务销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>47</CODE><NAME>即征即退货物、劳务和应税服务免税货物销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>48</CODE><NAME>即征即退货物、劳务和应税服务免税劳务销售额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>49</CODE><NAME>即征即退货物、劳务和应税服务销项税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>50</CODE><NAME>即征即退货物、劳务和应税服务进项税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>51</CODE><NAME>即征即退货物、劳务和应税服务上期留抵税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>52</CODE><NAME>即征即退货物、劳务和应税服务进项税额转出</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>53</CODE><NAME>即征即退货物、劳务和应税服务免、抵、退应退税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>54</CODE><NAME>即征即退货物、劳务和应税服务按适用税率计算的纳税检查应补缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>55</CODE><NAME>即征即退货物、劳务和应税服务应抵扣税额合计</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>56</CODE><NAME>即征即退货物、劳务和应税服务实际抵扣税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>57</CODE><NAME>即征即退货物、劳务和应税服务应纳税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>58</CODE><NAME>即征即退货物、劳务和应税服务期末留抵税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>59</CODE><NAME>即征即退货物、劳务和应税服务简易计税办法计算的应纳税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>60</CODE><NAME>即征即退货物、劳务和应税服务按简易计税办法计算的纳税检查应补缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>61</CODE><NAME>即征即退货物、劳务和应税服务应纳税额减征额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>62</CODE><NAME>即征即退货物、劳务和应税服务应纳税额合计</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>63</CODE><NAME>即征即退货物、劳务和应税服务期初未缴税额（多缴为负数）</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>64</CODE><NAME>即征即退货物、劳务和应税服务实收出口开具专用缴款书退税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>65</CODE><NAME>即征即退货物、劳务和应税服务本期已缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>66</CODE><NAME>即征即退货物、劳务和应税服务分次预缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>67</CODE><NAME>即征即退货物、劳务和应税服务出口开具专用缴款书预缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>68</CODE><NAME>即征即退货物、劳务和应税服务本期缴纳上期应纳税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>69</CODE><NAME>即征即退货物、劳务和应税服务本期缴纳欠缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>70</CODE><NAME>即征即退货物、劳务和应税服务期末未缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>71</CODE><NAME>即征即退货物、劳务和应税服务其中：欠缴税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>72</CODE><NAME>即征即退货物、劳务和应税服务本期应补（退）税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>73</CODE><NAME>即征即退货物、劳务和应税服务即征即退实际退税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>74</CODE><NAME>即征即退货物、劳务和应税服务期初未缴查补税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>75</CODE><NAME>即征即退货物、劳务和应税服务本期入库查补税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>76</CODE><NAME>即征即退货物、劳务和应税服务期末未缴查补税额</NAME><VALUE>0.00</VALUE></LSXX><LSXX><CODE>77</CODE><NAME>增值税专用发票当期申报抵扣的固定资产进项税额累计</NAME><VALUE>333461.48</VALUE></LSXX><LSXX><CODE>78</CODE><NAME>海关进口增值税专用缴款书当期申报抵扣的固定资产进项税额累计</NAME><VALUE>0.00</VALUE></LSXX></LSXXS><SBBS><SBB>001</SBB><SBB>002</SBB><SBB>003</SBB><SBB>006</SBB><SBB>030</SBB><SBB>031</SBB><SBB>081</SBB><SBB>082</SBB><SBB>083</SBB><SBB>085</SBB><SBB>006</SBB></SBBS><JMXX><zsxmDm></zsxmDm><zspmDm></zspmDm><jmlxDm></jmlxDm><jmfsDm></jmfsDm><jmzlxDm>01</jmzlxDm><jmqxq></jmqxq><jmqxz></jmqxz><ssjmzlDm></ssjmzlDm><ssjmyyDm></ssjmyyDm><ssjmxzhzDm>0001129914</ssjmxzhzDm><ssjmxzdlDm></ssjmxzdlDm><ssjmxzxlDm></ssjmxzxlDm><jzfd>0.0</jzfd><jzsl>0.0</jzsl><jzed>0.0</jzed><jmxzMc>《财政部 国家税务总局关于增值税税控系统专用设备和技术维护费用抵减增值税税额有关政策的通知》 财税〔2012〕15号</jmxzMc><jmwjDm>0.0</jmwjDm><jmsspsxDm>SXA031900185</jmsspsxDm><swsxMc>购置增值税税控系统专用设备抵减增值税</swsxMc></JMXX><NCPXX/><CSBZSPMS><CSBZSPM><PMBM>040500</PMBM><MC>其他建筑服务</MC><ZZSSL>11%,3%</ZZSSL><YYSSL>3%</YYSSL><ZZSCEBZ>Y</ZZSCEBZ><YYSCSBZ>Y</YYSCSBZ><YYSQMYE>0.0</YYSQMYE><YYSQCYE>0.0</YYSQCYE></CSBZSPM><CSBZSPM><PMBM>060504</PMBM><MC>有形动产经营租赁</MC><ZZSSL>17%,3%</ZZSSL><YYSSL>5%</YYSSL><ZZSCEBZ>N</ZZSCEBZ><YYSCSBZ>N</YYSCSBZ><YYSQMYE>0.0</YYSQMYE><YYSQCYE>0.0</YYSQCYE></CSBZSPM></CSBZSPMS><CPMCS><NCPZJXSHDB/><NCPHWSTHDB/></CPMCS></SBZL><SBZL><SBZLCODE>29835</SBZLCODE><SBZLMC></SBZLMC><SBQJ></SBQJ><NSQX_DM>06</NSQX_DM><QCCGBZ>Y</QCCGBZ><QCCGBZMS></QCCGBZMS><SBQX></SBQX><ZSXMBM></ZSXMBM><ZSXMPY></ZSXMPY><ZSXMMC></ZSXMMC><PDF_VERSION></PDF_VERSION><WSXXS><WSXX><CODE>QHJTBZ</CODE><NAME>千户集团标识</NAME><VALUE>0</VALUE></WSXX><WSXX><CODE>DLHSBZ</CODE><NAME>独立核算标识</NAME><VALUE>1</VALUE></WSXX><WSXX><CODE>SFSBHBCWBB</CODE><NAME>是否申报合并财务报表标识</NAME><VALUE>0</VALUE></WSXX></WSXXS><LSXXS/><SBBS><SBB>001</SBB><SBB>002</SBB><SBB>003</SBB></SBBS></SBZL><JYHDBZ></JYHDBZ></HDXX>"
+    },
+    "jylsh": "",
+    "message": "",
+    "messageCode": "",
+    "otherParams": null,
+    "paramList": [],
+    "success": true,
+    "total": ""
+}

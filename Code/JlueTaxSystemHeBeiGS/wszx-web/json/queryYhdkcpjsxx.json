@@ -1,0 +1,63 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "yhmc": "中国交通银行",
+            "yhdm": "jtyh",
+            "zgsxed": "200万",
+            "dkcpjj": "最高授信200万，分期还款",
+            "ljxq": "http://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/7387/7444/8080/8878/list.shtml?channelId=7387",
+            "nllv": "年化利率：6%-15%",
+            "dkcpmc": "税融通"
+        },
+        {
+            "yhmc": "中国建设银行",
+            "yhdm": "jsyh",
+            "zgsxed": "200万",
+            "dkcpjj": "最高授信200万，按日计息",
+            "ljxq": "http://scompany.ccb.com/cn/home/smallcompany/product/20160106_801415064.html",
+            "nllv": "年化利率：6%-15%",
+            "dkcpmc": "税易贷"
+        },
+        {
+            "yhmc": "中国工商银行",
+            "yhdm": "gsyh",
+            "zgsxed": "200万",
+            "dkcpjj": "最高授信200万，按月还息",
+            "ljxq": "http://www.icbc.com.cn/ICBC/%E6%B2%B3%E5%8C%97%E5%88%86%E8%A1%8C/",
+            "nllv": "年化利率：6%-15%",
+            "dkcpmc": "税务贷"
+        },
+        {
+            "yhmc": "中国邮政储蓄银行",
+            "yhdm": "ycyh",
+            "zgsxed": "300万",
+            "dkcpjj": "最高授信300万，分期还款",
+            "ljxq": "http://www.psbc.com/cn/BranchChannel/hbdq/hebei/index.html",
+            "nllv": "年化利率：基准利率上浮",
+            "dkcpmc": "税贷通"
+        },
+        {
+            "yhmc": "北京银行",
+            "yhdm": "bjyh",
+            "zgsxed": "300万",
+            "dkcpjj": "最高授信300万，分期还款",
+            "ljxq": "http://www.bankofbeijing.com.cn/",
+            "nllv": "年化利率：6%-15%",
+            "dkcpmc": "银税贷"
+        },
+        {
+            "yhmc": "邢台银行",
+            "yhdm": "xtyh",
+            "zgsxed": "100万元",
+            "dkcpjj": "最高授信100万，随借随还",
+            "ljxq": "http://www.enuoyun.com/r/cms/www/zt/YSHD/index.html",
+            "nllv": "年化利率：13.2%-15.6%",
+            "dkcpmc": "e税贷"
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

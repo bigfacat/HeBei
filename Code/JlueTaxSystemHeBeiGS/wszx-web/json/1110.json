@@ -1,0 +1,234 @@
+﻿[
+    {
+        "BGXM_MC": "注册地邮政编码",
+        "LMC": "ZCDYZBM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "014"
+    },
+    {
+        "BGXM_MC": "注册地联系电话",
+        "LMC": "ZCDLXDH",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "015"
+    },
+    {
+        "BGXM_MC": "生产经营地邮政编码",
+        "LMC": "SCJYDYZBM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "017"
+    },
+    {
+        "BGXM_MC": "生产经营地联系电话",
+        "LMC": "SCJYDLXDH",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "018"
+    },
+    {
+        "BGXM_MC": "核算方式",
+        "LMC": "hsfsDm",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "019"
+    },
+    {
+        "BGXM_MC": "从业人数",
+        "LMC": "cyrs",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "020"
+    },
+    {
+        "BGXM_MC": "其中外籍人数",
+        "LMC": "wjcyrs",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "021"
+    },
+    {
+        "BGXM_MC": "网站网址",
+        "LMC": "wz",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "023"
+    },
+    {
+        "BGXM_MC": "法定代表人（负责人）固定电话",
+        "LMC": "fddbrgddh",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "033"
+    },
+    {
+        "BGXM_MC": "法定代表人（负责人）移动电话",
+        "LMC": "fddbryddh",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "034"
+    },
+    {
+        "BGXM_MC": "法定代表人（负责人）电子邮箱",
+        "LMC": "fddbrdzxx",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "035"
+    },
+    {
+        "BGXM_MC": "财务负责人姓名",
+        "LMC": "CWFZRXM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "036"
+    },
+    {
+        "BGXM_MC": "财务负责人身份证件种类",
+        "LMC": "CWFZRSFZJZL_DM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "037"
+    },
+    {
+        "BGXM_MC": "财务负责人身份证件号码",
+        "LMC": "CWFZRSFZJHM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "038"
+    },
+    {
+        "BGXM_MC": "财务负责人固定电话",
+        "LMC": "CWFZRGDDH",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "039"
+    },
+    {
+        "BGXM_MC": "财务负责人移动电话",
+        "LMC": "CWFZRYDDH",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "040"
+    },
+    {
+        "BGXM_MC": "财务负责人电子邮箱",
+        "LMC": "CWFZRDZXX",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "041"
+    },
+    {
+        "BGXM_MC": "办税人姓名",
+        "LMC": "BSRXM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "042"
+    },
+    {
+        "BGXM_MC": "办税人身份证件种类",
+        "LMC": "BSRSFZJZL_DM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "043"
+    },
+    {
+        "BGXM_MC": "办税人身份证件号码",
+        "LMC": "BSRSFZJHM",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "044"
+    },
+    {
+        "BGXM_MC": "办税人固定电话",
+        "LMC": "BSRGDDH",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "045"
+    },
+    {
+        "BGXM_MC": "办税人移动电话",
+        "LMC": "BSRYDDH",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "046"
+    },
+    {
+        "BGXM_MC": "办税人电子邮箱",
+        "LMC": "BSRDZXX",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "047"
+    },
+    {
+        "BGXM_MC": "总机构",
+        "LMC": "Y",
+        "ZLMMC": "zjg",
+        "MSL_BZ": "Y",
+        "BMC": "",
+        "YWSXDM": "100"
+    },
+    {
+        "BGXM_MC": "分支机构",
+        "LMC": "",
+        "ZLMMC": "fzjghfd",
+        "MSL_BZ": "Y",
+        "BMC": "",
+        "YWSXDM": "101"
+    },
+    {
+        "BGXM_MC": "投资方",
+        "LMC": "Y",
+        "ZLMMC": "tzf,tzbl,gjhdqszDm,dz",
+        "MSL_BZ": "Y",
+        "BMC": "",
+        "YWSXDM": "103"
+    },
+    {
+        "BGXM_MC": "联系电话",
+        "LMC": "zcdlxdh",
+        "ZLMMC": "",
+        "MSL_BZ": "Y",
+        "BMC": "DjNsrxxKzPO",
+        "YWSXDM": "110"
+    },
+    {
+        "BGXM_MC": "投资总额明细",
+        "LMC": "",
+        "ZLMMC": "hbszDm,tzzeDm,tzze",
+        "MSL_BZ": "Y",
+        "BMC": "",
+        "YWSXDM": "140"
+    },
+    {
+        "BGXM_MC": "注册资本明细",
+        "LMC": "",
+        "ZLMMC": "hbszDm,zczbDm,zczb",
+        "MSL_BZ": "Y",
+        "BMC": "",
+        "YWSXDM": "141"
+    }
+]

@@ -1,0 +1,69 @@
+﻿[
+    {
+        "cxdlMc": "纳税人基本信息",
+        "openAs": "1",
+        "url": "views/nsrjbxx/nsrjbxx.html",
+        "class_name": "nsrjbxx",
+        "cxxl": []
+    },
+    {
+        "cxdlMc": "登记类",
+        "openAs": "0",
+        "url": "views/swdj",
+        "class_name": "swdj",
+        "cxxl": [
+            {
+                "cxxlMc": "税种登记信息",
+                "openAs": "1",
+                "url": "views/swdj/szdjxx/szdjxx.aspx",
+                "class_name": "szdjxx"
+            }
+        ]
+    },
+    {
+        "cxdlMc": "发票类",
+        "openAs": "0",
+        "url": "views/fpgj",
+        "class_name": "fpgj",
+        "cxxl": [
+            {
+                "cxxlMc": "票种核定信息",
+                "openAs": "1",
+                "url": "views/fpgl/pzhdxx/pzhdxx.aspx",
+                "class_name": "pzhdxx"
+            },
+            {
+                "cxxlMc": "发票领用信息",
+                "openAs": "1",
+                "url": "views/fpgl/fplyxx/fplyxx.aspx",
+                "class_name": "fplyxx"
+            },
+            {
+                "cxxlMc": "发票结存信息",
+                "openAs": "1",
+                "url": "views/fpgl/fpjcxx/fpjcxx.aspx",
+                "class_name": "fpjcxx"
+            },
+            {
+                "cxxlMc": "发票验旧信息",
+                "openAs": "1",
+                "url": "views/fpgl/fpyjxx/fpyjxx.aspx",
+                "class_name": "fpyjxx"
+            }
+        ]
+    },
+    {
+        "cxdlMc": "申报类",
+        "openAs": "0",
+        "url": "views/sbl",
+        "class_name": "sbl",
+        "cxxl": [
+            {
+                "cxxlMc": "历史申报信息",
+                "openAs": "2",
+                "url": "../wssb/sjcx/sb_ysbcx.jsp",
+                "class_name": "lssbxx"
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+﻿{
+    "success": true,
+    "jylsh": null,
+    "message": null,
+    "messageCode": null,
+    "paramList": [],
+    "data": {
+        "doneList": [
+            {
+                "id": "4da05c48c6764c33845076a492eedbaa",
+                "status": "01",
+                "statusName": "受理通过",
+                "name": "发票领用",
+                "swsxDm": "110209",
+                "date": "2017-08-03",
+                "url": "/wszx-web/apps/views/blzt/wc.aspx?sqxh=4da05c48c6764c33845076a492eedbaa"
+            },
+            {
+                "id": "2f2d46d8e9b5440b8e524f1ef07cb189",
+                "status": "01",
+                "statusName": "受理通过",
+                "name": "发票领用",
+                "swsxDm": "110209",
+                "date": "2017-08-03",
+                "url": "/wszx-web/apps/views/blzt/wc.aspx?sqxh=2f2d46d8e9b5440b8e524f1ef07cb189"
+            },
+            {
+                "id": "e65d401fcf914f389b4ead42f95c6692",
+                "status": "01",
+                "statusName": "受理通过",
+                "name": "发票领用",
+                "swsxDm": "110209",
+                "date": "2017-08-03",
+                "url": "/wszx-web/apps/views/blzt/wc.aspx?sqxh=e65d401fcf914f389b4ead42f95c6692"
+            },
+            {
+                "id": "4de45dee83b847afaf5d429b8171c204",
+                "status": "01",
+                "statusName": "受理通过",
+                "name": "税务行政许可",
+                "swsxDm": "110408",
+                "date": "2017-08-02",
+                "url": "/wszx-web/apps/views/blzt/wc.aspx?sqxh=4de45dee83b847afaf5d429b8171c204"
+            }
+        ]
+    },
+    "total": "4",
+    "otherParams": {
+        "total": "4"
+    }
+}

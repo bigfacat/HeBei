@@ -1,0 +1,196 @@
+﻿
+
+.second-step .nav {
+    margin-bottom: 28px;
+}
+
+    .second-step .nav li {
+        display: none;
+        min-width: 160px;
+        height: 42px;
+        text-align: center;
+        line-height: 42px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .second-step .nav .checked {
+        color: #fff;
+        border: 1px solid #0995dd;
+        border-radius: 4px;
+        background: #0995dd;
+    }
+
+.second-step .content-type ul li {
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+.second-step .content-type .type-rg {
+    display: block;
+    background: #fafafa;
+    padding: 14px 24px;
+    min-height: 167px;
+}
+
+    .second-step .content-type .type-rg .title {
+        font-weight: 700;
+    }
+
+.second-step .content-type .type-dtzz {
+    display: none;
+    background: #fafafa;
+    padding: 4px 20px;
+}
+
+    .second-step .content-type .type-dtzz img {
+        width: 135px;
+        height: 170px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .second-step .content-type .type-dtzz p {
+        text-align: center;
+    }
+
+    .second-step .content-type .type-dtzz .title {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .second-step .content-type .type-dtzz .ico-next {
+        width: 64px;
+        height: 64px;
+        background: url(../../../images/public/ico-next.png) center no-repeat;
+        margin-bottom: 72px;
+    }
+
+.second-step .content-type .sub {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-top: 31px;
+    height: 34px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+    .second-step .content-type .sub .subbg {
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        bottom: 38px;
+        z-index: 2;
+        border-radius: 10px;
+        background: #25c95e;
+    }
+
+    .second-step .content-type .sub .subnum {
+        width: 100%;
+        height: 40px;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .second-step .content-type .sub .divison {
+        position: absolute;
+        left: 13px;
+        bottom: 44px;
+        width: 100%;
+        height: 10px;
+    }
+
+        .second-step .content-type .sub .divison span {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+            color: #fff;
+            font-size: 14px;
+            overflow: hidden;
+            background: url(../../../images/public1/ico-step-done.png) center no-repeat;
+            margin-left: 116px;
+            margin-right: 10px;
+        }
+
+    .second-step .content-type .sub .divnum {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        font-family: 'Microsoft YaHei';
+        font-size: 14px;
+        width: 980px;
+    }
+
+        .second-step .content-type .sub .divnum li {
+            float: left;
+            font-size: 14px;
+            height: 28px;
+            width: 154px;
+            line-height: 24px;
+            display: inline;
+            text-align: center;
+        }
+
+.second-step #new-xzlqfs {
+    width: 886px;
+    margin: 0 auto;
+}
+
+    .second-step #new-xzlqfs .nav {
+        margin-top: 32px;
+    }
+
+        .second-step #new-xzlqfs .nav .top-title {
+            color: grey;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .second-step #new-xzlqfs .nav > li {
+            width: 230px;
+            height: 186px;
+            display: inline-block;
+            vertical-align: middle;
+            border: 1px solid #e6e6e6;
+            margin-right: 60px;
+        }
+
+            .second-step #new-xzlqfs .nav > li img {
+                margin-top: 20px;
+            }
+
+            .second-step #new-xzlqfs .nav > li p {
+                margin-top: -9px;
+            }
+
+        .second-step #new-xzlqfs .nav .checked {
+            border: 1px solid #0995dd;
+            border-radius: 4px;
+            background: #fff;
+            color: #000;
+        }
+
+    .second-step #new-xzlqfs .type-content {
+        display: block;
+        background: #fafafa;
+        padding: 14px 24px;
+        min-height: 167px;
+    }
+
+        .second-step #new-xzlqfs .type-content .title {
+            text-align: left;
+        }
+
+        .second-step #new-xzlqfs .type-content .text-blue {
+            color: #0896dd;
+        }

@@ -1,0 +1,73 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "xzqhmc": "新华区",
+            "xzqhsz": "130902"
+        },
+        {
+            "xzqhmc": "运河区",
+            "xzqhsz": "130903"
+        },
+        {
+            "xzqhmc": "沧县",
+            "xzqhsz": "130921"
+        },
+        {
+            "xzqhmc": "青县",
+            "xzqhsz": "130922"
+        },
+        {
+            "xzqhmc": "东光县",
+            "xzqhsz": "130923"
+        },
+        {
+            "xzqhmc": "海兴县",
+            "xzqhsz": "130924"
+        },
+        {
+            "xzqhmc": "盐山县",
+            "xzqhsz": "130925"
+        },
+        {
+            "xzqhmc": "肃宁县",
+            "xzqhsz": "130926"
+        },
+        {
+            "xzqhmc": "南皮县",
+            "xzqhsz": "130927"
+        },
+        {
+            "xzqhmc": "吴桥县",
+            "xzqhsz": "130928"
+        },
+        {
+            "xzqhmc": "献县",
+            "xzqhsz": "130929"
+        },
+        {
+            "xzqhmc": "孟村回族自治县",
+            "xzqhsz": "130930"
+        },
+        {
+            "xzqhmc": "泊头市",
+            "xzqhsz": "130981"
+        },
+        {
+            "xzqhmc": "任丘市",
+            "xzqhsz": "130982"
+        },
+        {
+            "xzqhmc": "黄骅市",
+            "xzqhsz": "130983"
+        },
+        {
+            "xzqhmc": "河间市",
+            "xzqhsz": "130984"
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

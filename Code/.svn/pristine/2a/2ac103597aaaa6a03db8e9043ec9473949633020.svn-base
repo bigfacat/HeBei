@@ -1,0 +1,33 @@
+﻿{
+    "message": null,
+    "value": {
+        "dk": {
+            "zyfpxx": {
+                "fs": "1",
+                "se": "14529.91",
+                "je": "85470.09"
+            },									  
+            "hgpxx": {
+                "fs": "0",
+                "se": "0.00",
+                "je": "0.00"
+            }
+        },
+        "ddk": {
+            "zyfpxx": {
+                "fs": "0",
+                "se": "0.00",
+                "je": "0.00"
+            },
+            "hgpxx": {
+                "fs": "0",
+                "se": "0.00",
+                "je": "0.00"
+            }
+        }
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

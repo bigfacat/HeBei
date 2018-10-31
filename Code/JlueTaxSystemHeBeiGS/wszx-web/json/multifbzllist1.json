@@ -1,0 +1,25 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "swsxDm": "110402",
+            "swsxMxDm": null,
+            "fbzlDm": "001718",
+            "fbzlMc": "选择简易征收的产品、服务符合条件的证明材料,或者企业符合条件的证明材料",
+            "bslxDm": "2",
+            "fbzlcllxDm": "1"
+        },
+        {
+            "swsxDm": "110402",
+            "swsxMxDm": null,
+            "fbzlDm": "002010",
+            "fbzlMc": "一般纳税人选择简易办法征收备案事项说明",
+            "bslxDm": "1",
+            "fbzlcllxDm": "1"
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

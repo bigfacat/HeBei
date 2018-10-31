@@ -1,0 +1,2 @@
+document.write('<script type="text/javascript" src="../../lib/sui-miniui/mini-all-min.js"></script>');
+document.write('<script type="text/javascript" src="../../javascript/miniui-plugin.js"></script>');

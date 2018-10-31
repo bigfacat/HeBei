@@ -1,0 +1,118 @@
+﻿/* 
+* @Author: xiaomei
+* @Date:   2016-06-02 16:01:33
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-06-06 16:39:26
+*/
+/*重置cell*/
+.huabiao-box {
+    margin: 0;
+}
+table.sb_table .text-align-left {
+    text-align: left;
+}
+table.sb_table .text-align-right {
+    text-align: right;
+}
+table.sb_table .text-align-center {
+    text-align: center;
+}
+table.sb_table .title {
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+   /* background-color: #ddedfe;
+    border-color: #bbd8eb;*/
+}
+
+table.sb_table tr td.title input[disabled="disabled"] {
+    background-color: #ddedfe;
+}
+
+body .mini-buttonedit-border {
+    border: none;
+}
+span.triangle-bottomleft,span.triangle-topright {
+    display: block;
+}
+/*body table.sb_table tr td input {
+    color: grey;
+}*/
+
+/*重置miniui*/
+body .mini-tabs-table {
+    border: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+body .mini-tabs-body {
+    height: auto;
+}
+/*body .mini-tabs-bodys {
+    height: auto !important;
+}*/
+
+table.sb_table tfoot td {
+    text-align: left;
+}
+
+/*----------填---表---说---明-----lizm--------*/
+.tbsmContent{
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+}
+.tips{
+    width: 500px; /*不能随意改变，影响提示信息位置的计算*/
+    height: auto !important;
+    margin: 0 auto;
+    position: absolute !important;
+    top: 30px;
+    border-radius: 4px;
+    line-height: 22px;
+    /*box-shadow: 0px 1px 5px 2px #000;*/
+    background: #F6FAFF;
+    display: none;
+    border: 1px #848A90 solid;
+    color: #000 !important;
+    white-space:normal !important;
+    overflow: visible !important;
+}
+.upTriangle{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url("img/arrow-up.png");
+    position: absolute !important;
+    top: -17px !important;
+}
+.downTriangle{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url("img/arrow-down.png");
+    display: none ;
+    position: absolute !important;
+    top: 37px;
+}
+.hideTips{
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+/*-------------------------------------------------*/
+.skssqq,.skssqz{
+    margin: 0 1em;
+}
+.jedw-td,.tbrq-td{
+    text-align: right !important;
+}
+.mini-tabs-table .mini-tabs-header table tbody tr td{
+    height: 100% !important;
+}
+

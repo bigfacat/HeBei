@@ -1,0 +1,22 @@
+﻿<XmlRWConfig>
+  <Head>
+    <Records NodeName="SB_ZZSFBWSBMXB.SB_ZZSFBWSBMXB_BTXX.SB_ZZSFBWSBMXB_QSRQ." Col="0" Row="2" HeadStr="税款所属时间：" DataType="税款所属时期 月报"/>
+    <Records NodeName="SB_ZZSFBWSBMXB.SB_ZZSFBWSBMXB_BTXX.SB_ZZSFBWSBMXB_NSRSBH." Col="12" Row="3" HeadStr="" DataType="纳税人识别号"/>
+    <Records NodeName="SB_ZZSFBWSBMXB.SB_ZZSFBWSBMXB_BTXX.SB_ZZSFBWSBMXB_NSRMC." Col="0" Row="3" HeadStr="纳税人名称（公章）：" DataType="纳税人名称"/>
+    <Records AreaCode="4403" NodeName="SB_ZZSFBWSBMXB.SB_ZZSFBWSBMXB_BTXX.SB_ZZSFBWSBMXB_IMAGE." Col="0" Row="0" HeadStr="" DataType="LOADIMAGE" ImageSrc="Image\WSSB.jpg" />
+  </Head>
+  <Body>
+    <Records HeadName="SB_ZZSFBWSBMXB.SB_ZZSFBWSBMXB_MXXX." NodeRange="1,2,3,4,5,6," CellColRange="0,2,4,6,8,10," CellSRow="7" CellERow="7" XmlSRow="0" XmlERow="0" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+  </Body>
+  <DoShowMessage XmlFile = "'005','018','042',">
+    <Records AreaCode="4403" Count="1" A1="8,7" Conditions="(A1&lt;0)" ActionTime="save" ErrMsg="第5列本期转出的待抵扣不动产进项税额必须大于0" InfoMsg= ""/>
+  </DoShowMessage>
+  <SaveCheckData>
+    <!--	  <Records Count="4" A1="4,7" A2="0,7" A3="2,7" A4="6,7" Formula="(round(A1,2)&gt;round(((A2)+(A3)+(A4)),2))" Range="true" Emsg="第3列本期可抵扣不动产进项税额要小于等于第1列+第2列+第4列之和"/>
+              <Records Count="3" A1="8,7" A2="0,7" A3="6,7" Formula="(round(A1,2)&gt;round(((A2)+(A3)),2))" Range="true" Emsg="第5列本期转出的待抵扣不动产进项税额要小于等于第1列+第4列之和"/>-->
+  </SaveCheckData>
+  <AutoFill XmlFile="'084',">
+    <Records Col="0" Row="7" Count="1" A1="WSXXS.[FB5DDKBDCQCYE]"  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="65" Col="2" Row="7" Count="1" A1="084.xml|bqdkjxsejgmx.SB_BQDKJXSEJGMXB_SE_5_38."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+  </AutoFill>
+</XmlRWConfig>

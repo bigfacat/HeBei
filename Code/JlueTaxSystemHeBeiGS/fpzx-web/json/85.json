@@ -1,0 +1,59 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [
+            {
+                "id": 0,
+                "ruleName": "纳税人已完成票种核定",
+                "ruleDes": "您未核定发票票种，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110211001,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "[ZsFPPzhdxxJcVO [fplbDm=8, tdhyDm=01, skbz=Y, zppzDm=3, defpbz=N, fpzlmc=2008版增值税普通发票（二联无金额限制版）, klgsl=0.0, jldwDm=0610, rq=null, swjgmc=null, hdrqxx=2016-04-20 15:33:45, jldwmc=null, jebDm=0, fpme=0.0, sjgsdq=null, dffpzgkpxe=1000000.0, dffpzgkpxeDm=3, fpzlDm=000008101200, djxh=10111309000016572143, yxqq=2016-04-20 00:00:00, cpzgsl=10.0, wtdkbz=N, mczggpsl=10.0, myzggpsl=10.0, fpgpfsDm=1, lrrDm=null, hdqcuuid=827E1F65B6C6BB430DE38F5995364B8C, xgrDm=null, swjgDm=11309290900, yxbz=Y, yxqz=9999-12-31 00:00:00, fpkjfsDm=null], ZsFPPzhdxxJcVO [fplbDm=1, tdhyDm=null, skbz=Y, zppzDm=1, defpbz=N, fpzlmc=增值税专用发票（中文三联无金额限制版）, klgsl=0.0, jldwDm=0610, rq=null, swjgmc=null, hdrqxx=2016-12-15 16:39:31, jldwmc=null, jebDm=0, fpme=0.0, sjgsdq=null, dffpzgkpxe=100000.0, dffpzgkpxeDm=4, fpzlDm=1130, djxh=10111309000016572143, yxqq=2016-12-15 00:00:00, cpzgsl=20.0, wtdkbz=N, mczggpsl=20.0, myzggpsl=20.0, fpgpfsDm=1, lrrDm=null, hdqcuuid=334D774787521608AB1122F8451C4D78, xgrDm=null, swjgDm=11309290900, yxbz=Y, yxqz=9999-12-31 00:00:00, fpkjfsDm=null]]"
+                ],
+                "ruleTip": "您未核定发票票种，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "[ZsFPPzhdxxJcVO [fplbDm=8, tdhyDm=01, skbz=Y, zppzDm=3, defpbz=N, fpzlmc=2008版增值税普通发票（二联无金额限制版）, klgsl=0.0, jldwDm=0610, rq=null, swjgmc=null, hdrqxx=2016-04-20 15:33:45, jldwmc=null, jebDm=0, fpme=0.0, sjgsdq=null, dffpzgkpxe=1000000.0, dffpzgkpxeDm=3, fpzlDm=000008101200, djxh=10111309000016572143, yxqq=2016-04-20 00:00:00, cpzgsl=10.0, wtdkbz=N, mczggpsl=10.0, myzggpsl=10.0, fpgpfsDm=1, lrrDm=null, hdqcuuid=827E1F65B6C6BB430DE38F5995364B8C, xgrDm=null, swjgDm=11309290900, yxbz=Y, yxqz=9999-12-31 00:00:00, fpkjfsDm=null], ZsFPPzhdxxJcVO [fplbDm=1, tdhyDm=null, skbz=Y, zppzDm=1, defpbz=N, fpzlmc=增值税专用发票（中文三联无金额限制版）, klgsl=0.0, jldwDm=0610, rq=null, swjgmc=null, hdrqxx=2016-12-15 16:39:31, jldwmc=null, jebDm=0, fpme=0.0, sjgsdq=null, dffpzgkpxe=100000.0, dffpzgkpxeDm=4, fpzlDm=1130, djxh=10111309000016572143, yxqq=2016-12-15 00:00:00, cpzgsl=20.0, wtdkbz=N, mczggpsl=20.0, myzggpsl=20.0, fpgpfsDm=1, lrrDm=null, hdqcuuid=334D774787521608AB1122F8451C4D78, xgrDm=null, swjgDm=11309290900, yxbz=Y, yxqz=9999-12-31 00:00:00, fpkjfsDm=null]]"
+            },
+            {
+                "id": 0,
+                "ruleName": "不存在办理中的此申请",
+                "ruleDes": "此业务正在办理中不能重复办理",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110230001,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "false"
+                ],
+                "ruleTip": "此业务正在办理中不能重复办理",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "false"
+            }
+        ],
+        "ruleCount": 2,
+        "ruleErrorCount": 0,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513568826837
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

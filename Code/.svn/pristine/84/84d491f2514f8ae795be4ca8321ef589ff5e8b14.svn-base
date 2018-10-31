@@ -1,0 +1,53 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "ssyhzgqxyymc": "享受税收优惠的前置资质（资格）认定失效",
+            "ssyhzgqxyyDm": "0101"
+        },
+        {
+            "ssyhzgqxyymc": "享受税额抵免设备五年内转让、出租的",
+            "ssyhzgqxyyDm": "0102"
+        },
+        {
+            "ssyhzgqxyymc": "享受税额抵免融资租赁设备届满后租赁设备所有权未转移至承租方企业",
+            "ssyhzgqxyyDm": "0103"
+        },
+        {
+            "ssyhzgqxyymc": "产品质量不符合有关质量技术标准",
+            "ssyhzgqxyyDm": "0104"
+        },
+        {
+            "ssyhzgqxyymc": "未达到污染物排放标准",
+            "ssyhzgqxyyDm": "0105"
+        },
+        {
+            "ssyhzgqxyymc": "其他税收优惠条件发生变化",
+            "ssyhzgqxyyDm": "0199"
+        },
+        {
+            "ssyhzgqxyymc": "骗取税收优惠资格",
+            "ssyhzgqxyyDm": "0200"
+        },
+        {
+            "ssyhzgqxyymc": "有偷、骗税等行为",
+            "ssyhzgqxyyDm": "0300"
+        },
+        {
+            "ssyhzgqxyymc": "发生重大安全、质量事故",
+            "ssyhzgqxyyDm": "0400"
+        },
+        {
+            "ssyhzgqxyymc": "有环境等违法、违规行为，受到有关部门处罚",
+            "ssyhzgqxyyDm": "0500"
+        },
+        {
+            "ssyhzgqxyymc": "其他",
+            "ssyhzgqxyyDm": "9000"
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

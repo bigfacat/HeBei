@@ -1,0 +1,78 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [
+            {
+                "id": 0,
+                "ruleName": "未处于办理中",
+                "ruleDes": "此业务正在办理中，不能重复办理",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 800800003,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "[]"
+                ],
+                "ruleTip": "此业务正在办理中，不能重复办理",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "[]"
+            },
+            {
+                "id": 0,
+                "ruleName": "纳税人状态为正常",
+                "ruleDes": "纳税人状态异常，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110211002,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "03"
+                ],
+                "ruleTip": "纳税人状态异常，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "03"
+            },
+            {
+                "id": 0,
+                "ruleName": "纳税人为小规模纳税人",
+                "ruleDes": "您非小规模纳税人，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110212003,
+                "resultValue": false,
+                "actualValue": null,
+                "paraValues": [
+                    "[10101, 10101, 10101]",
+                    "[204, 201, 203]"
+                ],
+                "ruleTip": "您非小规模纳税人，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "[10101, 10101, 10101]|[204, 201, 203]|"
+            }
+        ],
+        "ruleCount": 3,
+        "ruleErrorCount": 1,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513673576764
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

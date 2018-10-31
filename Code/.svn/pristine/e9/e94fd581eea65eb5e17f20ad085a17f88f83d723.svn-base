@@ -1,0 +1,109 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "sbqy": "季",
+            "zsxmyxqQ": "2016-04-01",
+            "rdyxqz": "2016-09-30",
+            "zspmMc": "商业(17%)",
+            "zsxmMc": "增值税",
+            "autorowno": "1"
+        },
+        {
+            "sbqy": "月",
+            "zsxmyxqQ": "2016-10-01",
+            "rdyxqz": "9999-12-31",
+            "zspmMc": "商业(17%)",
+            "zsxmMc": "增值税",
+            "autorowno": "2"
+        },
+        {
+            "sbqy": "月",
+            "zsxmyxqQ": "2016-10-01",
+            "rdyxqz": "9999-12-31",
+            "zspmMc": "其他建筑服务",
+            "zsxmMc": "增值税",
+            "autorowno": "3"
+        },
+        {
+            "sbqy": "月",
+            "zsxmyxqQ": "2017-10-01",
+            "rdyxqz": "9999-12-31",
+            "zspmMc": "有形动产经营租赁",
+            "zsxmMc": "增值税",
+            "autorowno": "4"
+        },
+        {
+            "sbqy": "季",
+            "zsxmyxqQ": "2016-05-01",
+            "rdyxqz": "2016-09-30",
+            "zspmMc": "其他建筑服务",
+            "zsxmMc": "增值税",
+            "autorowno": "5"
+        },
+        {
+            "sbqy": "月",
+            "zsxmyxqQ": "2014-04-01",
+            "rdyxqz": "2016-03-31",
+            "zspmMc": "商业(17%)",
+            "zsxmMc": "增值税",
+            "autorowno": "6"
+        }
+    ],
+    "success": true,
+    "msgCode": "0",
+    "resultMap": {
+        "data": [
+            {
+                "sbqy": "季",
+                "zsxmyxqQ": "2016-04-01",
+                "rdyxqz": "2016-09-30",
+                "zspmMc": "商业(17%)",
+                "zsxmMc": "增值税",
+                "autorowno": "1"
+            },
+            {
+                "sbqy": "月",
+                "zsxmyxqQ": "2016-10-01",
+                "rdyxqz": "9999-12-31",
+                "zspmMc": "商业(17%)",
+                "zsxmMc": "增值税",
+                "autorowno": "2"
+            },
+            {
+                "sbqy": "月",
+                "zsxmyxqQ": "2016-10-01",
+                "rdyxqz": "9999-12-31",
+                "zspmMc": "其他建筑服务",
+                "zsxmMc": "增值税",
+                "autorowno": "3"
+            },
+            {
+                "sbqy": "月",
+                "zsxmyxqQ": "2017-10-01",
+                "rdyxqz": "9999-12-31",
+                "zspmMc": "有形动产经营租赁",
+                "zsxmMc": "增值税",
+                "autorowno": "4"
+            },
+            {
+                "sbqy": "季",
+                "zsxmyxqQ": "2016-05-01",
+                "rdyxqz": "2016-09-30",
+                "zspmMc": "其他建筑服务",
+                "zsxmMc": "增值税",
+                "autorowno": "5"
+            },
+            {
+                "sbqy": "月",
+                "zsxmyxqQ": "2014-04-01",
+                "rdyxqz": "2016-03-31",
+                "zspmMc": "商业(17%)",
+                "zsxmMc": "增值税",
+                "autorowno": "6"
+            }
+        ],
+        "total": "6"
+    },
+    "msgParams": null
+}

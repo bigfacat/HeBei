@@ -1,0 +1,59 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [
+            {
+                "id": 0,
+                "ruleName": "存在票种核定信息",
+                "ruleDes": "无票种核定信息或云厅不支持已核定票种的调整，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110208002,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "1"
+                ],
+                "ruleTip": "无票种核定信息或云厅不支持已核定票种的调整，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "1"
+            },
+            {
+                "id": 0,
+                "ruleName": "纳税人状态为正常",
+                "ruleDes": "纳税人状态异常，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110208001,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@4b1bf03b"
+                ],
+                "ruleTip": "纳税人状态异常，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@4b1bf03b"
+            }
+        ],
+        "ruleCount": 2,
+        "ruleErrorCount": 0,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513321451871
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

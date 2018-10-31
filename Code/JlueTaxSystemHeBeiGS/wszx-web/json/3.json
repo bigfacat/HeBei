@@ -1,0 +1,96 @@
+﻿{
+    "message": null,
+    "value": {
+        "id": 0,
+        "djxh": "10111309000016572143",
+        "swsxDm": null,
+        "validatorInfo": null,
+        "swjcLx": null,
+        "ruleResults": [
+            {
+                "id": 0,
+                "ruleName": "已完成税费种认定",
+                "ruleDes": "您未完成税费种认定，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 800800005,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "[10101, 10101, 10101]"
+                ],
+                "ruleTip": "您未完成税费种认定，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "[10101, 10101, 10101]"
+            },
+            {
+                "id": 0,
+                "ruleName": "未处于办理中",
+                "ruleDes": "此业务正在办理中，不能重复办理",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 800800002,
+                "resultValue": true,
+                "actualValue": null,
+                "paraValues": [
+                    "[]"
+                ],
+                "ruleTip": "此业务正在办理中，不能重复办理",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "[]"
+            },
+            {
+                "id": 0,
+                "ruleName": "纳税人登记注册类型应为个体工商户",
+                "ruleDes": "您非个体工商户，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110114002,
+                "resultValue": false,
+                "actualValue": null,
+                "paraValues": [
+                    "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@1cebef6a"
+                ],
+                "ruleTip": "您非个体工商户，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "gov.etax.dzswj.nsrzx.commons.dto.dj.NsrxxDto@1cebef6a"
+            },
+            {
+                "id": 0,
+                "ruleName": "纳税人为小规模纳税人",
+                "ruleDes": "您非小规模纳税人，不能办理此业务",
+                "ruleDegree": "01",
+                "analyseId": 0,
+                "ruleId": 110212003,
+                "resultValue": false,
+                "actualValue": null,
+                "paraValues": [
+                    "[10101, 10101, 10101]",
+                    "[204, 201, 203]"
+                ],
+                "ruleTip": "您非小规模纳税人，不能办理此业务",
+                "resultUrl": null,
+                "urlTip": null,
+                "urlDomain": null,
+                "paraStringValue": "[10101, 10101, 10101]|[204, 201, 203]|"
+            }
+        ],
+        "ruleCount": 4,
+        "ruleErrorCount": 2,
+        "ruleWarnCount": 0,
+        "success": true,
+        "hzValue": null,
+        "errorMsg": null,
+        "createDate": 1513579059333
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

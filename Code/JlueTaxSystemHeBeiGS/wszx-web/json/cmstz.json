@@ -1,0 +1,8 @@
+﻿{
+    "message": null,
+    "value": "{\"total\":2,\"data\":[{\"imagePath\":null,\"publishOrgId\":\"11300000000\",\"subject\":\"河北省国家税务局关于采用二维码便捷纳税人开具增值税发票有关事项的通知\",\"isAvailableForever\":\"0\",\"vidioPath\":null,\"mainContentPath\":\"http://nsrxx.he-n-tax.gov.cn/files/2017/07/2fcaa3fa-2416-49e4-8e71-730fd9191faf.html\",\"id\":2854124,\"smallCataName\":null,\"largeCataCode\":\"10\",\"smallCataCode\":null,\"validDateEnd\":\"2017-07-31 00:00:00\",\"publishOrgName\":\"省国税局\",\"publishDate\":\"2017-07-13 11:44:54\",\"brief\":\"尊敬的纳税人：\\r\\n国家税务总局为方便广大纳税人开具增值税发票，提高发票开具效率和准确性，组织研发了发票助手软件，供纳税人免费选用。现就有关事项告知如下：\\r\\n一、发票助手软件使用二维码技术，将输入的纳税\",\"largeCataName\":null},{\"imagePath\":null,\"publishOrgId\":\"11300000000\",\"subject\":\"河北省国家税务局关于暂停部分业务系统的通知\",\"isAvailableForever\":\"0\",\"vidioPath\":null,\"mainContentPath\":\"http://nsrxx.he-n-tax.gov.cn/files/2016/07/8097c4b9-d658-442e-8dd8-f73be63bd9b3.html\",\"id\":1131089,\"smallCataName\":null,\"largeCataCode\":\"10\",\"smallCataCode\":null,\"validDateEnd\":\"2016-07-25 00:00:00\",\"publishOrgName\":\"省国税局\",\"publishDate\":\"2016-07-20 10:47:16\",\"brief\":\"尊敬的纳税人：\\r\\n因近期河北省国家税务局机房停电更换UPS（不间断电源），需暂停全部互联网业务系统，具体情况如下：\\r\\n暂停时间为2016年7月22日18：00时至2016年7月24日20:00。暂停的\",\"largeCataName\":null}]}",
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}

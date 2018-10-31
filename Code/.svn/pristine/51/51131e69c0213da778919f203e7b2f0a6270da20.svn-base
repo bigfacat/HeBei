@@ -1,0 +1,572 @@
+﻿{
+    "rows": [
+        {
+            "ygzsd_zzspm_dm": "010100",
+            "ygzsd_zzspm_mc": "铁路运输服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "010201",
+            "ygzsd_zzspm_mc": "陆路旅客运输服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "010202",
+            "ygzsd_zzspm_mc": "陆路货物运输服务",
+            "zzs_sl": "11%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "010300",
+            "ygzsd_zzspm_mc": "水路运输服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "010400",
+            "ygzsd_zzspm_mc": "航空运输服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "010500",
+            "ygzsd_zzspm_mc": "管道运输服务",
+            "zzs_sl": "11%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "020000",
+            "ygzsd_zzspm_mc": "邮政服务",
+            "zzs_sl": "11%",
+            "yys_sl": "3%|5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "030100",
+            "ygzsd_zzspm_mc": "基础电信服务",
+            "zzs_sl": "11%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "030200",
+            "ygzsd_zzspm_mc": "增值电信服务",
+            "zzs_sl": "6%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "040100",
+            "ygzsd_zzspm_mc": "工程服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "040200",
+            "ygzsd_zzspm_mc": "安装服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "040300",
+            "ygzsd_zzspm_mc": "修缮服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "040400",
+            "ygzsd_zzspm_mc": "装饰服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "040500",
+            "ygzsd_zzspm_mc": "其他建筑服务",
+            "zzs_sl": "11%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "050100",
+            "ygzsd_zzspm_mc": "贷款服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "5%|3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "050200",
+            "ygzsd_zzspm_mc": "直接收费金融服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "5%|3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "050300",
+            "ygzsd_zzspm_mc": "人身保险服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "050400",
+            "ygzsd_zzspm_mc": "财产保险服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "050500",
+            "ygzsd_zzspm_mc": "金融商品转让",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "5%|3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060101",
+            "ygzsd_zzspm_mc": "研发服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060102",
+            "ygzsd_zzspm_mc": "合同能源管理服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060103",
+            "ygzsd_zzspm_mc": "工程勘察勘探服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060104",
+            "ygzsd_zzspm_mc": "专业技术服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060201",
+            "ygzsd_zzspm_mc": "软件服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060202",
+            "ygzsd_zzspm_mc": "电路设计及测试服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060203",
+            "ygzsd_zzspm_mc": "信息系统服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060204",
+            "ygzsd_zzspm_mc": "业务流程管理服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060205",
+            "ygzsd_zzspm_mc": "信息系统增值服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060301",
+            "ygzsd_zzspm_mc": "设计服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060302",
+            "ygzsd_zzspm_mc": "知识产权服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060303",
+            "ygzsd_zzspm_mc": "广告服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060304",
+            "ygzsd_zzspm_mc": "会议展览服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%|3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060401",
+            "ygzsd_zzspm_mc": "航空服务",
+            "zzs_sl": "6%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060402",
+            "ygzsd_zzspm_mc": "港口码头服务",
+            "zzs_sl": "6%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060403",
+            "ygzsd_zzspm_mc": "货运客运场站服务",
+            "zzs_sl": "6%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060404",
+            "ygzsd_zzspm_mc": "打捞救助服务",
+            "zzs_sl": "6%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060405",
+            "ygzsd_zzspm_mc": "装卸搬运服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060406",
+            "ygzsd_zzspm_mc": "仓储服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060407",
+            "ygzsd_zzspm_mc": "收派服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060501",
+            "ygzsd_zzspm_mc": "不动产融资租赁",
+            "zzs_sl": "11%|5%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060502",
+            "ygzsd_zzspm_mc": "不动产经营租赁",
+            "zzs_sl": "11%|5%|3%",
+            "yys_sl": "5%|3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060503",
+            "ygzsd_zzspm_mc": "有形动产融资租赁",
+            "zzs_sl": "17%|3%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060504",
+            "ygzsd_zzspm_mc": "有形动产经营租赁",
+            "zzs_sl": "17%|3%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060601",
+            "ygzsd_zzspm_mc": "认证服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060602",
+            "ygzsd_zzspm_mc": "鉴证服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060603",
+            "ygzsd_zzspm_mc": "咨询服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060701",
+            "ygzsd_zzspm_mc": "广播影视节目（作品）制作服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%|3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060702",
+            "ygzsd_zzspm_mc": "广播影视节目（作品）发行服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060703",
+            "ygzsd_zzspm_mc": "广播影视节目（作品）播映服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "060801",
+            "ygzsd_zzspm_mc": "企业管理服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060802",
+            "ygzsd_zzspm_mc": "经纪代理服务",
+            "zzs_sl": "6%|5%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060803",
+            "ygzsd_zzspm_mc": "人力资源服务",
+            "zzs_sl": "6%|5%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "060804",
+            "ygzsd_zzspm_mc": "安全保护服务",
+            "zzs_sl": "6%|5%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "069900",
+            "ygzsd_zzspm_mc": "其他现代服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "070101",
+            "ygzsd_zzspm_mc": "文化服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "070102",
+            "ygzsd_zzspm_mc": "体育服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "070201",
+            "ygzsd_zzspm_mc": "教育服务",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "3%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "070202",
+            "ygzsd_zzspm_mc": "医疗服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "070301",
+            "ygzsd_zzspm_mc": "旅游服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "070302",
+            "ygzsd_zzspm_mc": "娱乐服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%—20%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "070401",
+            "ygzsd_zzspm_mc": "餐饮服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "070402",
+            "ygzsd_zzspm_mc": "住宿服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "070500",
+            "ygzsd_zzspm_mc": "居民日常服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "079900",
+            "ygzsd_zzspm_mc": "其他生活服务",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "080100",
+            "ygzsd_zzspm_mc": "专利或非专利技术",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "080200",
+            "ygzsd_zzspm_mc": "商标和著作权",
+            "zzs_sl": "6%|3%",
+            "yys_sl": "5%|3%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "080300",
+            "ygzsd_zzspm_mc": "土地使用权",
+            "zzs_sl": "11%|5%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "080400",
+            "ygzsd_zzspm_mc": "其他自然资源使用权",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "089900",
+            "ygzsd_zzspm_mc": "其他权益性无形资产",
+            "zzs_sl": "6%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "N",
+            "yys_cezs_bz": "N"
+        },
+        {
+            "ygzsd_zzspm_dm": "090100",
+            "ygzsd_zzspm_mc": "销售不动产建筑物",
+            "zzs_sl": "11%|5%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        },
+        {
+            "ygzsd_zzspm_dm": "090200",
+            "ygzsd_zzspm_mc": "销售不动产构筑物",
+            "zzs_sl": "11%|5%",
+            "yys_sl": "5%",
+            "zzs_cezs_bz": "Y",
+            "yys_cezs_bz": "Y"
+        }
+    ]
+}

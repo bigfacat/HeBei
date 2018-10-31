@@ -1,0 +1,41 @@
+﻿{
+    "message": null,
+    "value": [
+        {
+            "dffpzgkpxe": 1000000,
+            "fpzlDm": "000008101200",
+            "mbfs": "1",
+            "fpdwzl": "0.0037",
+            "fpzlMc": "增值税普通发票（二联无金额限制版）",
+            "fplysqbs": "0",
+            "bs": "0",
+            "myzggpsl": 10,
+            "bczgkyfs": "4",
+            "jldwDm": "0610",
+            "fs": "6",
+            "jldwmc": "份",
+            "mczggpsl": 10,
+            "cpzgsl": 10
+        },
+        {
+            "dffpzgkpxe": 100000,
+            "fpzlDm": "1130",
+            "mbfs": "1",
+            "fpdwzl": "0.0056",
+            "fpzlMc": "增值税专用发票（中文三联无金额限制版）",
+            "fplysqbs": "0",
+            "bs": "0",
+            "myzggpsl": 20,
+            "bczgkyfs": "0",
+            "jldwDm": "0610",
+            "fs": "20",
+            "jldwmc": "份",
+            "mczggpsl": 20,
+            "cpzgsl": 20
+        }
+    ],
+    "success": true,
+    "msgCode": null,
+    "resultMap": {},
+    "msgParams": null
+}
