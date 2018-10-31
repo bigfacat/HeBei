@@ -1,7 +1,7 @@
 ﻿{
     "message": null,
     "value": null,
-    "success": true,
+    "success": @@success,
     "msgCode": null,
     "resultMap": {
     },

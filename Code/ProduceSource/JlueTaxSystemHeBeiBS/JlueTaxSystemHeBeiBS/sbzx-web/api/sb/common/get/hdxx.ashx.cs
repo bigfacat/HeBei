@@ -55,6 +55,7 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common.get
             if (selecttable == "sb_ybnsr")
             {
               var result = File.ReadAllText(context.Server.MapPath("hdxx.json"));
+              result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
               context.Response.ContentType = "text/plain";
               context.Response.Write(result);
             }

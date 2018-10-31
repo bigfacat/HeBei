@@ -24,15 +24,14 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common.submit
             string sbwjs = "";
             string ynse = "";
             string taskname = "";
+           
             context.Response.ContentType = "application/json";
             HttpRequest request = context.Request;
             StreamReader reader = new StreamReader(request.InputStream);
             string json = reader.ReadToEnd();
             JObject jo = JObject.Parse(json);
             userYsbqcId = jo["id"].ToString().Replace("\"","");
-            sbwjs = jo["sbwjs"].ToString().Replace("[", "").Replace("]", "").Replace("\\", "").Replace("\"{","{").Replace("}\"","}");
-            JObject jo1 = JObject.Parse(sbwjs);
-            string bbxml = jo1["bbxml"].ToString().Replace("\"","");
+        
             GTXResult result = GTXMethod.GetHeBeiYSBQC();
             if (result.IsSuccess)
             {
@@ -49,8 +48,18 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common.submit
                     }
                 }
             }
-            ynse = GTXMethod.getYnse(taskname, bbxml);
-            GTXResult sresult = GTXMethod.UpdateSBSE(userYsbqcId,ynse);
+            if (taskname != "小企业会计准则-财务报表-季报")
+            {
+                sbwjs = jo["sbwjs"].ToString().Replace("[", "").Replace("]", "").Replace("\\", "").Replace("\"{", "{").Replace("}\"", "}");
+                var jo1 = sbwjs.Split('}');
+                var jo3 = jo1[0].Replace("\\\"", "\"") + "}";
+                JObject jo2 = JObject.Parse(jo3);
+                string bbxml = jo2["bbxml"].ToString().Replace("\"", "");
+             ynse = GTXMethod.getYnse(taskname, bbxml); 
+             GTXResult sresult = GTXMethod.UpdateSBSE(userYsbqcId,ynse);
+            }
+           
+           
             List<GTXNameValue> nameList = new List<GTXNameValue>();
             GTXNameValue nv = new GTXNameValue();
             nv.key = "data";

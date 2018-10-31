@@ -314,6 +314,7 @@
     <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\grid\loading.gif" />
     <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\listbox\header.png" />
     <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\messagebox\icon-info.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\messagebox\icon-question.gif" />
     <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\panel\resize.gif" />
     <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tabs\allow_left.gif" />
     <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tabs\allow_right.gif" />

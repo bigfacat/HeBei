@@ -171,7 +171,7 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.jgcx
                                     retApp.Add("djxh", "10121306010000052395");
                                     retApp.Add("nsrsbh", null);
                                     retApp.Add("zsxmDm", null);
-                                    retApp.Add("sbzlDm", item.Code);
+                                    retApp.Add("sbzlDm",item.Code);
                                     retApp.Add("sbzlMc", item.ZSXM);
                                     retApp.Add("sbse", item.SBSE);
                                     retApp.Add("skssqq", item.SKSSQQ);

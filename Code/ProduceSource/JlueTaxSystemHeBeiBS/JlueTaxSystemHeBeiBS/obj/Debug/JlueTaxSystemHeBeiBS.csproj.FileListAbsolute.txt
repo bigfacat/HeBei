@@ -6,3 +6,11 @@ D:\Projects\河北HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeB
 D:\Projects\河北HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.dll
 D:\Projects\河北HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.pdb
 D:\Projects\河北HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.csprojResolveAssemblyReference.cache
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\bin\JlueTaxSystemHeBeiBS.dll
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\bin\JlueTaxSystemHeBeiBS.pdb
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\bin\Newtonsoft.Json.dll
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.csprojResolveAssemblyReference.cache
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.Properties.Resources.resources
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.csproj.GenerateResource.Cache
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.dll
+D:\Projects\HeBei\Code\ProduceSource\JlueTaxSystemHeBeiBS\JlueTaxSystemHeBeiBS\obj\Debug\JlueTaxSystemHeBeiBS.pdb

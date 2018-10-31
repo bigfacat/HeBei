@@ -392,6 +392,8 @@ table_001.setFromCheckDataConfig_001 = function (_this) {
     var v002_0_1 = Number(_this.getValueFromCheckData('002', '0_1'));//B1第9列合计销售额“1+2+3+4+5”行
     var v002_0_2 = Number(_this.getValueFromCheckData('002', '0_2'));//C1第9列合计销售额“6+7”行
     $('#001_11_6').val(v002_0_1 - v002_0_2).blur();
+    $('#001_12_6').val(v002_0_1 - v002_0_2).blur();
+
     //1栏即征即退本月数=《附列资料表一》第9列合计销售额“6+7”行
     $('#001_11_9').val(v002_0_2).blur();
     //4栏《附列资料表一》纳税检查调整销售额，即第7列第1至5行之和；
