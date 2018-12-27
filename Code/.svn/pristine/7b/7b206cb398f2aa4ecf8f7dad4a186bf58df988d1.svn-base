@@ -1,8 +1,0 @@
-﻿{
-    "message": "您非定期定额户，不能办理此业务",
-    "value": null,
-    "success": false,
-    "msgCode": "0",
-    "resultMap": {},
-    "msgParams": []
-}

@@ -261,7 +261,7 @@ function handleTstx() {
 
     $("#searchFunc img").on('click',function(){
         var value = $('#searchFunc input').val();
-        window.open("/bszm-web/apps/views/simpleCompany/searchFunction.html?value="+value);
+      //  window.open("/bszm-web/apps/views/simpleCompany/searchFunction.html?value="+value);
     });
 
     $("#searchFunc input").on("keydown",function(event){

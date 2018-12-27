@@ -18,7 +18,10 @@ namespace JlueTaxSystemHeBeiBS.bszm_web.api.desktop.todoList
         public void ProcessRequest(HttpContext context)
         {
             string json = ""; var ysbbz = "";
-            string url = HttpContext.Current.Request.Url.Scheme + "://" + HttpContext.Current.Request.Url.Host + ":"+HttpContext.Current.Request.Url.Port;
+            string Url = HttpContext.Current.Request.Url.ToString();
+            string[] a= Url.Split('/');
+            string url=a[0]+"/"+a[1]+"/"+a[2];
+           // string url = HttpContext.Current.Request.Url.Scheme + "://" + HttpContext.Current.Request.Url.Host + ":"+HttpContext.Current.Request.Url.Port;
             List<JObject> applst = new List<JObject>();
             var userquestionid = CurrentUser.GetInstance().GetCurrentUserQuestionId;
             GTXResult result = GTXMethod.GetHeBeiYSBQC();
