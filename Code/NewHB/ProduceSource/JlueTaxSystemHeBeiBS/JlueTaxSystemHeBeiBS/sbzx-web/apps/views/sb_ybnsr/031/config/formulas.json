@@ -1,0 +1,14 @@
+﻿{
+  "031":[
+      "G9 = round(D9+E9,2)",
+      "K9 = round(G9-I9,2)",
+      "K13 = round(G13-I13,2)",
+      "G13 = round(D13+E13,2)",
+      "K12 = round(G12-I12,2)",
+      "G12 = round(D12+E12,2)",
+      "K11 = round(G11-I11,2)",
+      "G11 = round(D11+E11,2)",
+      "G10 = round(D10+E10,2)",
+      "K10 = round(G10-I10,2)"
+  ]
+}

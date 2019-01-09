@@ -220,7 +220,7 @@
             this.sbzlDm = record.sbzlDm;
             this.sssqq = record.skssqq;
             this.sssqz = record.skssqz;
-            this.tbrq = record.sbrq;
+            this.tbrq = "2018-10-22";
             this.sblxDm = record.sblxDm;
             var request = {
                 sbxh: this.sbxh,
@@ -315,7 +315,7 @@
             this.sssqq = this.hd.sksssqQ;
             this.sssqz = this.hd.sksssqZ;
             this.reportName = this.hd.sbzlmc;
-            this.tbrq = new Date().format('yyyy-MM-dd');
+            this.tbrq = "2018-10-22";
             /*以下用于关联申报--begin*/
             var reportWithSbzlDms = Tools.getUrlParamByName('reportWithSbzlDm');
             if(reportWithSbzlDms){

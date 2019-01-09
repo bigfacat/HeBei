@@ -46,7 +46,7 @@
         }
 
         .td3 {
-            width: 35%;
+            width: 36%;
             text-align: center;
         }
 
@@ -150,7 +150,7 @@
                             str += '<tr>';
                             str += '<td class="td1">' + v.Name + '</td>';
                             str += '<td class="td2">' + QuestionTypeName + '</td>';
-                            str += '<td class="td3">' + v.Description + '</td>';
+                            str += '<td class="td3" >' + v.Description + '</td>';
                             var Gtxvideopath = "Video/Video.aspx?Id=" + v.QuestionId + "&CourseId=" + v.CourseId + "&VideoID=" + v.VideoID + "&ClassId=" + ClassId + "&userId=" + userId + "&model=0";
                             var Dtxvideopath = "Video/Video.aspx?Id=" + v.QuestionId + "&CourseId=" + v.CourseId + "&VideoID=" + v.VideoID + "&ClassId=" + ClassId + "&userId=" + userId + "&model=1";
                             str += '<th class="td5"><a target="_blank" onclick="checkvideo(\'' + Gtxvideopath + '\',\'' + v.VideoID + '\',\'国\')" style="display:none">国税</a><a target="_blank" onclick="checkvideo(\'' + Dtxvideopath + '\',\'' + v.VideoID + '\',\'地\')" style="display:none">地税</a></th>';

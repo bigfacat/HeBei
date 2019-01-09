@@ -1702,7 +1702,7 @@
                 this.sbzlDm = this.hd['sbzlxlcode'] || this.hd['sbzlcode'];	//申报种类代码
                 this.sssqq = this.hd['sksssqQ'];	//所属时期起
                 this.sssqz = this.hd['sksssqZ'];	//所属时期止
-                this.tbrq = Date.getLocalDate().format('yyyy-MM-dd');//填表日期
+                this.tbrq ="2018-10-22";//填表日期
                 this.reportName = this.hd['sbzlmc'];//报表名称
                 this._setWsxxAndLsxxMap(this.hd);//将所有wsxx和lsxx节点，整理成map形式{key: value}
                 /*以下用于关联申报*/
@@ -2039,7 +2039,7 @@
                 $('.nsrmc').html(this.nsrmc).attr('title',this.nsrmc);
                 $('.sssqq').html(this.sssqq).attr('title',this.sssqq);
                 $('.sssqz').html(this.sssqz).attr('title',this.sssqz);
-                $('.tbrq').html(this.tbrq).attr('title',this.tbrq);
+                $('.tbrq').html(this.tbrq).attr('title',"2018-10-22");
             },
             /**
              * 自定义初始化与期初相关的数据（由于更正申报，所以与期初相关的初始化必须与其他的初始化独立开来）

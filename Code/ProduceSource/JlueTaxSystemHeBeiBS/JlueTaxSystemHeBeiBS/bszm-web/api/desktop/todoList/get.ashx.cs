@@ -28,9 +28,10 @@ namespace JlueTaxSystemHeBeiBS.bszm_web.api.desktop.todoList
             if (result.IsSuccess)
             {
                 List<GDTXHeBeiUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXHeBeiUserYSBQC>>(result.Data.ToString());
+                
                 if (ysbqclist.Count > 0)
                 {
-                    foreach (GDTXHeBeiUserYSBQC item in ysbqclist)
+                    foreach (GDTXHeBeiUserYSBQC item in ysbqclist.OrderBy(x => x.Id))
                     {
                         if (userquestionid == item.UserQuestionId.ToString())
                         {

@@ -141,7 +141,6 @@
     <Content Include="sbzx-web\apps\data\qysds\data_cglx.txt" />
     <Content Include="sbzx-web\apps\images\public\edit-tip-hover.png" />
     <Content Include="sbzx-web\apps\images\public\edit-tip.png" />
-    <Content Include="sbzx-web\apps\images\public\ico-alert-close-hover.png" />
     <Content Include="sbzx-web\apps\images\public\ico-alert-close.png" />
     <Content Include="sbzx-web\apps\images\public\ico-calendar.png" />
     <Content Include="sbzx-web\apps\images\public\ico-logo-home.png" />
@@ -160,6 +159,7 @@
     <Content Include="sbzx-web\apps\scripts\reportSB3.0\servyouReport.css" />
     <Content Include="sbzx-web\apps\scripts\reportSB3.0\servyouReport.js" />
     <Content Include="sbzx-web\apps\scripts\reportSB3.0\style.css" />
+    <Content Include="sbzx-web\apps\scripts\reportTip.js" />
     <Content Include="sbzx-web\apps\scripts\sbzxcommon.js" />
     <Content Include="sbzx-web\apps\scripts\steps.js" />
     <Content Include="sbzx-web\apps\scripts\yearReport\yearReport.css" />
@@ -168,16 +168,23 @@
     <Content Include="sbzx-web\apps\views\apiService\publicService.js" />
     <Content Include="sbzx-web\apps\views\apiService\xfsService.js" />
     <Content Include="sbzx-web\apps\views\apiService\ybnsrService.js" />
+    <Content Include="sbzx-web\apps\views\gdsJk\jk.css" />
+    <Content Include="sbzx-web\apps\views\gdsJk\jk_jsxxcx.html" />
+    <Content Include="sbzx-web\apps\views\gdsJk\jk_jsxxcx.js" />
     <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx-hb.css" />
     <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.css" />
     <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.html" />
     <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.js" />
     <Content Include="sbzx-web\apps\views\public\head\HeadView.html" />
-    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\001_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\001_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\002_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\002_j3.xml" />
-    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\003_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\003_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\003_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\sb_cwbb_xqy_kjzz.html" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\sb_cwbb_xqy_kjzz.js" />
@@ -200,10 +207,16 @@
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs\sb_gdlh_yhs.js" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs\table_001.html" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\001_cfg.xml" />
-    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\001_j3.xml" />
-    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\003_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\001_j3.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\003_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\003_j3.xml" />
-    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\004_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\004_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\004_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\005_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new\config\005_j3.xml" />
@@ -230,7 +243,9 @@
     <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\table_001.html" />
     <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\table_002.html" />
     <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\Timer.js" />
-    <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\001_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\001_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\001\sb_ybnsr_001.aspx" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\001\sb_ybnsr_001.html" />
@@ -262,7 +277,9 @@
     <Content Include="sbzx-web\apps\views\sb_ybnsr\031\sb_ybnsr_031.aspx" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\031\sb_ybnsr_031.html" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\031\sb_ybnsr_031.js" />
-    <Content Include="sbzx-web\apps\views\sb_ybnsr\032\config\032_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr\032\config\032_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_ybnsr\032\config\032_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\032\sb_ybnsr_032.aspx" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\032\sb_ybnsr_032.html" />
@@ -278,6 +295,7 @@
     <Content Include="sbzx-web\apps\views\sb_ybnsr\082\sb_ybnsr_082.html" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\082\sb_ybnsr_082.js" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\config\cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr\reportTip.html" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\sb_ybnsr.aspx" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\sb_ybnsr.html" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\sb_ybnsr.js" />
@@ -287,7 +305,9 @@
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\001_j3.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\006_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\006_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\006_j3.xml" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\008_cfg.xml" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\008_j3.xml" />
@@ -512,6 +532,9 @@
     </Compile>
     <Compile Include="sbzx-web\api\sb\jgcx\getsbbw.ashx.cs">
       <DependentUpon>getsbbw.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="sbzx-web\api\sb\jgcx\getYtxsblb.ashx.cs">
+      <DependentUpon>getYtxsblb.ashx</DependentUpon>
     </Compile>
     <Compile Include="sbzx-web\api\sb\jgcx\sbqkcx.ashx.cs">
       <DependentUpon>sbqkcx.ashx</DependentUpon>
@@ -768,9 +791,15 @@
     <Content Include="sbzx-web\api\sb\tyqc\hdxx.json" />
     <Content Include="sbzx-web\api\sb\tyqc\hdxx.ashx" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_tysbb\config\formulas.json" />
+    <Content Include="sbzx-web\api\sb\jgcx\getYtxsblb.ashx" />
+    <Content Include="sbzx-web\api\sb\jgcx\getYtxsblb.json" />
     <Content Include="sbzx-web\api\sb\common\updaterules.ashx" />
-    <Content Include="sbzx-web\api\sb\common\submit\zlk\zlk.ashx" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx6.json" />
+    <Content Include="sbzx-web\api\sb\fjs\hdxx1.json" />
+    <Content Include="sbzx-web\api\sb\tyqc\hdxx1.json" />
+    <Content Include="sbzx-web\api\sb\yhsqc\hdxx1.json" />
     <Content Include="sbzx-web\api\sb\common\sbzc\detelesbb.ashx" />
+    <Content Include="sbzx-web\api\sb\common\submit\zlk\zlk.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
