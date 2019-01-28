@@ -138,10 +138,12 @@ namespace JlueTaxSystemHeBeiBS.Code
             {
                 XmlDocument doc = new XmlDocument();
                 doc.LoadXml(sbformdata);
-                XmlNode xnSB_NSSBB_MXXX = doc.SelectSingleNode("zzssyyxgmnsr/zzsxgmGrid/zzsxgmGridlb");
-                XmlNodeList xnRecIDList = xnSB_NSSBB_MXXX.ChildNodes;
-                XmlNode xnSB_NSSBB_JEXX = xnRecIDList[23];
-                ynse = xnSB_NSSBB_JEXX.InnerText;
+                XmlNodeList xnSB_NSSBB_MXXX = doc.SelectNodes("zzssyyxgmnsr/zzsxgmGrid/zzsxgmGridlb");
+
+                XmlNode xnRecID_0 = xnSB_NSSBB_MXXX[0].SelectSingleNode("bqybtse");
+                XmlNode xnRecID_1 = xnSB_NSSBB_MXXX[1].SelectSingleNode("bqybtse");
+                ynse = (decimal.Parse(xnRecID_0.InnerText) + decimal.Parse(xnRecID_1.InnerText)).ToString();
+
             }
             else if (taskname == "印花税纳税申报（报告）表")
             {
