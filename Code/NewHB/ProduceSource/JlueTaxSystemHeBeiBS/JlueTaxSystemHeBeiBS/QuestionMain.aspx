@@ -302,7 +302,9 @@
             </div>
         </div>
         <div class="ksmc-tabc" style="" id="bills">
-            <div style="margin: 5px 65px 5px; padding: 5px; float: right;"><a id="videoa" class="ksmc-dt radius box-shadow" style="margin-right: 10px; display: none" href="#" onclick="showRight();return false;">税种视频</a><a class="ksmc-dt radius box-shadow" onclick="DeleteAllTax()">重做所有题目</a></div>
+            <div style="margin: 5px 65px 5px; padding: 5px; float: right;"><a id="videoa" class="ksmc-dt radius box-shadow" style="margin-right: 10px; display: none" href="#" onclick="showRight();return false;">税种视频</a>
+                <a href="http://d.kjcytk.com/SingleTax/SingleTax.zip" class="ksmc-dt radius box-shadow" style="margin-right: 10px">个税下载</a>
+                <a class="ksmc-dt radius box-shadow" onclick="DeleteAllTax()">重做所有题目</a></div>
             <div style="clear: both"></div>
             <ul class="ksmc-zjlx" style="display: block" id="ulTax">
                 <li>
