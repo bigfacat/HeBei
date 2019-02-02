@@ -139,7 +139,7 @@
                             if (v.QuestionType == 2) {
                                 QuestionTypeName = "申报类";
                             }
-                            var Gtxpath = "/bszm-web/apps/views-zj/home/home.aspx?userid=" + userId + "&username=" + username + "&classid=" + ClassId + "&courseid=" + courseid + "&sortid=" + sortid + "&questionId=" + v.QuestionId + "&userquestionId=" + v.Id + "&CompanyId=" + v.CompanyId + "&rand=" + new Date().getTime();
+                            var Gtxpath = "/bszm-web/apps/views-zj/home/home.aspx?userid=" + userId + "&username=" + username + "&classid=" + ClassId + "&courseid=" + courseid + "&sortid=" + sortid + "&questionId=" + v.QuestionId + "&userquestionId=" + v.Id + "&CompanyId=" + v.CompanyId + "&Name=" + v.Name + "&rand=" + new Date().getTime();
                             var Dtxpath = '<%=System.Web.Configuration.WebConfigurationManager.AppSettings["Dtxpath"]%>' + "/MainAction.php?sessionId=" + v.NSRSBH + ";timestamp&questionid=" + v.QuestionId + "&happenddate=" + v.HappenDate + "&userid=" + userId + "&classid=" + ClassId + "&CompanyId=" + v.CompanyId;
                             debugger;
                             var FPpath = "GotoFP.ashx?sessionId=" + v.NSRSBH + ";timestamp&questionId=" + v.QuestionId + "&happenDate=" + v.HappenDate + "&userId=" + userId + "&classId=" + ClassId + "&companyId=" + v.CompanyId + "&sortid=" + sortid;

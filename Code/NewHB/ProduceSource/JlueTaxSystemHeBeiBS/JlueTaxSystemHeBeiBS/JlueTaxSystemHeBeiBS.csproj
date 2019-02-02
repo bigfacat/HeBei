@@ -425,7 +425,9 @@
     <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\001_cfg.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\001_j3.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\formulas.ashx" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\001\config\formulas.json" />
     <Content Include="sbzx-web\apps\views\sb_ybnsr\001\sb_ybnsr_001.aspx" />
@@ -1004,9 +1006,14 @@
     <Content Include="bszm-web\api\desktop\customizedFuctionsEX\usertype\get.ashx" />
     <Content Include="bszm-web\api\desktop\navigation\90003\get.json" />
     <Content Include="bszm-web\api\desktop\navigation\90003\get.ashx" />
+    <Content Include="industry.json" />
     <None Include="Properties\PublishProfiles\hebei.pubxml" />
     <Content Include="sbzx-web\api\sb\sbbd\zzsbd.json" />
     <None Include="Properties\PublishProfiles\IIS.pubxml" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.industry.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.commerce.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx4.industry.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx4.commerce.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -604,7 +604,7 @@ servyouReport.changeXml_001 = function () {
     $xml.find("skssqq").text(this.sssqq);
     $xml.find("skssqz").text(this.sssqz);
     $xml.find("sbsxDm1").text(this.sblxDm);
-    $xml.find("sbrq1").text("2018-10-22");
+    $xml.find("sbrq1").text("2019-01-15");
     $xml.find("hyDm").text(this.nsrData.hyDm);
     var $sbxxGrid = $xml.find("sbxxGrid");
     var $sbxxGridlb = $sbxxGrid.find("sbxxGridlb").eq(0).clone();

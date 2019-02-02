@@ -808,7 +808,7 @@ servyouReport.changeXml_001 = function () {
     var $xml = this.getJ3Xml('001');
     $xml.find('nsrsbh').text(this.nsrsbh);
     $xml.find('nsrmc').text(this.nsrmc);
-    $xml.find('sbrq1,tbrq1').text("2018-10-22");
+    $xml.find('sbrq1,tbrq1').text("2019-01-15");
     $xml.find('skssqq').text(this.sssqq);
     $xml.find('skssqz').text(this.sssqz);
     $xml.find('sbsxDm1').text('11');

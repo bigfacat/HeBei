@@ -341,7 +341,7 @@ servyouReport.changeXml_001 = function () {
     $xml.find('nsrmc').text(this.nsrmc);
     $xml.find('skssqq').text(this.sssqq);
     $xml.find('skssqz').text(this.sssqz);
-    $xml.find('sbrq1').text("2018-10-22");
+    $xml.find('sbrq1').text("2019-01-15");
     $xml.find('zzsxgmGridlb').each(function (i, lb) {
         var index = (i + 2) * 2;
         $trs.each(function (j, tr) {

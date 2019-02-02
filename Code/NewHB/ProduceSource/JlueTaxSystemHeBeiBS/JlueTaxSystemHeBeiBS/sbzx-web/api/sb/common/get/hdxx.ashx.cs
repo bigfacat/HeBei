@@ -1,5 +1,6 @@
 ﻿using JlueTaxSystemHeBeiBS.Code;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -65,7 +66,11 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common.get
 
                 if (selecttable == "sb_ybnsr")
                 {
-                    var result = File.ReadAllText(context.Server.MapPath("hdxx.json"));
+                    string Name = System.Web.HttpContext.Current.Session["Name"].ToString();
+                    JToken industry = JToken.Parse(System.IO.File.ReadAllText(context.Server.MapPath("~/industry.json")));
+                    industry = industry.Where(a => a["name"].ToString() == Name).ToList()[0];
+
+                    var result = File.ReadAllText(context.Server.MapPath("hdxx." + industry["value"] + ".json"));
                     result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
                     context.Response.ContentType = "text/plain";
                     context.Response.Write(result);
@@ -94,7 +99,19 @@ namespace JlueTaxSystemHeBeiBS.sbzx_web.api.sb.common.get
                 }
                 else if (selecttable == "sb_sdsA_yj_new")
                 {
-                    var result = File.ReadAllText(context.Server.MapPath("hdxx4.json"));
+                    string Name = System.Web.HttpContext.Current.Session["Name"].ToString();
+                    JToken industry = JToken.Parse(System.IO.File.ReadAllText(context.Server.MapPath("~/industry.json")));
+                    industry = industry.Where(a => a["name"].ToString() == Name).ToList()[0];
+
+                    var result = "";
+                    if (industry["value"].ToString() != "")
+                    {
+                        result = File.ReadAllText(context.Server.MapPath("hdxx4." + industry["value"] + ".json"));
+                    }
+                    else
+                    {
+                        result = File.ReadAllText(context.Server.MapPath("hdxx4.json"));
+                    }
                     result = result.Replace("@@skssqq", skssqq).Replace("@@skssqz", skssqz);
                     context.Response.ContentType = "text/plain";
                     context.Response.Write(result);

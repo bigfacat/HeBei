@@ -545,7 +545,7 @@ servyouReport.customInitFromHd = function () {
 
 servyouReport.customInit = function () {
     // yhs_gdlh.initSQ();
-    $(".tbrq1").eq(0).text("2018-10-22");/*需求：填表日期取服务器时间*/
+    $(".tbrq1").eq(0).text("2019-01-15");/*需求：填表日期取服务器时间*/
 };
 
 servyouReport.customEvent = function () {

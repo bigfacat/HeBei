@@ -146,7 +146,7 @@
                                 <td class=hidden></td>
                                 <td>2</td>
                                 <td class="txt-r enable"><input type=text value=0.00></td>
-                                <td colspan=2 class="txt-r enable"><input type=text value=0.00></td>
+                                <td colspan=2 class="txt-r enable"><input type=text value=10.00></td>
                                 <td class=hidden></td>
                                 <td colspan=2 class="txt-r enable"><input type=text value=0.00 servyou_type=nonnegative></td>
                                 <td class=hidden></td>

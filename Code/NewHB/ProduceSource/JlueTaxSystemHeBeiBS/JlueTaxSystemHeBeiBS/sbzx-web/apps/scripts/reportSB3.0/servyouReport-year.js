@@ -1672,7 +1672,7 @@
                 this.sb_id = this.defalutSbId || $('table[type="sb"]').attr('sb_id');//报表id
                 this.sssqq = this.hd['sksssqQ'];	//所属时期起
                 this.sssqz = this.hd['sksssqZ'];	//所属时期止
-                this.tbrq ="2018-10-22";//填表日期
+                this.tbrq ="2019-01-15";//填表日期
                 this._setWsxxAndLsxxMap(this.hd);//将所有wsxx和lsxx节点，整理成map形式{key: value}
             },
             preCondition: function () {
@@ -1950,7 +1950,7 @@
                 $('.nsrmc').html(this.nsrmc).attr('title', this.nsrmc);
                 $('.sssqq').html(this.sssqq).attr('title', this.sssqq);
                 $('.sssqz').html(this.sssqz).attr('title', this.sssqz);
-                $('.tbrq').html(this.tbrq).attr('title', "2018-10-22");
+                $('.tbrq').html(this.tbrq).attr('title', "2019-01-15");
             },
             /**
              * 自定义初始化与期初相关的数据（由于更正申报，所以与期初相关的初始化必须与其他的初始化独立开来）

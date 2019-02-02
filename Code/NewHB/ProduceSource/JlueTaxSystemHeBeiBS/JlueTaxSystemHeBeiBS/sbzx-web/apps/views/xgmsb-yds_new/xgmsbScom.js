@@ -68,7 +68,7 @@ sbcommon.initHdxx = function () {
     this.sbzlDm = this.sbzlNode.sbzlxlcode || this.sbzlNode.sbzlcode; //申报种类代码
     // 设置相关的日期
     var today = new Date();
-    this.tbrq ="2018-10-22"; // 填表日期
+    this.tbrq ="2019-01-15"; // 填表日期
 
     this.sbny = today.getLastDateOfPrevMonth('yyyyMM'); //申报年月
 

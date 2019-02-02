@@ -234,14 +234,14 @@ servyouReport.changeXml_001 = function () {
     $xml.find('nsrmc').text(this.nsrmc);
     $xml.find('skssqq').text(this.sssqq);
     $xml.find('skssqz').text(this.sssqz);
-    $xml.find('sbrq1').text("2018-10-22");
+    $xml.find('sbrq1').text("2019-01-15");
     $xml.find('sbsxDm1').text('11');    //申报属性代码，11是正常申报
     $xml.find('djlx').text('1');    //默认djlx为单位
     $xml.find('djzclxDm').text(this.nsrData.djzclxDm);
     $xml.find('hyDm').text(this.nsrData.hyDm);
     $xml.find('zjhm').text($('.sfzjhm').val());
     $xml.find('lxfs').text($('.lxfs').val());
-    $xml.find('slrq').text("2018-10-22");
+    $xml.find('slrq').text("2019-01-15");
     // $xml.find('slswjg').text(Api.getMcByDm('swjg',this.nsrData.zgswjDm));
     var $sbxxGrid = $xml.find('sbxxGrid');
     var $lbClone= $sbxxGrid.find('sbxxGridlbVO:eq(0)').clone();

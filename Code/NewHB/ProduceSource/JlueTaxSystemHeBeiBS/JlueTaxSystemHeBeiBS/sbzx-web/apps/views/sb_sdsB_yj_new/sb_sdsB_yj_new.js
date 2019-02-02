@@ -276,7 +276,7 @@ servyouReport.changeXml_001 = function () {
     $xml.find('skssqz').text(this.sssqz);
     $xml.find('sbsxDm1').text('11');
     $xml.find('zsfsDm').text(mini.get('hdzsfs').getValue());
-    $xml.find('sbrq1').text("2018-10-22");
+    $xml.find('sbrq1').text("2019-01-15");
     $xml.find('qysdsyddhndnssbbblFrom qycyrsQnpjrs').text($('#001_25_3').val());//从业人数
     $xml.find('qysdsyddhndnssbbblFrom sfsyxxwlqy').text(mini.get('xwqy').getValue());//小微标志
     $xml.find('qysdsyddhndnssbbblFrom srzeLj').text($('#001_6_5').val());//1

@@ -274,7 +274,7 @@ servyouReport.changeXml_001 = function () {
     $xml.find('nsrmc').text(this.nsrmc);
     $xml.find('skssqq').text(this.sssqq);
     $xml.find('skssqz').text(this.sssqz);
-    $xml.find('sbrq1').text("2018-10-22");
+    $xml.find('sbrq1').text("2019-01-15");
     var $zbGridlbVOs = $xml.find('zbGridlbVO');
     $('#table_001 tr:lt(49):gt(10)').each(function (i, curTr) {
         var ybxmBys = $(curTr).find('td:eq(6) input').val() || '0.00';
