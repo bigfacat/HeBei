@@ -180,6 +180,8 @@
     <Content Include="css\H-ui.css" />
     <Content Include="css\ksindex.css" />
     <Content Include="css\style.css" />
+    <Content Include="css\styleedit.css" />
+    <Content Include="css\stylenew.css" />
     <Content Include="Error\401.html" />
     <Content Include="Error\403.html" />
     <Content Include="Error\404.html" />
