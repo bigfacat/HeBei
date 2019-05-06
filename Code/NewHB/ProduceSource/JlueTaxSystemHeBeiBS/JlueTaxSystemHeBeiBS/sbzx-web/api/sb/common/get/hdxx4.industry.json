@@ -26,6 +26,8 @@
                 "pdfversion": "",
                 "wsxxs": {
                     "wsxx": [
+                        {"code":"XWJM_2019","name":"2019年以后小微减免额度","value":"1000000"},
+                        {"code":"XWJM_MAX_2019","name":"2019年以后小微减免最大额度","value":"3000000"},
                         {
                             "code": "YJFS",
                             "name": "预缴方式",

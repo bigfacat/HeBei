@@ -1,5 +1,5 @@
 河北报税系统
-https://ybs.he-n-tax.gov.cn:8888/bszm-web/apps/views-zj/index/index.html
+https://etax.hebei.chinatax.gov.cn/bszm-web/apps/views-zj/index/index.html
 账号：130433198610263321密码：ABCD8888
 涞水敏学企业管理咨询有限公司，小规模纳税人，增值税，所得税A类（查账），文化事业建设费，附加税，财务报表，可以开发。
 涞水磊达商贸有限公司，一般纳税人，增值税，企业所得税B类（核定），财务报表，印花税，附加税，可以开发。
@@ -8,3 +8,6 @@ https://ybs.he-n-tax.gov.cn:8888/bszm-web/apps/views-zj/index/index.html
 登陆号，130126198401050928
 密码ABCD8888
 这个可以抓拍城镇土地使用税的界面
+
+130623198705141528
+密码ABCD8888

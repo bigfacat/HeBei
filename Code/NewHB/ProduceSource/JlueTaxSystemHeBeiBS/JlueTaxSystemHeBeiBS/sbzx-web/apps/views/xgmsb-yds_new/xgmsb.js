@@ -785,12 +785,12 @@ var methods = {
     },
     //税款计算页校验预缴税额
     validateYjse: function () {
-        if (xgmsb.SZLBDM === '01' || xgmsb.SZLBDM === '03'){
-            if (viewFormData.a21 && xgmsb.BQYSHWYJ && Number(viewFormData.a21) > Number(xgmsb.BQYSHWYJ)){
-                mini.alert('您填报的货物及劳务本期预缴税额【'+parseFloat(viewFormData.a21).toFixed(2)+'】应小于等于您本期预缴的增值税税额中货物及劳务部分【'+parseFloat(xgmsb.BQYSHWYJ).toFixed(2)+'】元。');
-                return false;
-            }
-        }
+        //if (xgmsb.SZLBDM === '01' || xgmsb.SZLBDM === '03'){
+        //    if (viewFormData.a21 && xgmsb.BQYSHWYJ && Number(viewFormData.a21) > Number(xgmsb.BQYSHWYJ)){
+        //        mini.alert('您填报的货物及劳务本期预缴税额【'+parseFloat(viewFormData.a21).toFixed(2)+'】应小于等于您本期预缴的增值税税额中货物及劳务部分【'+parseFloat(xgmsb.BQYSHWYJ).toFixed(2)+'】元。');
+        //        return false;
+        //    }
+        //}
         if (xgmsb.SZLBDM === '02' || xgmsb.SZLBDM === '03'){
             if (viewFormData.b21 && xgmsb.BQYSFWYJ && Number(viewFormData.b21) > Number(xgmsb.BQYSFWYJ)){
                 mini.alert('您填报的服务、不动产和无形资产本期预缴税额【'+parseFloat(viewFormData.b21).toFixed(2)+'】应小于等于您本期预缴的增值税税额中服务、不动产和无形资产部分【'+parseFloat(xgmsb.BQYSFWYJ).toFixed(2)+'】元。');

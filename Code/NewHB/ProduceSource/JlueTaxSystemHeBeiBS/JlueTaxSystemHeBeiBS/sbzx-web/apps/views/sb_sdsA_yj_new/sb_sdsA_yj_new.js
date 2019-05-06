@@ -401,14 +401,18 @@ var qysdsyjbA = {
         var ynse = Number($('#001_16_5').val());
         var xwqy = mini.get('xwqy').getValue();
         var hj2to28 = Number($('#005_0_2').val());//剔除23栏
-        if ((ynse > 0.03) && (ynse <= Number(servyouReport.wsxxMap['XWJMMAXVALUE'])) && xwqy === 'Y'){
-            if (hj2to28 > 0){
-                $('#005_2_2').val(0).blur();
-            } else {
-                $('#005_2_2').val(ynse*0.15).blur();
-            }
-        } else {
+        var XWJM_2019 = Number(servyouReport.wsxxMap['XWJM_2019']);
+        var XWJM_MAX_2019 = Number(servyouReport.wsxxMap['XWJM_MAX_2019']);
+        if(xwqy === 'Y'){
+          if(ynse > 0 && ynse <= XWJM_2019 && hj2to28 <= 0){
+            $('#005_2_2').val(ynse*0.2).blur();
+          }else if(ynse > XWJM_2019 && ynse <= XWJM_MAX_2019 && hj2to28 <= 0){
+            $('#005_2_2').val(ynse*0.15+50000).blur();
+          }else{
             $('#005_2_2').val(0).blur();
+          }
+        }else{
+          $('#005_2_2').val(0).blur();
         }
     },
     control005row29 : function () {

@@ -655,13 +655,13 @@ xgm.check001Yjse = function (_this) {
     var szlbdm = _this.wsxxMap['SZLBDM'];
     var BQYSHWYJ = _this.wsxxMap['BQYSHWYJ'];
     var BQYSFWYJ = _this.wsxxMap['BQYSFWYJ'];
-    if (szlbdm === '01' || szlbdm === '03') {
-        if (Number($('#001_29_4').val()) > Number(BQYSHWYJ)) {
-            mini.alert('您填报的货物及劳务本期预缴税额【' + $('#001_29_4').val() + '】应小于等于您本期预缴的增值税税额中货物及劳务部分【' + parseFloat(BQYSHWYJ).toFixed(2) + '】元。');
-            $('#001_29_4').parent().addClass('report_error');
-            return false;
-        }
-    }
+    //if (szlbdm === '01' || szlbdm === '03') {
+    //    if (Number($('#001_29_4').val()) > Number(BQYSHWYJ)) {
+    //        mini.alert('您填报的货物及劳务本期预缴税额【' + $('#001_29_4').val() + '】应小于等于您本期预缴的增值税税额中货物及劳务部分【' + parseFloat(BQYSHWYJ).toFixed(2) + '】元。');
+    //        $('#001_29_4').parent().addClass('report_error');
+    //        return false;
+    //    }
+    //}
     if (szlbdm === '02' || szlbdm === '03') {
         if (Number($('#001_29_6').val()) > Number(BQYSFWYJ)) {
             mini.alert('您填报的服务、不动产和无形资产本期预缴税额【' + $('#001_29_6').val() + '】应小于等于您本期预缴的增值税税额中服务、不动产和无形资产部分【' + parseFloat(BQYSFWYJ).toFixed(2) + '】元。');
