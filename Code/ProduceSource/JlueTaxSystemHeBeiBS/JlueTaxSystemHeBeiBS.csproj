@@ -681,7 +681,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>18862</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:18862/</IISUrl>
+          <IISUrl>http://localhost:11554/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
