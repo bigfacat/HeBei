@@ -24,7 +24,7 @@ namespace JlueTaxSystemHeBeiBS.Controllers
         string BDDM { get; set; }
 
         GDTXUserYSBQC qc { get; set; }
-
+        GDTXUserYSBQC qj { get; set; }
         public commonController(IYsbqcSetting _is)
         {
             this.set = _is;
@@ -100,6 +100,7 @@ namespace JlueTaxSystemHeBeiBS.Controllers
             StreamReader sr = new StreamReader(HttpContext.Current.Request.InputStream);
             JObject in_jo = JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
             string sbzlDm = in_jo["sbzlDm"].ToString();
+            string typename = CurrentUser.GetInstance().GetTypeName.ToString();
             date = set.getGDTXDate(sbzlDm);
 
             JObject re_json = new JObject();
@@ -109,7 +110,41 @@ namespace JlueTaxSystemHeBeiBS.Controllers
             switch (sbzlDm)
             {
                 case "10101":
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx.10101.json"));
+                        if(typename=="业务一")
+                        {
+                          str = str.Replace("@@ybhwlwslxse", "13397710.10").Replace("@@data2", "13397710.10").Replace("@@data11", "1867432.46").Replace("@@data12", "903332.68").Replace("@@ynsejze", "280.00").ToString();
+                        }
+                        else if (typename == "业务二")
+                        {
+                            str = str.Replace("@@ybhwlwslxse", "0.00").Replace("@@data2", "0.00").Replace("@@data11", "0.00").Replace("@@data12", "0.00").Replace("@@ynsejze", "0.00").ToString();                      
+                        }
+                        
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+                       
+                        JObject sbzl2 = (JObject)re_json.SelectToken("value.sbzl[0]");
+                        sbzl2["sksssqQ"] = date.skssqq;
+                        sbzl2["sksssqZ"] = date.skssqz;
+                        sbzl2["tbrq"] = date.tbrq;
+                        break;
                 case "10103":
+                case "10444":
+                        if (qc.SBZT == set.ysbzt)
+                        {
+                            str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx.10444.json"));
+                            re_json = JsonConvert.DeserializeObject<JObject>(str);
+                        }
+                        else
+                        {
+                            str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx." + sbzlDm + ".json"));
+                            re_json = JsonConvert.DeserializeObject<JObject>(str);
+
+                            JObject sbzl = (JObject)re_json.SelectToken("value.sbzl[0]");
+                            sbzl["sksssqQ"] = date.skssqq;
+                            sbzl["sksssqZ"] = date.skssqz;
+                            sbzl["tbrq"] = date.tbrq;
+                        }
+                        break;
                 case "29836":
                     if (qc.SBZT == set.ysbzt)
                     {
@@ -127,6 +162,40 @@ namespace JlueTaxSystemHeBeiBS.Controllers
                         sbzl["tbrq"] = date.tbrq;
                     }
 
+                    break;
+                case "21201":
+                    if (qc.SBZT == set.ysbzt)
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx.21201.json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+                    }
+                    else
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx." + sbzlDm + ".json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+
+                        JObject sbzl = (JObject)re_json.SelectToken("value.sbzl[0]");
+                        sbzl["sksssqQ"] = date.skssqq;
+                        sbzl["sksssqZ"] = date.skssqz;
+                        sbzl["tbrq"] = date.tbrq;
+                    }
+                    break;
+                case "21102":
+                    if (qc.SBZT == set.ysbzt)
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx.21102.json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+                    }
+                    else
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx." + sbzlDm + ".json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+
+                        JObject sbzl = (JObject)re_json.SelectToken("value.sbzl[0]");
+                        sbzl["sksssqQ"] = date.skssqq;
+                        sbzl["sksssqZ"] = date.skssqz;
+                        sbzl["tbrq"] = date.tbrq;
+                    }
                     break;
                 case "10442":
                     if (qc.SBZT == set.ysbzt)
@@ -161,6 +230,17 @@ namespace JlueTaxSystemHeBeiBS.Controllers
             return re_json;
         }
 
+        [Route("dsnsrxx/get")]
+        [HttpPost]
+        public JObject getDsnsrxx()
+        {
+            JObject re_json = new JObject();
+            string str = File.ReadAllText(HttpContext.Current.Server.MapPath("get.json"));
+            str = GTXMethod.getCompanyinfo(str);
+            re_json = JsonConvert.DeserializeObject<JObject>(str);
+
+            return re_json;
+        }
         [Route("fnb/sbzc")]
         public JObject sbzc()
         {
@@ -177,6 +257,7 @@ namespace JlueTaxSystemHeBeiBS.Controllers
         }
 
         [Route("submit/sbcl")]
+        [HttpPost]
         public JObject sbcl()
         {
             JObject re_json = new JObject();
@@ -184,6 +265,7 @@ namespace JlueTaxSystemHeBeiBS.Controllers
             re_json = JsonConvert.DeserializeObject<JObject>(str);
 
             StreamReader sr = new StreamReader(HttpContext.Current.Request.InputStream);
+           // string srr1 = sr.ReadToEnd();
             JObject in_jo = JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
             string sbzlDm = in_jo["sbzlDm"].ToString();
             qc = set.getUserYSBQC(sbzlDm);
@@ -193,8 +275,31 @@ namespace JlueTaxSystemHeBeiBS.Controllers
             GTXMethod.UpdateYSBQC(qc.Id.ToString(), set.ysbzt);
             return re_json;
         }
+        [Route("batch/sbcl")]
+        public JObject sbcltwo()
+        {
+            JObject re_json = new JObject();
+            string str = File.ReadAllText(HttpContext.Current.Server.MapPath("sbcl.json"));
+            re_json = JsonConvert.DeserializeObject<JObject>(str);
 
-        [Route("submit/sbcl/zlk")]
+            StreamReader sr = new StreamReader(HttpContext.Current.Request.InputStream);
+            string srr = sr.ReadToEnd().ToString();
+            //srr= srr.Replace("@[","").Replace("]@","");
+            var mJobj = JArray.Parse(srr);
+            JObject in_jo = JsonConvert.DeserializeObject<JObject>(mJobj[1].ToString());
+            JObject in_jo1 = JsonConvert.DeserializeObject<JObject>(mJobj[0].ToString());
+            string sbzlDm = in_jo["sbzlDm"].ToString();
+            string sbzlDm1 = in_jo1["sbzlDm"].ToString();
+            qc = set.getUserYSBQC(sbzlDm);
+            qj = set.getUserYSBQC(sbzlDm1);
+            JArray htmlData = JsonConvert.DeserializeObject<JArray>(in_jo.SelectToken("sbwjs").Value<string>());
+            string guid = Guid.NewGuid().ToString();
+            set.saveUserYSBQCReportData(htmlData, qc.Id.ToString(), qc.sbzlDm, guid);
+            GTXMethod.UpdateYSBQC(qc.Id.ToString(), set.ysbzt);
+            GTXMethod.UpdateYSBQC(qj.Id.ToString(), set.ysbzt);
+            return re_json;
+        }
+        [Route("submit/sbcll/zlk")]
         public JObject zlk()
         {
             JObject re_json = new JObject();

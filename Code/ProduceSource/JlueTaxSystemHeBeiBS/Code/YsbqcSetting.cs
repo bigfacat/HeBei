@@ -374,9 +374,24 @@ namespace JlueTaxSystemHeBeiBS.Code
            XmlDocument xml = new XmlDocument();
            JObject jo = new JObject();
            JArray ja = new JArray();
-
+           string a;
            switch (sbzlDm)
            {
+               case "10101":
+                   jv = (JValue)jt.SelectToken("j3xmlData");
+                   //a= jv.Value<string>().Split(',')[1];
+                   //a = a.Replace("}]\"", "");
+                   a = jv.Value<string>().Replace("{", "").Replace("}", "").Replace("[", "").Replace("]", "");
+                   JObject jo1 = (JObject)JsonConvert.DeserializeObject("{"+a+"}");
+                   a= jo1["bbxml"].ToString();
+                   xml.LoadXml(a);
+                   jo = JsonConvert.DeserializeObject<JObject>(JsonConvert.SerializeXmlNode(xml));
+                   ja = (JArray)jo.SelectToken("zzssyyybnsr_zb.zbGrid.zbGridlbVO");
+                   foreach (JObject j in ja)
+                   {
+                       sum += decimal.Parse(j["bqybtse"].ToString());
+                   }
+                   break;
                case "21101":
                    jv = (JValue)jt.SelectToken("[0].bbxml");
                    xml.LoadXml(jv.Value<string>());

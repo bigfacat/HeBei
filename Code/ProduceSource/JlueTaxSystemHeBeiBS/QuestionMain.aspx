@@ -166,7 +166,7 @@
                                 if (a >= 0) {
                                     str += '<a class="radius box-shadow ksmc-sj1-tanchuti" href="' + FPpath + '" target="_blank" onclick="closeareaGTX(' + v.QuestionId + ');">发票勾选平台</a>';
                                 }
-                                str += '<a target="_blank" class="radius box-shadow ksmc-sj1-tanchuti" onclick="checkvideo(\'' + Gtxvideopath + '\',\'' + v.VideoID + '\',\'国\')" >国税视频</a><a class="radius box-shadow ksmc-sj1-tanchuti" target="_blank" onclick="checkvideo(\'' + Dtxvideopath + '\',\'' + v.VideoID + '\',\'地\')">地税视频</a></div>';
+                                str += '</div>';
                             }
                             else {
                                 str += '<div id="oper' + v.QuestionId + '" style="display: none" class="oper_area"><a class="radius box-shadow ksmc-sj1-tanchuti"  onclick="checkpath(\'' + downpath + '\',\'' + v.FilePath + '\')" target="_blank" style="display:none">下载材料</a><a class="radius box-shadow ksmc-sj1-tanchuti" href="' + Gtxpath + '" target="_blank" onclick="closeareaGTX(' + v.QuestionId + ');">纳税申报</a>';

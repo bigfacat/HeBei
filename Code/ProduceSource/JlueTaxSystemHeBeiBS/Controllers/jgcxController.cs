@@ -26,6 +26,7 @@ namespace JlueTaxSystemHeBeiBS.Controllers
         [Route("sbqkcx")]
         public JObject sbqkcx()
         {
+            string sbxh = "";
             JObject re_json = new JObject();
             string str = File.ReadAllText(HttpContext.Current.Server.MapPath("sbqkcx.json"));
             re_json = JsonConvert.DeserializeObject<JObject>(str);
@@ -37,11 +38,12 @@ namespace JlueTaxSystemHeBeiBS.Controllers
             string zsxmDm = in_jo["zsxmDm"].ToString();
             if (!string.IsNullOrEmpty(zsxmDm))
             {
+                if (zsxmDm == "10101") { sbxh = "001"; }else{ sbxh = ""; }
                 listqc = listqc.Where(a => a.zsxmDm == zsxmDm).ToList();
             }
             foreach (GDTXUserYSBQC qc in listqc)
             {
-                string sbxh = "";
+                
                 JToken jt = set.getUserYSBQCReportData(qc.Id, qc.sbzlDm, out sbxh);
                 string sbse = set.getSBSE(qc.sbzlDm, jt);
                 JObject jo = new JObject();

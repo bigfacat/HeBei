@@ -68,7 +68,7 @@ namespace JlueTaxSystemHeBeiBS.Code
 
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string fullpath = path + "/GTX/GDTXTYTAXUserYSBQC/GetList?userid=" + userid + "&questionId=" + questionId + "&classid=" + classid;
+            string fullpath = path + "/GTX/GDTXHeBeiUserYSBQC/GetList?userid=" + userid + "&questionId=" + questionId + "&classid=" + classid;
             string json = p.Get(fullpath);
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -84,7 +84,7 @@ namespace JlueTaxSystemHeBeiBS.Code
             string userId = CurrentUser.GetInstance().GetCurrentUserId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string json = p.HttpPost(path + "/GTX/GDTXTYTAXUserYSBQCReportData/Add", string.Format("classid={0}&jsonReportData={1}&userYsbqcId={2}&reportCode={3}&userId={4}"
+            string json = p.HttpPost(path + "/GTX/GDTXHeBeiUserYSBQCReportData/Add", string.Format("classid={0}&jsonReportData={1}&userYsbqcId={2}&reportCode={3}&userId={4}"
                 , classid, jsonReportData, userYsbqcId, reportCode, userId));
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -98,7 +98,7 @@ namespace JlueTaxSystemHeBeiBS.Code
             string classid = CurrentUser.GetInstance().GetCurrentClassId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string json = p.HttpPost(path + "/GTX/GDTXTYTAXUserYSBQCReportData/Get", string.Format("classid={0}&userYsbqcId={1}&reportCode={2}"
+            string json = p.HttpPost(path + "/GTX/GDTXHeBeiUserYSBQCReportData/Get", string.Format("classid={0}&userYsbqcId={1}&reportCode={2}"
                 , classid, userYsbqcId, reportCode));
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -111,7 +111,7 @@ namespace JlueTaxSystemHeBeiBS.Code
             string classid = CurrentUser.GetInstance().GetCurrentClassId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string fullpath = path + "/GTX/GDTXTYTAXUserYSBQC/UpdateSBZT?Id=" + userYSBQCId + "&classid=" + classid + "&SBZT=" + SBZT;
+            string fullpath = path + "/GTX/GDTXHeBeiUserYSBQC/UpdateSBZT?Id=" + userYSBQCId + "&classid=" + classid + "&SBZT=" + SBZT;
             string json = p.Get(fullpath);
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -125,7 +125,7 @@ namespace JlueTaxSystemHeBeiBS.Code
             string classid = CurrentUser.GetInstance().GetCurrentClassId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string fullpath = path + "/GTX/GDTXTYTAXUserYSBQC/UpdateSBSE?Id=" + userYSBQCId + "&classid=" + classid + "&SBSE=" + SBSE;
+            string fullpath = path + "/GTX/GDTXHeBeiUserYSBQC/UpdateSBSE?Id=" + userYSBQCId + "&classid=" + classid + "&SBSE=" + SBSE;
             string json = p.Get(fullpath);
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -140,7 +140,7 @@ namespace JlueTaxSystemHeBeiBS.Code
             string userId = CurrentUser.GetInstance().GetCurrentUserId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string json = p.HttpPost(path + "/GTX/GDTXTYTAXUserYSBQCReportData/Delete", string.Format("classid={0}&userYsbqcId={1}&userId={2}&reportCode={3}"
+            string json = p.HttpPost(path + "/GTX/GDTXHeBeiUserYSBQCReportData/Delete", string.Format("classid={0}&userYsbqcId={1}&userId={2}&reportCode={3}"
                 , classid, userYsbqcId, userId, reportCode));
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -162,6 +162,52 @@ namespace JlueTaxSystemHeBeiBS.Code
             string json = p.Get(fullpath);
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
+        public static string getCompanyinfo(string json)
+        {
+            StringBuilder jsonstr = new StringBuilder(json);
+            GTXResult resultCompany = GTXMethod.GetCompany();
+            if (resultCompany.IsSuccess)
+            {
+                JObject company = (JObject)JsonConvert.DeserializeObject(resultCompany.Data.ToString());
+                if (company.HasValues)
+                {
+                    jsonstr.Replace("@@ZCDZ", (company["ZCDZ"] == null ? "" : company["ZCDZ"].ToString()))
+                        .Replace("@@JYFW", (company["JYFW"] == null ? "" : company["JYFW"].ToString()))
+                        .Replace("@@GBHY", (company["GBHY"] == null ? "" : company["GBHY"].ToString()))
+                        .Replace("@@SCJYDZ", (company["SCJYDZ"] == null ? "" : company["SCJYDZ"].ToString()))
+                        .Replace("@@ZGDSSWJFJMC", (company["ZGDSSWJFJMC"] == null ? "" : company["ZGDSSWJFJMC"].ToString()))
+                        .Replace("@@DJZCLX", (company["DJZCLX"] == null ? "" : company["DJZCLX"].ToString()))
+                        .Replace("@@LXDH", (company["LXDH"] == null ? "" : company["LXDH"].ToString()))
+                        .Replace("@@NSRSBH", (company["NSRSBH"] == null ? "" : company["NSRSBH"].ToString()))
+                        .Replace("@@NSRMC", (company["NSRMC"] == null ? "" : company["NSRMC"].ToString()));
+                }
+            }
 
+            GTXResult resultCompanyPerson = GTXMethod.GetCompanyPerson();
+            if (resultCompanyPerson.IsSuccess)
+            {
+                JArray jrperson = (JArray)JsonConvert.DeserializeObject(resultCompanyPerson.Data.ToString());
+                if (jrperson.Count > 0)
+                {
+                    for (int i = 0; i < jrperson.Count; i++)
+                    {
+                        JObject joperson = JObject.Parse(jrperson[i].ToString());
+                        if (joperson["PersonType"] != null && joperson["PersonType"].ToString() == "0")
+                        {
+                            jsonstr.Replace("@@FDDB", (joperson["Name"] == null ? "" : joperson["Name"].ToString()))
+                                    .Replace("@@FDID", (joperson["IDCardNum"] == null ? "" : joperson["IDCardNum"].ToString()))
+                                    .Replace("@@FDSJ", (joperson["MobilePhone"] == null ? "" : joperson["MobilePhone"].ToString()));
+                        }
+                        if (joperson["PersonType"] != null && joperson["PersonType"].ToString() == "2")
+                        {
+                            jsonstr.Replace("@@BSR", (joperson["Name"] == null ? "" : joperson["Name"].ToString()))
+                                    .Replace("@@BSID", (joperson["IDCardNum"] == null ? "" : joperson["IDCardNum"].ToString()))
+                                    .Replace("@@BSSJ", (joperson["MobilePhone"] == null ? "" : joperson["MobilePhone"].ToString()));
+                        }
+                    }
+                }
+            }
+            return jsonstr.ToString();
+        }
     }
 }

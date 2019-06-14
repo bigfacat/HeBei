@@ -842,7 +842,7 @@ sbcommon.sbtj_normal = function (request) {
  * */
 sbcommon.sbtj_year = function (request) {
     // return true;//用于本地测试
-    var url = '/sbzx-web/api/sb/common/submit/sbcl/zlk';
+    var url = '/sbzx-web/api/sb/common/submit/sbcll/zlk';
     return Api.getIfSuccess(url, request);
 };
 /**
@@ -927,6 +927,7 @@ sbcommon.getPreviewListData = function (request) {
  * */
 sbcommon.updateListData = function (request) {
     // return true;//用于本地测试
+    return false;
     var url = '/sbzx-web/api/sb/common/updaterules';
     return Api.getIfSuccess(url, request);
 };
@@ -1232,7 +1233,7 @@ var Api = {
         return result;
     },
     getDsNsrxxVo: function () {
-        return this.getData('/sbzx-web/api/base/dsnsrxx/get', {});
+        return this.getData('/sbzx-web/api/sb/common/dsnsrxx/get', {});
     }
 };
 
