@@ -18,6 +18,8 @@ namespace JlueTaxSystemHeBeiBS.Controllers
     {
         YsbqcSetting set { get; set; }
 
+        Nsrxx xx { get; set; }
+
         GDTXDate date { get; set; }
 
         GDTXUserYSBQC qc { get; set; }
@@ -26,6 +28,7 @@ namespace JlueTaxSystemHeBeiBS.Controllers
         {
             this.set = _is;
             date = set.getGDTXDate(this.GetType());
+            xx = set.getNsrxx();
         }
 
         [Route("hdxx")]
@@ -51,6 +54,15 @@ namespace JlueTaxSystemHeBeiBS.Controllers
                 JToken sbzl = re_json.SelectToken("value.sbzl[0]");
                 sbzl["sksssqQ"] = date.skssqq;
                 sbzl["sksssqZ"] = date.skssqz;
+                JToken SFSYXGMZC = sbzl.SelectToken("wsxxs.wsxx").Where(a => a["code"].ToString() == "SFSYXGMZC").FirstOrDefault();
+                if (xx.TaxPayerType == 1)
+                {
+                    SFSYXGMZC["value"] = "N";
+                }
+                else if (xx.TaxPayerType == 2)
+                {
+                    SFSYXGMZC["value"] = "Y";
+                }
             }
 
             return re_json;

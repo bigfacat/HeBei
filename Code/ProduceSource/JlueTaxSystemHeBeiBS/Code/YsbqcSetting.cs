@@ -247,6 +247,10 @@ namespace JlueTaxSystemHeBeiBS.Code
                    X.LXDH = data_jo["LXDH"].ToString();
                    X.GBHY = data_jo["GBHY"].ToString();
                    X.ZGDSSWJFJMC = data_jo["ZGDSSWJFJMC"].ToString();
+                   X.TaxPayerType = int.Parse(data_jo["TaxPayerType"].ToString());
+                   X.TaxPayerTypeName = data_jo["TaxPayerTypeName"].ToString();
+                   X.BusinessType = int.Parse(data_jo["BusinessType"].ToString());
+                   X.BusinessTypeName = data_jo["BusinessTypeName"].ToString();
                }
            }
 
@@ -281,8 +285,15 @@ namespace JlueTaxSystemHeBeiBS.Code
            XmlDocument doc = new XmlDocument();
            doc.LoadXml(File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + "industry.xml"));
            JToken industry = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(doc));
-           industry = industry.SelectToken("root.industry").Where(a => a["name"].ToString() == Name).ToList()[0];
-
+           IEnumerable<JToken> ijt = industry.SelectToken("root.industry").Where(a => a["name"].ToString() == Name);
+           if (ijt.Count() > 0)
+           {
+               industry = ijt.FirstOrDefault();
+           }
+           else
+           {
+               return in_jo;
+           }
            XmlDocument xml_config = new XmlDocument();
            xml_config.LoadXml(File.ReadAllText(HttpContext.Current.Server.MapPath(dm + ".dataconfig.xml")));
            JToken config = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(xml_config));

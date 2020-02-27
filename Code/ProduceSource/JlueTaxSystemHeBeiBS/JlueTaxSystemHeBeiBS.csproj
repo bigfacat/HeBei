@@ -270,7 +270,9 @@
     <Content Include="sbzx-web\api\sb\common\dsnsrxx\get.json" />
     <Content Include="sbzx-web\api\sb\common\fnb\getSbsj.json" />
     <Content Include="sbzx-web\api\sb\common\fnb\sbzc.json" />
-    <Content Include="sbzx-web\api\sb\common\get\10442.dataconfig.xml" />
+    <Content Include="sbzx-web\api\sb\common\get\10442.dataconfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\api\sb\common\get\hdxx.10103.json" />
     <Content Include="sbzx-web\api\sb\common\get\hdxx.10442.json" />
     <Content Include="sbzx-web\api\sb\common\get\hdxx.10444.json" />
